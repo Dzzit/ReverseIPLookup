@@ -8,4 +8,10 @@ cd desktop
 scp -r simple-1.0-SNAPSHOT.jar     lib/  csv/  ubuntu@37.152.185.41:/home/ubuntu
 scp -r simple-1.0-SNAPSHOT.jar    csv/  ubuntu@37.152.185.41:/home/ubuntu
 scp -r algotrader-v2.x.x.jar csv/ ubuntu@37.152.185.41:/home/ubuntu
-scp -r al
+scp -r algotrader-v2.x.x.jar lib/  ubuntu@37.152.185.41:/home/ubuntu
+scp -r algotrader-v2.x.x.jar  ubuntu@37.152.185.41:/home/ubuntu
+
+scp -r algotrader-v2.x.x.jar  ubuntu@37.152.185.41:/home/ubuntu
+
+
+scp
