@@ -1,0 +1,8 @@
+* copy files:
+/lib
+/csv
+simple-1.0-SNAPSHOT.jar
+
+cd desktop
+
+scp -r simple-1.0-SNAPS

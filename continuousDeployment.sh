@@ -4,4 +4,7 @@ echo "starting continuous integration for statistical arbitrage---"
 #mkdir deployresults
 #cd deployresults
 #touch result.txt
-#echo "ok" > result
+#echo "ok" > result.txt
+ls
+#scp -r todolist.txt ubuntu@x.x.x.x:/home/ubuntu
+#ssh ubuntu@x.x.x.x "pwd && ls"
