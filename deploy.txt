@@ -33,4 +33,10 @@ java -Dlog4j.configuration=/resources/log4j.properties -jar algotrader-v2.x.x.ja
 
 java -Dlog4j.configuration=file://$currDir/cfg/log4j.properties -jar ./MyProject.jar
 
-java -Dlog4j.configuration=file:/home/myapp/config/log4j.prop
+java -Dlog4j.configuration=file:/home/myapp/config/log4j.properties com.foobar.myapp
+java -Dlog4j.configuration=file:".\log4j.properties" -jar com.your-1.0-SNAPSHOT.jar
+
+# intellij
+-Dlog4j.configuration=log4j.properties
+# inside linux server .sh file
+java -Dlog4j.configuration=file:"./resources/
