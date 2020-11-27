@@ -22,4 +22,11 @@ scp -r algotrader-v2.x.x.jar lib/  ubuntu@194.5.192.190:/home/ubuntu
 * then:
 
 
-install java: sudo apt-get install open
+install java: sudo apt-get install openjdk-8-jdk
+
+
+java -jar simple-1.0-SNAPSHOT.jar > farshadAlgotraderLog.txt &
+
+java -jar algotrader-v2.x.x.jar > farshadAlgotraderLog.txt
+
+java -Dlog4j.configuration=/resources/log4j.properties -jar algot
