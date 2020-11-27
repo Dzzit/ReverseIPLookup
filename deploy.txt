@@ -29,4 +29,8 @@ java -jar simple-1.0-SNAPSHOT.jar > farshadAlgotraderLog.txt &
 
 java -jar algotrader-v2.x.x.jar > farshadAlgotraderLog.txt
 
-java -Dlog4j.configuration=/resources/log4j.properties -jar algot
+java -Dlog4j.configuration=/resources/log4j.properties -jar algotrader-v2.x.x.jar
+
+java -Dlog4j.configuration=file://$currDir/cfg/log4j.properties -jar ./MyProject.jar
+
+java -Dlog4j.configuration=file:/home/myapp/config/log4j.prop
