@@ -14,4 +14,12 @@ scp -r algotrader-v2.x.x.jar  ubuntu@37.152.185.41:/home/ubuntu
 scp -r algotrader-v2.x.x.jar  ubuntu@37.152.185.41:/home/ubuntu
 
 
-scp
+scp -r algotrader-v2.x.x.jar lib/  root@79.175.151.248:/home/
+
+
+scp -r algotrader-v2.x.x.jar lib/  ubuntu@194.5.192.190:/home/ubuntu
+
+* then:
+
+
+install java: sudo apt-get install open
