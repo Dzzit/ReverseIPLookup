@@ -47,4 +47,10 @@ ubuntu@ubuntu-algo-rl:~$ cat algoRunJavaFile.sh
 echo "now running algotrader using shell script---"
 cd /home/ubuntu
 rm -rf csv/
-rm -rf farshadAlgotraderLog.
+rm -rf farshadAlgotraderLog.txt
+rm -rf openFinDeskLogs/
+mkdir openFinDeskLogs
+java -Dlog4j.configuration=file:"./resources/log4j.properties" -jar algotrader-v2.x.x.jar > farshadAlgotraderLog.txt
+
+
+java -jar restUsi
