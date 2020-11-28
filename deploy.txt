@@ -39,4 +39,12 @@ java -Dlog4j.configuration=file:".\log4j.properties" -jar com.your-1.0-SNAPSHOT.
 # intellij
 -Dlog4j.configuration=log4j.properties
 # inside linux server .sh file
-java -Dlog4j.configuration=file:"./resources/
+java -Dlog4j.configuration=file:"./resources/log4j.properties" -jar  algotrader-v2.x.x.jar
+
+
+ubuntu@ubuntu-algo-rl:~$ cat algoRunJavaFile.sh
+#!/bin/bash
+echo "now running algotrader using shell script---"
+cd /home/ubuntu
+rm -rf csv/
+rm -rf farshadAlgotraderLog.
