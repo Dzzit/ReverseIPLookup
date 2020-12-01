@@ -855,3 +855,212 @@ New connection from i=25 is:192.168.1.100 using SocketUtil
 2020-03-13 11:42:54 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=bearishEngulfingCandleStick
 2020-03-13 11:42:54 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=AUDUSD
 2020-03-13 11:42:54 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=EngulfingPatternStrategy
+2020-03-13 11:42:54 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=5.206595801949539
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=47.413825672272914
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=5.098126911071175
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=46.522206731731096
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=3.3060142068906537
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=64.63824226563692
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=2.722318714071716
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=53.22599527784328
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=2.2927530538953538
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=60.1295816409581
+2020-03-13 11:42:54 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=47.413825672272914
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=5.206595801949539
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=46.522206731731096
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=5.098126911071175
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=64.63824226563692
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=3.3060142068906537
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=53.22599527784328
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=2.722318714071716
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=60.1295816409581
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=2.2927530538953538
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:under ,crossPoint=5
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:over ,crossPoint=5
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:58 - symbol:AUDUSD,14-ticks-ADXIndicator value at the 24th index: 69.6094145271814
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:68 - symbol:AUDUSD,plusDIIndicator.getValue(index-1).doubleValue()=2.2927530538953538
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:69 - symbol:AUDUSD,minusDIIndicator.getValue(index-1).doubleValue()=60.1295816409581
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:70 - symbol:AUDUSD,adxIndicator.getValue(index-1).doubleValue()=69.6094145271814
+2020-03-13 11:42:54 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:42:54 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:42:54 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:42:54 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=AUDUSD
+2020-03-13 11:42:54 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:42:54 INFO  CheckIfEngulfingH1ADXD1:25 - featureVector.get(0).getPosition()=bearishEngulfingCandleStick
+2020-03-13 11:42:54 INFO  CheckIfEngulfingH1ADXD1:26 - featureVector.get(1).getPosition()=*
+2020-03-13 11:42:54 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:42:54 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:42:54 INFO  StrategyContainerHandler:144 - running 5th container
+2020-03-13 11:42:54 INFO  CamarillaStrategy:66 - symbol=AUDUSD
+2020-03-13 11:42:54 INFO  CamarillaStrategy:67 - position=*
+2020-03-13 11:42:54 DEBUG CamarillaStrategy:70 - Observable thread: main
+2020-03-13 11:42:54 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:42:54 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:42:54 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=AUDUSD
+2020-03-13 11:42:54 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=CamarillaStrategy
+2020-03-13 11:42:54 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=13.475222483304377
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=27.04779574372311
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=12.737355229783097
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=25.491231849698224
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=12.194019940829197
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=26.168298425717758
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=11.448186351000222
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=26.469313114199743
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=11.006681844220958
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=25.448512030694523
+2020-03-13 11:42:54 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=27.04779574372311
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=13.475222483304377
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=25.491231849698224
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=12.737355229783097
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=26.168298425717758
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=12.194019940829197
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=26.469313114199743
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=11.448186351000222
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=25.448512030694523
+2020-03-13 11:42:54 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=11.006681844220958
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:under ,crossPoint=5
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:over ,crossPoint=5
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:58 - symbol:AUDUSD,14-ticks-ADXIndicator value at the 24th index: 45.21289642310793
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:68 - symbol:AUDUSD,plusDIIndicator.getValue(index-1).doubleValue()=11.006681844220958
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:69 - symbol:AUDUSD,minusDIIndicator.getValue(index-1).doubleValue()=25.448512030694523
+2020-03-13 11:42:54 INFO  ADXBasedTrendDetection:70 - symbol:AUDUSD,adxIndicator.getValue(index-1).doubleValue()=45.21289642310793
+2020-03-13 11:42:54 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:42:54 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:42:54 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:42:54 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=AUDUSD
+2020-03-13 11:42:54 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:42:54 INFO  CheckIfCamarillaAndADX:24 - featureVector.get(0).getPosition()=*
+2020-03-13 11:42:54 INFO  CheckIfCamarillaAndADX:25 - featureVector.get(1).getPosition()=*
+2020-03-13 11:42:54 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:42:54 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:42:54 INFO  LiveTrading:74 - op=no signal from container 0
+2020-03-13 11:42:54 INFO  LiveTrading:74 - op=no signal from container 1
+2020-03-13 11:42:54 INFO  LiveTrading:74 - op=no signal from container 2
+2020-03-13 11:42:54 INFO  LiveTrading:74 - op=strategy is disabled
+2020-03-13 11:42:54 INFO  LiveTrading:74 - op=no signal from container 4
+2020-03-13 11:42:54 INFO  LiveTrading:74 - op=no signal from container 5
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:17 - symbol=AUDUSD
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:18 - price=0.628005
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 0
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:42:54 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:42:54 DEBUG LiveTrading:94 - ---------end of processing in loop:1-----------
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:17 - symbol=AUDUSD
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:18 - price=0.628005
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 1
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:42:54 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:42:54 DEBUG LiveTrading:94 - ---------end of processing in loop:1-----------
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:17 - symbol=AUDUSD
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:18 - price=0.628005
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 2
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:42:54 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:42:54 DEBUG LiveTrading:94 - ---------end of processing in loop:1-----------
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:17 - symbol=AUDUSD
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:18 - price=0.628005
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 4
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:42:54 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:42:54 DEBUG LiveTrading:94 - ---------end of processing in loop:1-----------
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:17 - symbol=AUDUSD
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:18 - price=0.628005
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 5
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:42:54 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:42:54 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:42:54 DEBUG LiveTrading:94 - ---------end of processing in loop:1-----------
+2020-03-13 11:42:55 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:42:55 DEBUG SocketUtil:86 - sending to client from SocketUtil message:getProfitFromHistory,AUDUSD,end
+2020-03-13 11:42:55 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:42:55 DEBUG SocketUtil:72 - clean={"context":"getProfitFromHistory","payload":"0.0"}
+2020-03-13 11:42:55 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message getProfitFromHistory,AUDUSD,end is:getProfitFromHistory
+2020-03-13 11:42:55 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message getProfitFromHistory,AUDUSD,end is:0.0
+2020-03-13 11:42:55 INFO  Symbol:99 - fetching for timeframe:PERIOD_H1 count:1
+2020-03-13 11:42:55 DEBUG Symbol:111 - numberOfRequiredCandles[0]=25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 09:00","open":"1.25753","high":"1.25993","low":"1.25703","close":"1.25928","tick_volume":"813"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=2 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 08:00","open":"1.25558","high":"1.25973","low":"1.25541","close":"1.25753","tick_volume":"3376"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=3 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 07:00","open":"1.25543","high":"1.25758","low":"1.25453","close":"1.25558","tick_volume":"1415"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=4 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 06:00","open":"1.25538","high":"1.25694","low":"1.25386","close":"1.25538","tick_volume":"1866"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=5 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 05:00","open":"1.25521","high":"1.25594","low":"1.25359","close":"1.25538","tick_volume":"1537"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=6 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 04:00","open":"1.25488","high":"1.25554","low":"1.25238","close":"1.25521","tick_volume":"1206"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=7 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:01 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 03:00","open":"1.25413","high":"1.25558","low":"1.25357","close":"1.25488","tick_volume":"1672"}
+2020-03-13 11:43:01 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:01 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:01 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:01 SOCKETUTIL SocketUtil:62 - 
+New connection from i=8 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:02 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 02:00","open":"1.25163","high":"1.25483","low":"1.25143","close":"1.25413","tick_volume":"1532"}
+2020-03-13 11:43:02 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:02 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:02 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:02 SOCKETUTIL SocketUtil:62 - 
+New connection from i=9 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:02 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 01:00","open":"1.25692","high":"1.25718","low":"1.25068","close":"1.25168","tick_volume":"2122"}
+2020-03-13 11:43:02 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:02 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:02 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:02 SOCKETUTIL SocketUtil:62 - 
+New connection from i=10 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:02 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.13 00:00","open":"1.25718","high":"1.25773","low":"1.25612","close":"1.25693","tick_volume":"2022"}
+2020-03-13 11:43:02 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:02 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:02 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:02 SOCKETUTIL SocketUtil:62 - 
+New connection from i=11 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:02 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.12 23:00","open":"1.25738","high":"1.25823","low":"1.25578","close":"1.25723","tick_volume":"2129"}
+2020-03-13 11:43:02 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:02 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:02 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,25
+2020-03-13 11:43:02 SOCKETUTIL SocketUtil:62 - 
+New connection from i=12 is:192.168.1.100 using SocketUtil
