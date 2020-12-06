@@ -1683,3 +1683,183 @@ New connection from i=25 is:192.168.1.100 using SocketUtil
 2020-03-13 11:43:10 INFO  Fibonacci:117 - actualRatio at wave: 1  = 0.3750000000000867 ,quantizedRatio for internalRetracementLevels=0.382
 2020-03-13 11:43:10 DEBUG Fibonacci:112 - differenceForTrend1=0.006950000000000012
 2020-03-13 11:43:10 DEBUG Fibonacci:113 - differenceForTrend2=0.04764999999999997
+2020-03-13 11:43:10 DEBUG Fibonacci:151 - found an external retracement or a ranging condition!
+2020-03-13 11:43:10 DEBUG TrendStrengthStrategyBasedOnInternalRetracementSequences:68 - Observable thread: main
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:43:10 INFO  CheckIfWeHavePinBarCandlestickChanceNode:23 - featureVector.get(0).getPosition()=*
+2020-03-13 11:43:10 INFO  CheckIfWeHavePinBarCandlestickChanceNode:24 - featureVector.get(1).getPosition()=*
+2020-03-13 11:43:10 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:43:10 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:43:10 INFO  StrategyContainerHandler:144 - running 2th container
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=-0.006040579726366237
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=-0.005407860222031441
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=-0.005686607563323942
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=-0.005437202047430652
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=-0.005314974737910036
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=-0.005424336014849535
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=-0.004715395241486254
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=-0.005349710670284978
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=-0.003981034203520692
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=-0.005205639463257159
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=buy
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=MACDbasedCrossingStrategy
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=32.04858469145606
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=6.238410432066161
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=25.031578456282233
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=23.6640542722444
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=21.279369195042733
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=25.607323182118552
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=15.927682618810199
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=41.19067651292268
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=14.885959855753633
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=38.49667096446101
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=6.238410432066161
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=32.04858469145606
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=23.6640542722444
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=25.031578456282233
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=25.607323182118552
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=21.279369195042733
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=41.19067651292268
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=15.927682618810199
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=38.49667096446101
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=14.885959855753633
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:crossDown ,crossPoint=2
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:crossUp ,crossPoint=2
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:58 - symbol:GBPUSD,14-ticks-ADXIndicator value at the 24th index: 33.927667796890006
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:68 - symbol:GBPUSD,plusDIIndicator.getValue(index-1).doubleValue()=14.885959855753633
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:69 - symbol:GBPUSD,minusDIIndicator.getValue(index-1).doubleValue()=38.49667096446101
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:70 - symbol:GBPUSD,adxIndicator.getValue(index-1).doubleValue()=33.927667796890006
+2020-03-13 11:43:10 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:43:10 INFO  CheckIfCrossingMACDAndTrendingADXChanceNode:23 - featureVector.get(0).getPosition()=buy
+2020-03-13 11:43:10 INFO  CheckIfCrossingMACDAndTrendingADXChanceNode:24 - featureVector.get(1).getPosition()=*
+2020-03-13 11:43:10 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:43:10 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:43:10 INFO  StrategyContainerHandler:144 - running 4th container
+2020-03-13 11:43:10 INFO  EngulfingPatternStrategy:39 - symbol=GBPUSD
+2020-03-13 11:43:10 INFO  EngulfingPatternStrategy:40 - position=*
+2020-03-13 11:43:10 DEBUG EngulfingPatternStrategy:43 - Observable thread: main
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=EngulfingPatternStrategy
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=32.04858469145606
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=6.238410432066161
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=25.031578456282233
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=23.6640542722444
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=21.279369195042733
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=25.607323182118552
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=15.927682618810199
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=41.19067651292268
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=14.885959855753633
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=38.49667096446101
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=6.238410432066161
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=32.04858469145606
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=23.6640542722444
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=25.031578456282233
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=25.607323182118552
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=21.279369195042733
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=41.19067651292268
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=15.927682618810199
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=38.49667096446101
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=14.885959855753633
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:crossDown ,crossPoint=2
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:crossUp ,crossPoint=2
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:58 - symbol:GBPUSD,14-ticks-ADXIndicator value at the 24th index: 33.927667796890006
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:68 - symbol:GBPUSD,plusDIIndicator.getValue(index-1).doubleValue()=14.885959855753633
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:69 - symbol:GBPUSD,minusDIIndicator.getValue(index-1).doubleValue()=38.49667096446101
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:70 - symbol:GBPUSD,adxIndicator.getValue(index-1).doubleValue()=33.927667796890006
+2020-03-13 11:43:10 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:43:10 INFO  CheckIfEngulfingH1ADXD1:25 - featureVector.get(0).getPosition()=*
+2020-03-13 11:43:10 INFO  CheckIfEngulfingH1ADXD1:26 - featureVector.get(1).getPosition()=*
+2020-03-13 11:43:10 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:43:10 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:43:10 INFO  StrategyContainerHandler:144 - running 5th container
+2020-03-13 11:43:10 INFO  CamarillaStrategy:66 - symbol=GBPUSD
+2020-03-13 11:43:10 INFO  CamarillaStrategy:67 - position=*
+2020-03-13 11:43:10 DEBUG CamarillaStrategy:70 - Observable thread: main
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=CamarillaStrategy
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=4.291099000398778
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=24.96352671942437
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=5.6030042756032135
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=23.80121558344896
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=6.33057904408811
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=22.675306233442036
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=9.253951058746837
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=21.149258808801154
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=9.14457684026142
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=20.168014935606376
+2020-03-13 11:43:10 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=24.96352671942437
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=4.291099000398778
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=23.80121558344896
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=5.6030042756032135
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=22.675306233442036
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=6.33057904408811
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=21.149258808801154
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=9.253951058746837
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=20.168014935606376
+2020-03-13 11:43:10 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=9.14457684026142
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:under ,crossPoint=5
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:over ,crossPoint=5
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:58 - symbol:GBPUSD,14-ticks-ADXIndicator value at the 24th index: 57.896028467637464
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:68 - symbol:GBPUSD,plusDIIndicator.getValue(index-1).doubleValue()=9.14457684026142
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:69 - symbol:GBPUSD,minusDIIndicator.getValue(index-1).doubleValue()=20.168014935606376
+2020-03-13 11:43:10 INFO  ADXBasedTrendDetection:70 - symbol:GBPUSD,adxIndicator.getValue(index-1).doubleValue()=57.896028467637464
+2020-03-13 11:43:10 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:43:10 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:10 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:43:10 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:43:10 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:43:10 INFO  CheckIfCamarillaAndADX:24 - featureVector.get(0).getPosition()=*
+2020-03-13 11:43:10 INFO  CheckIfCamarillaAndADX:25 - featureVector.get(1).getPosition()=*
+2020-03-13 11:43:10 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:43:10 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:43:10 INFO  LiveTrading:74 - op=no signal from container 0
+2020-03-13 11:43:10 INFO  LiveTrading:74 - op=no signal from container 1
+2020-03-13 11:43:10 INFO  LiveTrading:74 - op=no signal from container 2
+2020-03-13 11:43:10 INFO  LiveTrading:74 - op=strategy is disabled
+2020-03-13 11:43:10 INFO  LiveTrading:74 - op=no signal from container 4
+2020-03-13 11:43:10 INFO  LiveTrading:74 - op=no signal from container 5
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:17 - symbol=GBPUSD
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:18 - price=1.258405
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 0
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:10 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:10 DEBUG LiveTrading:94 - ---------end of processing in loop:2-----------
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:17 - symbol=GBPUSD
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:18 - price=1.258405
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 1
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:10 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:10 DEBUG LiveTrading:94 - ---------end of processing in loop:2-----------
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:17 - symbol=GBPUSD
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:18 - price=1.258405
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 2
+2020-03-13 11:43:10 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
