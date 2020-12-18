@@ -2788,3 +2788,186 @@ New connection from i=1 is:192.168.1.100 using SocketUtil
 2020-03-13 11:43:34 SOCKETUTIL SocketUtil:62 - 
 New connection from i=0 is:192.168.1.100 using SocketUtil
 2020-03-13 11:43:34 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:34 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:34 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 09:00","open":"1.11808","high":"1.11913","low":"1.1175","close":"1.11828","tick_volume":"1196"}
+2020-03-13 11:43:34 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:34 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:34 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:34 SOCKETUTIL SocketUtil:62 - 
+New connection from i=2 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:34 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 08:00","open":"1.11978","high":"1.12078","low":"1.11618","close":"1.11808","tick_volume":"5894"}
+2020-03-13 11:43:34 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:34 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:34 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:34 SOCKETUTIL SocketUtil:62 - 
+New connection from i=3 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:34 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 07:00","open":"1.12017","high":"1.12086","low":"1.11898","close":"1.11976","tick_volume":"3454"}
+2020-03-13 11:43:34 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:34 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:34 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:34 SOCKETUTIL SocketUtil:62 - 
+New connection from i=4 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 06:00","open":"1.12185","high":"1.12198","low":"1.11941","close":"1.12019","tick_volume":"3723"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=5 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 05:00","open":"1.12127","high":"1.12205","low":"1.12041","close":"1.12183","tick_volume":"2418"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=6 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 04:00","open":"1.12068","high":"1.12171","low":"1.11893","close":"1.12127","tick_volume":"3294"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=7 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 03:00","open":"1.1186","high":"1.12068","low":"1.1176","close":"1.12063","tick_volume":"2941"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=8 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 02:00","open":"1.11658","high":"1.11879","low":"1.11652","close":"1.11861","tick_volume":"2162"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=9 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 01:00","open":"1.11818","high":"1.11821","low":"1.11518","close":"1.11656","tick_volume":"3562"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=10 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 00:00","open":"1.11763","high":"1.11873","low":"1.11738","close":"1.11819","tick_volume":"1317"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=11 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 23:00","open":"1.11668","high":"1.11868","low":"1.11659","close":"1.11754","tick_volume":"1768"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=12 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 22:00","open":"1.119","high":"1.11965","low":"1.11608","close":"1.11668","tick_volume":"1164"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=13 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:35 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 21:00","open":"1.11787","high":"1.12258","low":"1.11595","close":"1.11838","tick_volume":"2246"}
+2020-03-13 11:43:35 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:35 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:35 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:35 SOCKETUTIL SocketUtil:62 - 
+New connection from i=14 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 20:00","open":"1.11773","high":"1.12013","low":"1.11703","close":"1.11798","tick_volume":"3546"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=15 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 19:00","open":"1.11842","high":"1.12163","low":"1.11628","close":"1.11773","tick_volume":"4655"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=16 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 18:00","open":"1.11453","high":"1.11956","low":"1.11438","close":"1.11848","tick_volume":"7496"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=17 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 17:00","open":"1.10808","high":"1.1163","low":"1.10542","close":"1.11453","tick_volume":"6846"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=18 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 16:00","open":"1.11441","high":"1.11479","low":"1.10798","close":"1.1081","tick_volume":"8475"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=19 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 15:00","open":"1.12384","high":"1.12384","low":"1.11313","close":"1.11443","tick_volume":"7763"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=20 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 14:00","open":"1.12144","high":"1.12528","low":"1.12098","close":"1.12384","tick_volume":"5931"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=21 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 13:00","open":"1.12371","high":"1.13008","low":"1.11961","close":"1.12143","tick_volume":"7568"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=22 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:36 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 12:00","open":"1.12339","high":"1.12434","low":"1.12108","close":"1.12365","tick_volume":"4176"}
+2020-03-13 11:43:36 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:36 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:36 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:36 SOCKETUTIL SocketUtil:62 - 
+New connection from i=23 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:37 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 11:00","open":"1.12446","high":"1.12457","low":"1.12273","close":"1.1234","tick_volume":"4565"}
+2020-03-13 11:43:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=24 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:37 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 10:00","open":"1.12679","high":"1.12778","low":"1.12373","close":"1.12448","tick_volume":"4739"}
+2020-03-13 11:43:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=25 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:37 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 09:00","open":"1.13113","high":"1.13124","low":"1.12536","close":"1.12677","tick_volume":"5589"}
+2020-03-13 11:43:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noContext
+2020-03-13 11:43:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_H1,0,25 is:noPayload
+2020-03-13 11:43:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_H1,0,25
+2020-03-13 11:43:37 DEBUG InfluxDB:54 - ohlcDataList.size****=25
+2020-03-13 11:43:37 INFO  InfluxDbManager:50 - response.getVersion()=1.7.9
+2020-03-13 11:43:37 DEBUG InfluxDB:142 - query in getSeries=SELECT * FROM EURUSD ORDER BY time DESC LIMIT 25 ,and timeFrame=PERIOD_H1
+2020-03-13 11:43:37 INFO  Symbol:99 - fetching for timeframe:PERIOD_D1 count:1
+2020-03-13 11:43:37 DEBUG Symbol:111 - numberOfRequiredCandles[1]=25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.13 00:00","open":"1.11763","high":"1.12205","low":"1.11518","close":"1.11883","tick_volume":"29969"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=2 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.12 00:00","open":"1.12581","high":"1.13328","low":"1.10542","close":"1.11754","tick_volume":"104343"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=3 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.11 00:00","open":"1.13078","high":"1.13659","low":"1.12498","close":"1.12578","tick_volume":"91029"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=4 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.10 00:00","open":"1.14364","high":"1.14364","low":"1.12743","close":"1.13075","tick_volume":"114486"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
