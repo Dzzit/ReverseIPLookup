@@ -2971,3 +2971,191 @@ New connection from i=4 is:192.168.1.100 using SocketUtil
 2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
 2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
 2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=5 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.09 00:00","open":"1.13861","high":"1.14957","low":"1.13553","close":"1.14359","tick_volume":"99246"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=6 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.06 00:00","open":"1.12308","high":"1.13539","low":"1.12108","close":"1.13035","tick_volume":"79667"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=7 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:40 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.05 00:00","open":"1.1133","high":"1.12442","low":"1.11191","close":"1.12303","tick_volume":"52496"}
+2020-03-13 11:43:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=8 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.04 00:00","open":"1.11738","high":"1.11868","low":"1.1095","close":"1.1133","tick_volume":"54526"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=9 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.03 00:00","open":"1.11387","high":"1.12119","low":"1.10948","close":"1.11693","tick_volume":"68038"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=10 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.03.02 00:00","open":"1.10438","high":"1.1184","low":"1.10357","close":"1.11378","tick_volume":"74374"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=11 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.28 00:00","open":"1.10018","high":"1.10523","low":"1.09504","close":"1.1037","tick_volume":"72107"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=12 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.27 00:00","open":"1.08813","high":"1.10059","low":"1.0879","close":"1.10018","tick_volume":"58921"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=13 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.26 00:00","open":"1.0879","high":"1.09082","low":"1.08544","close":"1.08818","tick_volume":"47380"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=14 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.25 00:00","open":"1.08508","high":"1.08896","low":"1.08295","close":"1.08798","tick_volume":"46632"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=15 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.24 00:00","open":"1.08283","high":"1.08713","low":"1.08043","close":"1.08508","tick_volume":"37016"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=16 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:41 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.21 00:00","open":"1.07857","high":"1.08629","low":"1.07843","close":"1.0849","tick_volume":"32069"}
+2020-03-13 11:43:41 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:41 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:41 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:41 SOCKETUTIL SocketUtil:62 - 
+New connection from i=17 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.20 00:00","open":"1.08078","high":"1.08203","low":"1.07774","close":"1.07863","tick_volume":"34496"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=18 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.19 00:00","open":"1.07938","high":"1.08111","low":"1.07815","close":"1.08073","tick_volume":"25999"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=19 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.18 00:00","open":"1.08363","high":"1.08366","low":"1.07848","close":"1.07933","tick_volume":"28258"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=20 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.17 00:00","open":"1.08358","high":"1.08504","low":"1.08284","close":"1.0836","tick_volume":"14449"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=21 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.14 00:00","open":"1.08394","high":"1.08606","low":"1.08266","close":"1.08366","tick_volume":"23115"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=22 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.13 00:00","open":"1.08712","high":"1.08872","low":"1.08335","close":"1.08395","tick_volume":"30039"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=23 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.12 00:00","open":"1.09188","high":"1.09251","low":"1.08617","close":"1.08714","tick_volume":"27810"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=24 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.11 00:00","open":"1.09103","high":"1.09243","low":"1.08917","close":"1.09185","tick_volume":"25549"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 SOCKETUTIL SocketUtil:62 - 
+New connection from i=25 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:42 DEBUG SocketUtil:72 - clean={"symbol":"EURUSD","time":"2020.02.10 00:00","open":"1.09427","high":"1.0957","low":"1.09072","close":"1.09102","tick_volume":"26108"}
+2020-03-13 11:43:42 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noContext
+2020-03-13 11:43:42 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,EURUSD,PERIOD_D1,0,25 is:noPayload
+2020-03-13 11:43:42 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,EURUSD,PERIOD_D1,0,25
+2020-03-13 11:43:42 DEBUG InfluxDB:54 - ohlcDataList.size****=25
+2020-03-13 11:43:42 INFO  InfluxDbManager:50 - response.getVersion()=1.7.9
+2020-03-13 11:43:43 DEBUG InfluxDB:142 - query in getSeries=SELECT * FROM EURUSD ORDER BY time DESC LIMIT 25 ,and timeFrame=PERIOD_D1
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfADXIsOkChanceNode
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:70 - containerId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:73 - container 0  disabled:false
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(0)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(0)[1]=class com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCamarillaAndADX
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:70 - containerId=5
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:73 - container 5  disabled:false
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(5)[0]=class com.farshad.algotrading.openFinDeskStrategies.pivotPointBased.CamarillaStrategy
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(5)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfEngulfingH1ADXD1
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:70 - containerId=4
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:73 - container 4  disabled:false
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(4)[0]=class com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.EngulfingPatternStrategy
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(4)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCrossingMovingAverageChanceNode
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:70 - containerId=3
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:73 - container 3  disabled:true
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(3)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(3)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfWeHavePinBarCandlestickChanceNode
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:70 - containerId=1
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:73 - container 1  disabled:false
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(1)[0]=class com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(1)[1]=class com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCrossingMACDAndTrendingADXChanceNode
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:70 - containerId=2
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:73 - container 2  disabled:false
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(2)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.MACDbasedCrossingStrategy
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:77 - strategies.get(2)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=0 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@4d5d943d
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=0 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences@368f2016
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=1 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy@4c583ecf
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=1 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences@692f203f
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=2 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.MACDbasedCrossingStrategy@48f2bd5b
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=2 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@7b2bbc3
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=3 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages@a1153bc
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=3 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@1aafa419
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=4 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.EngulfingPatternStrategy@47eaca72
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=4 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@55141def
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=5 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.pivotPointBased.CamarillaStrategy@55182842
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:124 - containerId=5 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@3270d194
+2020-03-13 11:43:43 INFO  StrategyContainerHandler:144 - running 0th container
+2020-03-13 11:43:43 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=14.45058820751599
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=13.80959598363638
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=13.833263141235792
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=14.881899796888753
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=13.382874728831696
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=15.142055468938109
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=12.325448749574175
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=18.755139933563232
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=11.964690324777225
+2020-03-13 11:43:43 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=18.20618833944684
