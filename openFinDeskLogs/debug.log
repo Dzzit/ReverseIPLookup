@@ -3564,3 +3564,212 @@ New connection from i=25 is:192.168.1.100 using SocketUtil
 2020-03-13 11:43:44 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=18.755139933563232
 2020-03-13 11:43:44 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=12.325448749574175
 2020-03-13 11:43:44 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=18.20618833944684
+2020-03-13 11:43:44 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=11.964690324777225
+2020-03-13 11:43:44 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:crossDown ,crossPoint=1
+2020-03-13 11:43:44 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:crossUp ,crossPoint=1
+2020-03-13 11:43:44 INFO  ADXBasedTrendDetection:58 - symbol:EURUSD,14-ticks-ADXIndicator value at the 24th index: 17.07094220638277
+2020-03-13 11:43:44 INFO  ADXBasedTrendDetection:68 - symbol:EURUSD,plusDIIndicator.getValue(index-1).doubleValue()=11.964690324777225
+2020-03-13 11:43:44 INFO  ADXBasedTrendDetection:69 - symbol:EURUSD,minusDIIndicator.getValue(index-1).doubleValue()=18.20618833944684
+2020-03-13 11:43:44 INFO  ADXBasedTrendDetection:70 - symbol:EURUSD,adxIndicator.getValue(index-1).doubleValue()=17.07094220638277
+2020-03-13 11:43:44 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:43:44 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:43:44 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=noPosition
+2020-03-13 11:43:44 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=EURUSD
+2020-03-13 11:43:44 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:43:44 INFO  CheckIfCamarillaAndADX:24 - featureVector.get(0).getPosition()=*
+2020-03-13 11:43:44 INFO  CheckIfCamarillaAndADX:25 - featureVector.get(1).getPosition()=noPosition
+2020-03-13 11:43:44 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:43:44 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:43:44 INFO  LiveTrading:74 - op=no signal from container 0
+2020-03-13 11:43:44 INFO  LiveTrading:74 - op=no signal from container 1
+2020-03-13 11:43:44 INFO  LiveTrading:74 - op=no signal from container 2
+2020-03-13 11:43:44 INFO  LiveTrading:74 - op=strategy is disabled
+2020-03-13 11:43:44 INFO  LiveTrading:74 - op=no signal from container 4
+2020-03-13 11:43:44 INFO  LiveTrading:74 - op=no signal from container 5
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:17 - symbol=EURUSD
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:18 - price=1.11818
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 0
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:44 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:44 DEBUG LiveTrading:94 - ---------end of processing in loop:4-----------
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:17 - symbol=EURUSD
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:18 - price=1.11818
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 1
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:44 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:44 DEBUG LiveTrading:94 - ---------end of processing in loop:4-----------
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:17 - symbol=EURUSD
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:18 - price=1.11818
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 2
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:44 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:44 DEBUG LiveTrading:94 - ---------end of processing in loop:4-----------
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:17 - symbol=EURUSD
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:18 - price=1.11818
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 4
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:44 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:44 DEBUG LiveTrading:94 - ---------end of processing in loop:4-----------
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:17 - symbol=EURUSD
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:18 - price=1.11818
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:19 - orderType=noOrder
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:21 - strategy=no signal from container 5
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:22 - action=doNothingAndWait
+2020-03-13 11:43:44 INFO  QuantizedTpAndSlExitRule:24 - quantizedExitRuleAction=doNothingAndWait
+2020-03-13 11:43:44 INFO  LiveTrading:93 - openFinDeskOrder.getOrderType()=noOrder
+2020-03-13 11:43:44 DEBUG LiveTrading:94 - ---------end of processing in loop:4-----------
+2020-03-13 11:43:45 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:45 DEBUG SocketUtil:86 - sending to client from SocketUtil message:getProfitFromHistory,EURUSD,end
+2020-03-13 11:43:45 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:45 DEBUG SocketUtil:72 - clean={"context":"getProfitFromHistory","payload":"-18.7"}
+2020-03-13 11:43:45 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message getProfitFromHistory,EURUSD,end is:getProfitFromHistory
+2020-03-13 11:43:45 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message getProfitFromHistory,EURUSD,end is:-18.7
+2020-03-13 11:43:45 INFO  Symbol:99 - fetching for timeframe:PERIOD_H1 count:2
+2020-03-13 11:43:51 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:51 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,AUDUSD,PERIOD_H1,0,1
+2020-03-13 11:43:51 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:51 DEBUG SocketUtil:72 - clean={"symbol":"AUDUSD","time":"2020.03.13 09:00","open":"0.62843","high":"0.62948","low":"0.62758","close":"0.62849","tick_volume":"972"}
+2020-03-13 11:43:51 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,AUDUSD,PERIOD_H1,0,1 is:noContext
+2020-03-13 11:43:51 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,AUDUSD,PERIOD_H1,0,1 is:noPayload
+2020-03-13 11:43:51 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,AUDUSD,PERIOD_H1,0,1
+2020-03-13 11:43:51 DEBUG InfluxDB:163 - latest time downloaded:2020-03-13T09:00:00Z
+2020-03-13 11:43:51 DEBUG Symbol:177 - zoneDateTimeInString=2020-03-13T09:00Z[UTC]
+2020-03-13 11:43:51 DEBUG Symbol:170 - latestTimeDownloaded=2020.03.13 09:00
+2020-03-13 11:43:51 DEBUG Symbol:183 - old date=2020.03.13
+2020-03-13 11:43:51 DEBUG Symbol:185 - old time=09:00
+2020-03-13 11:43:51 DEBUG Symbol:187 - new date=2020.03.13
+2020-03-13 11:43:51 DEBUG Symbol:189 - new time=09:00
+2020-03-13 11:43:51 DEBUG Symbol:194 - numberOfMissedMonth=0
+2020-03-13 11:43:51 DEBUG Symbol:199 - numberOfMissedDates=0
+2020-03-13 11:43:51 DEBUG Symbol:218 - numberOfMissedHours=0
+2020-03-13 11:43:51 DEBUG Symbol:219 - numberOfMissedMinutes=0
+2020-03-13 11:43:51 DEBUG Symbol:145 - AUDUSD PERIOD_H1->after calculating numberOfRequiredCandles=0
+2020-03-13 11:43:51 DEBUG Symbol:111 - numberOfRequiredCandles[0]=0
+2020-03-13 11:43:56 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:43:56 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,AUDUSD,PERIOD_H1,0,0
+2020-03-13 11:43:56 DEBUG InfluxDB:54 - ohlcDataList.size****=0
+2020-03-13 11:43:57 INFO  InfluxDbManager:50 - response.getVersion()=1.7.9
+2020-03-13 11:43:57 DEBUG InfluxDB:142 - query in getSeries=SELECT * FROM AUDUSD ORDER BY time DESC LIMIT 25 ,and timeFrame=PERIOD_H1
+2020-03-13 11:43:57 INFO  Symbol:99 - fetching for timeframe:PERIOD_D1 count:2
+2020-03-13 11:44:02 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:44:02 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,AUDUSD,PERIOD_D1,0,1
+2020-03-13 11:44:02 SOCKETUTIL SocketUtil:62 - 
+New connection from i=1 is:192.168.1.100 using SocketUtil
+2020-03-13 11:44:02 DEBUG SocketUtil:72 - clean={"symbol":"AUDUSD","time":"2020.03.13 00:00","open":"0.6284999999999999","high":"0.63248","low":"0.62645","close":"0.62838","tick_volume":"21647"}
+2020-03-13 11:44:02 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,AUDUSD,PERIOD_D1,0,1 is:noContext
+2020-03-13 11:44:02 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,AUDUSD,PERIOD_D1,0,1 is:noPayload
+2020-03-13 11:44:02 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,AUDUSD,PERIOD_D1,0,1
+2020-03-13 11:44:02 DEBUG InfluxDB:163 - latest time downloaded:2020-03-13T00:00:00Z
+2020-03-13 11:44:02 DEBUG Symbol:177 - zoneDateTimeInString=2020-03-13T00:00Z[UTC]
+2020-03-13 11:44:02 DEBUG Symbol:170 - latestTimeDownloaded=2020.03.13 00:00
+2020-03-13 11:44:02 DEBUG Symbol:183 - old date=2020.03.13
+2020-03-13 11:44:02 DEBUG Symbol:185 - old time=00:00
+2020-03-13 11:44:02 DEBUG Symbol:187 - new date=2020.03.13
+2020-03-13 11:44:02 DEBUG Symbol:189 - new time=00:00
+2020-03-13 11:44:02 DEBUG Symbol:194 - numberOfMissedMonth=0
+2020-03-13 11:44:02 DEBUG Symbol:199 - numberOfMissedDates=0
+2020-03-13 11:44:02 DEBUG Symbol:218 - numberOfMissedHours=0
+2020-03-13 11:44:02 DEBUG Symbol:219 - numberOfMissedMinutes=0
+2020-03-13 11:44:02 DEBUG Symbol:145 - AUDUSD PERIOD_D1->after calculating numberOfRequiredCandles=0
+2020-03-13 11:44:02 DEBUG Symbol:111 - numberOfRequiredCandles[1]=0
+2020-03-13 11:44:07 SOCKETUTIL SocketUtil:62 - 
+New connection from i=0 is:192.168.1.100 using SocketUtil
+2020-03-13 11:44:07 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,AUDUSD,PERIOD_D1,0,0
+2020-03-13 11:44:07 DEBUG InfluxDB:54 - ohlcDataList.size****=0
+2020-03-13 11:44:08 INFO  InfluxDbManager:50 - response.getVersion()=1.7.9
+2020-03-13 11:44:08 DEBUG InfluxDB:142 - query in getSeries=SELECT * FROM AUDUSD ORDER BY time DESC LIMIT 25 ,and timeFrame=PERIOD_D1
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfADXIsOkChanceNode
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:70 - containerId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:73 - container 0  disabled:false
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(0)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(0)[1]=class com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCamarillaAndADX
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:70 - containerId=5
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:73 - container 5  disabled:false
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(5)[0]=class com.farshad.algotrading.openFinDeskStrategies.pivotPointBased.CamarillaStrategy
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(5)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfEngulfingH1ADXD1
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:70 - containerId=4
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:73 - container 4  disabled:false
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(4)[0]=class com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.EngulfingPatternStrategy
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(4)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCrossingMovingAverageChanceNode
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:70 - containerId=3
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:73 - container 3  disabled:true
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(3)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(3)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfWeHavePinBarCandlestickChanceNode
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:70 - containerId=1
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:73 - container 1  disabled:false
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(1)[0]=class com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(1)[1]=class com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCrossingMACDAndTrendingADXChanceNode
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:70 - containerId=2
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:73 - container 2  disabled:false
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(2)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.MACDbasedCrossingStrategy
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:77 - strategies.get(2)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=0 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@4802796d
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=0 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences@34123d65
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=1 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy@59474f18
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=1 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences@65fb9ffc
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=2 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.MACDbasedCrossingStrategy@3e694b3f
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=2 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@1bb5a082
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=3 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages@78691363
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=3 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@41d477ed
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=4 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.EngulfingPatternStrategy@3590fc5b
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=4 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@397fbdb
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=5 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.pivotPointBased.CamarillaStrategy@33d512c1
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:124 - containerId=5 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@515c6049
+2020-03-13 11:44:08 INFO  StrategyContainerHandler:144 - running 0th container
+2020-03-13 11:44:08 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=13.475222483304377
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=27.04779574372311
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=12.737355229783097
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=25.491231849698224
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=12.194019940829197
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=26.168298425717758
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=11.448186351000222
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=26.469313114199743
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=11.006681844220958
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=25.448512030694523
+2020-03-13 11:44:08 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=27.04779574372311
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=13.475222483304377
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=25.491231849698224
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=12.737355229783097
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=26.168298425717758
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=12.194019940829197
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=26.469313114199743
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=11.448186351000222
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=25.448512030694523
+2020-03-13 11:44:08 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=11.006681844220958
+2020-03-13 11:44:08 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:under ,crossPoint=5
+2020-03-13 11:44:08 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:over ,crossPoint=5
+2020-03-13 11:44:08 INFO  ADXBasedTrendDetection:58 - symbol:AUDUSD,14-ticks-ADXIndicator value at the 24th index: 45.21289642310793
+2020-03-13 11:44:08 INFO  ADXBasedTrendDetection:68 - symbol:AUDUSD,plusDIIndicator.getValue(index-1).doubleValue()=11.006681844220958
+2020-03-13 11:44:08 INFO  ADXBasedTrendDetection:69 - symbol:AUDUSD,minusDIIndicator.getValue(index-1).doubleValue()=25.448512030694523
+2020-03-13 11:44:08 INFO  ADXBasedTrendDetection:70 - symbol:AUDUSD,adxIndicator.getValue(index-1).doubleValue()=45.21289642310793
+2020-03-13 11:44:08 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:44:08 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:44:08 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:44:08 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=AUDUSD
