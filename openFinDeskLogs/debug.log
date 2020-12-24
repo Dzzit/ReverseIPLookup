@@ -4575,3 +4575,200 @@ New connection from i=0 is:192.168.1.100 using SocketUtil
 2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30093 ,2020-03-06T12:00:00Z
 2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.29918 ,2020-03-06T13:00:00Z
 2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30078 ,2020-03-06T17:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30018 ,2020-03-06T18:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30713 ,2020-03-09T01:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.25948 ,2020-03-13T00:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.28913 ,price2:1.28633
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:upward ,price1:1.28633 ,price2:1.30093
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.30093 ,price2:1.29918
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:upward ,price1:1.29918 ,price2:1.30078
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.30078 ,price2:1.30018
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:upward ,price1:1.30018 ,price2:1.30713
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.30713 ,price2:1.25948
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.28913
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.28633
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.28633
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30093
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30093
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.29918
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.29918
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30078
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30078
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30018
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30018
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30713
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30713
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.25948
+2020-03-13 11:44:35 INFO  WaveGenerator:19 - size of trendList=7
+2020-03-13 11:44:35 INFO  Wave:17 - adding wave with trend1:upward ,adding wave with trend2:downward
+2020-03-13 11:44:35 DEBUG Wave:18 - firstTrend.price[0]=1.28633
+2020-03-13 11:44:35 DEBUG Wave:19 - firstTrend.price[1]=1.30093
+2020-03-13 11:44:35 DEBUG Wave:20 - secondTrend.price[0]=1.30093
+2020-03-13 11:44:35 DEBUG Wave:21 - secondTrend.price[1]=1.29918
+2020-03-13 11:44:35 INFO  Wave:39 - type of wave=increasing
+2020-03-13 11:44:35 INFO  Wave:17 - adding wave with trend1:upward ,adding wave with trend2:downward
+2020-03-13 11:44:35 DEBUG Wave:18 - firstTrend.price[0]=1.29918
+2020-03-13 11:44:35 DEBUG Wave:19 - firstTrend.price[1]=1.30078
+2020-03-13 11:44:35 DEBUG Wave:20 - secondTrend.price[0]=1.30078
+2020-03-13 11:44:35 DEBUG Wave:21 - secondTrend.price[1]=1.30018
+2020-03-13 11:44:35 INFO  Wave:39 - type of wave=increasing
+2020-03-13 11:44:35 INFO  Wave:17 - adding wave with trend1:upward ,adding wave with trend2:downward
+2020-03-13 11:44:35 DEBUG Wave:18 - firstTrend.price[0]=1.30018
+2020-03-13 11:44:35 DEBUG Wave:19 - firstTrend.price[1]=1.30713
+2020-03-13 11:44:35 DEBUG Wave:20 - secondTrend.price[0]=1.30713
+2020-03-13 11:44:35 DEBUG Wave:21 - secondTrend.price[1]=1.25948
+2020-03-13 11:44:35 INFO  Wave:39 - type of wave=rangingWave
+2020-03-13 11:44:35 INFO  FibonacciHelper:25 - wavelist.size=3
+2020-03-13 11:44:35 INFO  Fibonacci:54 - waveList.size()=3
+2020-03-13 11:44:35 INFO  Fibonacci:63 - trendList.size()=7
+2020-03-13 11:44:35 INFO  FibonacciHelper:31 - fibonacci.getTypeOfGlobalRegime()=ranging
+2020-03-13 11:44:35 DEBUG Fibonacci:112 - differenceForTrend1=0.014599999999999946
+2020-03-13 11:44:35 DEBUG Fibonacci:113 - differenceForTrend2=0.0017499999999999183
+2020-03-13 11:44:35 INFO  Fibonacci:117 - actualRatio at wave: 0  = 0.11986301369862498 ,quantizedRatio for internalRetracementLevels=0.382
+2020-03-13 11:44:35 DEBUG Fibonacci:112 - differenceForTrend1=0.0016000000000000458
+2020-03-13 11:44:35 DEBUG Fibonacci:113 - differenceForTrend2=6.00000000000156E-4
+2020-03-13 11:44:35 INFO  Fibonacci:117 - actualRatio at wave: 1  = 0.3750000000000867 ,quantizedRatio for internalRetracementLevels=0.382
+2020-03-13 11:44:35 DEBUG Fibonacci:112 - differenceForTrend1=0.006950000000000012
+2020-03-13 11:44:35 DEBUG Fibonacci:113 - differenceForTrend2=0.04764999999999997
+2020-03-13 11:44:35 DEBUG Fibonacci:151 - found an external retracement or a ranging condition!
+2020-03-13 11:44:35 DEBUG TrendStrengthStrategyBasedOnInternalRetracementSequences:68 - Observable thread: main
+2020-03-13 11:44:35 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:44:35 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:44:35 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:44:35 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:44:35 INFO  CheckIfADXIsOkChanceNode:23 - featureVector.get(0).getPosition()=*
+2020-03-13 11:44:35 INFO  CheckIfADXIsOkChanceNode:24 - featureVector.get(1).getPosition()=*
+2020-03-13 11:44:35 INFO  DecisionTree:55 - decision is made at node:0 size of features=2
+2020-03-13 11:44:35 INFO  DecisionTree:56 - final decision=doNothingAndWait
+2020-03-13 11:44:35 INFO  StrategyContainerHandler:144 - running 1th container
+2020-03-13 11:44:35 INFO  PinBarStrategy:44 - symbol=GBPUSD
+2020-03-13 11:44:35 INFO  PinBarStrategy:45 - position=*
+2020-03-13 11:44:35 DEBUG PinBarStrategy:48 - Observable thread: main
+2020-03-13 11:44:35 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:44:35 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:44:35 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=GBPUSD
+2020-03-13 11:44:35 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=PinBarStrategy
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=1
+2020-03-13 11:44:35 DEBUG ATS:66 - m=1,r=-1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=-0.006649999999999823
+2020-03-13 11:44:35 INFO  ATS:50 - slope=-5.999999999999339E-4
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=4
+2020-03-13 11:44:35 DEBUG ATS:66 - m=4,r=-1.0
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=5
+2020-03-13 11:44:35 DEBUG ATS:66 - m=5,r=1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.008499999999999952
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.0046999999999999265
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.006249999999999867
+2020-03-13 11:44:35 DEBUG ATS:66 - m=8,r=1.0
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=9
+2020-03-13 11:44:35 DEBUG ATS:66 - m=9,r=-1.0
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=10
+2020-03-13 11:44:35 DEBUG ATS:66 - m=10,r=1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.003410000000000135
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.0033000000000000806
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.0013000000000000789
+2020-03-13 11:44:35 DEBUG ATS:66 - m=13,r=1.0
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=14
+2020-03-13 11:44:35 DEBUG ATS:66 - m=14,r=-1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=-1.9999999999997797E-4
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=16
+2020-03-13 11:44:35 DEBUG ATS:66 - m=16,r=1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.0019000000000000128
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.008159999999999945
+2020-03-13 11:44:35 INFO  ATS:50 - slope=0.005849999999999911
+2020-03-13 11:44:35 DEBUG ATS:66 - m=19,r=1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=7.099999999999884E-4
+2020-03-13 11:44:35 INFO  ATS:54 - break at d=21
+2020-03-13 11:44:35 DEBUG ATS:66 - m=21,r=-1.0
+2020-03-13 11:44:35 INFO  ATS:50 - slope=-0.009149999999999991
+2020-03-13 11:44:35 INFO  ATS:50 - slope=-0.03315000000000001
+2020-03-13 11:44:35 INFO  ATS:50 - slope=-0.03090000000000015
+2020-03-13 11:44:35 DEBUG ATS:66 - m=24,r=-1.0
+2020-03-13 11:44:35 DEBUG ATS:79 - priceChangeList.size()=8
+2020-03-13 11:44:35 DEBUG ATS:80 - priceTimeList.size()=25
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.28913 ,time=2020-02-27T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.28188 ,time=2020-02-28T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.27523 ,time=2020-03-02T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.28128 ,time=2020-03-03T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.28633 ,time=2020-03-04T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.29468 ,time=2020-03-05T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30318 ,time=2020-03-06T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.29938 ,time=2020-03-06T11:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30093 ,time=2020-03-06T12:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.29918 ,time=2020-03-06T13:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.29948 ,time=2020-03-06T14:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30289 ,time=2020-03-06T15:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30278 ,time=2020-03-06T16:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30078 ,time=2020-03-06T17:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30018 ,time=2020-03-06T18:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.29998 ,time=2020-03-06T19:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30128 ,time=2020-03-06T20:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30318 ,time=2020-03-06T21:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30944 ,time=2020-03-09T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30713 ,time=2020-03-09T01:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.30784 ,time=2020-03-09T02:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.29038 ,time=2020-03-10T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.28123 ,time=2020-03-11T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.25723 ,time=2020-03-12T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:82 - price=1.25948 ,time=2020-03-13T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.28913 time:2020-02-27T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.28633 time:2020-03-04T00:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.30093 time:2020-03-06T12:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.29918 time:2020-03-06T13:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.30078 time:2020-03-06T17:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.30018 time:2020-03-06T18:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.30713 time:2020-03-09T01:00:00Z
+2020-03-13 11:44:35 DEBUG ATS:85 - price=1.25948 time:2020-03-13T00:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.28913 ,2020-02-27T00:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.28633 ,2020-03-04T00:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30093 ,2020-03-06T12:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.29918 ,2020-03-06T13:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30078 ,2020-03-06T17:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30018 ,2020-03-06T18:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.30713 ,2020-03-09T01:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:24 - priceTimeChangePointList:1.25948 ,2020-03-13T00:00:00Z
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.28913 ,price2:1.28633
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:upward ,price1:1.28633 ,price2:1.30093
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.30093 ,price2:1.29918
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:upward ,price1:1.29918 ,price2:1.30078
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.30078 ,price2:1.30018
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:upward ,price1:1.30018 ,price2:1.30713
+2020-03-13 11:44:35 INFO  TrendGenerator:22 - adding trend:downward ,price1:1.30713 ,price2:1.25948
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.28913
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.28633
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.28633
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30093
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30093
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.29918
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.29918
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30078
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30078
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30018
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30018
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.30713
+2020-03-13 11:44:35 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:44:35 INFO  TrendGenerator:64 - trend.point1=1.30713
+2020-03-13 11:44:35 INFO  TrendGenerator:65 - trend.point2=1.25948
+2020-03-13 11:44:35 INFO  WaveGenerator:19 - size of trendList=7
+2020-03-13 11:44:35 INFO  Wave:17 - adding wave with trend1:upward ,adding wave with trend2:downward
+2020-03-13 11:44:35 DEBUG Wave:18 - firstTrend.price[0]=1.28633
+2020-03-13 11:44:35 DEBUG Wave:19 - firstTrend.price[1]=1.30093
+2020-03-13 11:44:35 DEBUG Wave:20 - secondTrend.price[0]=1.30093
+2020-03-13 11:44:35 DEBUG Wave:21 - secondTrend.price[1]=1.29918
+2020-03-13 11:44:35 INFO  Wave:39 - type of wave=increasing
+2020-03-13 11:44:35 INFO  Wave:17 - adding wave with trend1:upward ,adding wave with trend2:downward
+2020-03-13 11:44:35 DEBUG Wave:18 - firstTrend.price[0]=1.29918
+2020-03-13 11:44:35 DEBUG Wave:19 - firstTrend.price[1]=1.30078
