@@ -8901,3 +8901,182 @@ New connection from i=0 is:192.168.1.100 using SocketUtil
 2020-03-13 11:47:48 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfEngulfingH1ADXD1
 2020-03-13 11:47:48 INFO  StrategyContainerHandler:70 - containerId=4
 2020-03-13 11:47:48 INFO  StrategyContainerHandler:73 - container 4  disabled:false
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(4)[0]=class com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.EngulfingPatternStrategy
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(4)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCrossingMovingAverageChanceNode
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:70 - containerId=3
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:73 - container 3  disabled:true
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(3)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(3)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfWeHavePinBarCandlestickChanceNode
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:70 - containerId=1
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:73 - container 1  disabled:false
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(1)[0]=class com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(1)[1]=class com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:67 - annotated clazz=CheckIfCrossingMACDAndTrendingADXChanceNode
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:70 - containerId=2
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:73 - container 2  disabled:false
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:74 - nodeId=0
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(2)[0]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.MACDbasedCrossingStrategy
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:77 - strategies.get(2)[1]=class com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=0 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@d35dea7
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=0 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences@7770f470
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=1 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy@5e5d171f
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=1 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences@24313fcc
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=2 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.MACDbasedCrossingStrategy@7d20d0b
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=2 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@77f1baf5
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=3 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages@41a2befb
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=3 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@6c40365c
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=4 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.EngulfingPatternStrategy@7bedc48a
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=4 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@131ef10
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=5 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.pivotPointBased.CamarillaStrategy@55b0dcab
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:124 - containerId=5 ,adding strategy:com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection@38afe297
+2020-03-13 11:47:48 INFO  StrategyContainerHandler:144 - running 0th container
+2020-03-13 11:47:48 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=13.475222483304377
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=27.04779574372311
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=12.737355229783097
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=25.491231849698224
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=12.194019940829197
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=26.168298425717758
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=11.448186351000222
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=26.469313114199743
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=11.006681844220958
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=25.448512030694523
+2020-03-13 11:47:48 INFO  CrossingTimeSeriesDetector:58 - fromBar=0,toBar=4
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[0]=27.04779574372311
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[0]=13.475222483304377
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[1]=25.491231849698224
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[1]=12.737355229783097
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[2]=26.168298425717758
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[2]=12.194019940829197
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[3]=26.469313114199743
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[3]=11.448186351000222
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:63 - ***timeSeries1[4]=25.448512030694523
+2020-03-13 11:47:48 DEBUG CrossingTimeSeriesDetector:64 - ***timeSeries2[4]=11.006681844220958
+2020-03-13 11:47:48 INFO  ADXBasedTrendDetection:53 - crossUpDetector: status in ADXBasedTrendDetection:under ,crossPoint=5
+2020-03-13 11:47:48 INFO  ADXBasedTrendDetection:54 - crossDownDetector: status in ADXBasedTrendDetection:over ,crossPoint=5
+2020-03-13 11:47:48 INFO  ADXBasedTrendDetection:58 - symbol:AUDUSD,14-ticks-ADXIndicator value at the 24th index: 45.21289642310793
+2020-03-13 11:47:48 INFO  ADXBasedTrendDetection:68 - symbol:AUDUSD,plusDIIndicator.getValue(index-1).doubleValue()=11.006681844220958
+2020-03-13 11:47:48 INFO  ADXBasedTrendDetection:69 - symbol:AUDUSD,minusDIIndicator.getValue(index-1).doubleValue()=25.448512030694523
+2020-03-13 11:47:48 INFO  ADXBasedTrendDetection:70 - symbol:AUDUSD,adxIndicator.getValue(index-1).doubleValue()=45.21289642310793
+2020-03-13 11:47:48 DEBUG ADXBasedTrendDetection:105 - Observable thread: main
+2020-03-13 11:47:48 INFO  StrategyContainer:72 - new suggested Order:
+2020-03-13 11:47:48 INFO  StrategyContainer:73 - openFinDeskOrder.getPosition()=*
+2020-03-13 11:47:48 INFO  StrategyContainer:74 - openFinDeskOrder.getSymbol()=AUDUSD
+2020-03-13 11:47:48 INFO  StrategyContainer:75 - openFinDeskOrder.getStrategyName()=ADXBasedTrendDetection
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=1
+2020-03-13 11:47:48 DEBUG ATS:66 - m=1,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.003070000000000017
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.0027200000000000557
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.01662000000000008
+2020-03-13 11:47:48 DEBUG ATS:66 - m=4,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=5
+2020-03-13 11:47:48 DEBUG ATS:66 - m=5,r=1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=6
+2020-03-13 11:47:48 DEBUG ATS:66 - m=6,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=7
+2020-03-13 11:47:48 DEBUG ATS:66 - m=7,r=1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=8
+2020-03-13 11:47:48 DEBUG ATS:66 - m=8,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.008560000000000012
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.004310000000000036
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.003550000000000053
+2020-03-13 11:47:48 DEBUG ATS:66 - m=11,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=12
+2020-03-13 11:47:48 DEBUG ATS:66 - m=12,r=1.0
+2020-03-13 11:47:48 INFO  ATS:50 - slope=2.9999999999996696E-4
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=14
+2020-03-13 11:47:48 DEBUG ATS:66 - m=14,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=15
+2020-03-13 11:47:48 DEBUG ATS:66 - m=15,r=1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=16
+2020-03-13 11:47:48 DEBUG ATS:66 - m=16,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-8.099999999999774E-4
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.0025500000000000522
+2020-03-13 11:47:48 INFO  ATS:50 - slope=-0.006900000000000017
+2020-03-13 11:47:48 DEBUG ATS:66 - m=19,r=-1.0
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=20
+2020-03-13 11:47:48 DEBUG ATS:66 - m=20,r=1.0
+2020-03-13 11:47:48 INFO  ATS:50 - slope=2.4000000000001798E-4
+2020-03-13 11:47:48 INFO  ATS:54 - break at d=22
+2020-03-13 11:47:48 DEBUG ATS:66 - m=22,r=-1.0
+2020-03-13 11:47:48 DEBUG ATS:79 - priceChangeList.size()=12
+2020-03-13 11:47:48 DEBUG ATS:80 - priceTimeList.size()=25
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.66391 ,time=2020-03-06T20:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.66373 ,time=2020-03-06T21:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.66066 ,time=2020-03-09T00:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.66101 ,time=2020-03-09T01:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.64711 ,time=2020-03-09T02:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65458 ,time=2020-03-09T03:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65199 ,time=2020-03-09T04:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.66059 ,time=2020-03-09T11:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65919 ,time=2020-03-09T20:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65063 ,time=2020-03-10T00:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65488 ,time=2020-03-10T07:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65564 ,time=2020-03-10T08:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65708 ,time=2020-03-10T09:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65738 ,time=2020-03-10T10:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65533 ,time=2020-03-10T11:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65563 ,time=2020-03-10T12:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65493 ,time=2020-03-10T13:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65412 ,time=2020-03-10T14:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65238 ,time=2020-03-10T15:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.64803 ,time=2020-03-11T00:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.6523 ,time=2020-03-11T10:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.65254 ,time=2020-03-11T12:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.62848 ,time=2020-03-12T00:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.64398 ,time=2020-03-12T07:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:82 - price=0.62769 ,time=2020-03-13T00:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.66391 time:2020-03-06T20:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.64711 time:2020-03-09T02:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.65458 time:2020-03-09T03:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.65199 time:2020-03-09T04:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.66059 time:2020-03-09T11:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.65564 time:2020-03-10T08:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.65708 time:2020-03-10T09:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.65533 time:2020-03-10T11:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.65563 time:2020-03-10T12:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.64803 time:2020-03-11T00:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.6523 time:2020-03-11T10:00:00Z
+2020-03-13 11:47:48 DEBUG ATS:85 - price=0.62769 time:2020-03-13T00:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.66391 ,2020-03-06T20:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.64711 ,2020-03-09T02:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.65458 ,2020-03-09T03:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.65199 ,2020-03-09T04:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.66059 ,2020-03-09T11:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.65564 ,2020-03-10T08:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.65708 ,2020-03-10T09:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.65533 ,2020-03-10T11:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.65563 ,2020-03-10T12:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.64803 ,2020-03-11T00:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.6523 ,2020-03-11T10:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:24 - priceTimeChangePointList:0.62769 ,2020-03-13T00:00:00Z
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:downward ,price1:0.66391 ,price2:0.64711
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:upward ,price1:0.64711 ,price2:0.65458
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:downward ,price1:0.65458 ,price2:0.65199
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:upward ,price1:0.65199 ,price2:0.66059
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:downward ,price1:0.66059 ,price2:0.65564
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:upward ,price1:0.65564 ,price2:0.65708
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:downward ,price1:0.65708 ,price2:0.65533
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:upward ,price1:0.65533 ,price2:0.65563
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:downward ,price1:0.65563 ,price2:0.64803
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:upward ,price1:0.64803 ,price2:0.6523
+2020-03-13 11:47:48 INFO  TrendGenerator:22 - adding trend:downward ,price1:0.6523 ,price2:0.62769
+2020-03-13 11:47:48 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:47:48 INFO  TrendGenerator:64 - trend.point1=0.66391
+2020-03-13 11:47:48 INFO  TrendGenerator:65 - trend.point2=0.64711
+2020-03-13 11:47:48 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:47:48 INFO  TrendGenerator:64 - trend.point1=0.64711
+2020-03-13 11:47:48 INFO  TrendGenerator:65 - trend.point2=0.65458
+2020-03-13 11:47:48 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:47:48 INFO  TrendGenerator:64 - trend.point1=0.65458
+2020-03-13 11:47:48 INFO  TrendGenerator:65 - trend.point2=0.65199
+2020-03-13 11:47:48 INFO  TrendGenerator:63 - trend.getTrendType()=upward
+2020-03-13 11:47:48 INFO  TrendGenerator:64 - trend.point1=0.65199
+2020-03-13 11:47:48 INFO  TrendGenerator:65 - trend.point2=0.66059
+2020-03-13 11:47:48 INFO  TrendGenerator:63 - trend.getTrendType()=downward
+2020-03-13 11:47:48 INFO  TrendGenerator:64 - trend.point1=0.66059
