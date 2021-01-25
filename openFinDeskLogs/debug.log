@@ -12965,3 +12965,194 @@ New connection from i=46 is:192.168.1.100 using SocketUtil
 New connection from i=47 is:192.168.1.100 using SocketUtil
 2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 23:00","open":"1.28163","high":"1.28218","low":"1.28115","close":"1.28123","tick_volume":"591"}
 2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=48 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 22:00","open":"1.28151","high":"1.28201","low":"1.28098","close":"1.28201","tick_volume":"716"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=49 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 21:00","open":"1.28043","high":"1.28258","low":"1.28038","close":"1.28161","tick_volume":"868"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=50 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 20:00","open":"1.28378","high":"1.2843","low":"1.28033","close":"1.28038","tick_volume":"2740"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=51 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 19:00","open":"1.28478","high":"1.28493","low":"1.28283","close":"1.28378","tick_volume":"2083"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=52 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 18:00","open":"1.28553","high":"1.28683","low":"1.28448","close":"1.28483","tick_volume":"2751"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=53 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 17:00","open":"1.28844","high":"1.28863","low":"1.28492","close":"1.28548","tick_volume":"3372"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=54 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:37 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 16:00","open":"1.29323","high":"1.29348","low":"1.28823","close":"1.28848","tick_volume":"3471"}
+2020-03-15 16:53:37 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:37 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:37 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:37 SOCKETUTIL SocketUtil:62 - 
+New connection from i=55 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 15:00","open":"1.29406","high":"1.29633","low":"1.29228","close":"1.29326","tick_volume":"3311"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=56 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 14:00","open":"1.29388","high":"1.29547","low":"1.29133","close":"1.29406","tick_volume":"4089"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=57 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 13:00","open":"1.29163","high":"1.29583","low":"1.29038","close":"1.29387","tick_volume":"3296"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=58 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 12:00","open":"1.29258","high":"1.29308","low":"1.29103","close":"1.29163","tick_volume":"1954"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=59 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 11:00","open":"1.29588","high":"1.29613","low":"1.29223","close":"1.29259","tick_volume":"2185"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=60 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 10:00","open":"1.29303","high":"1.29753","low":"1.29201","close":"1.29584","tick_volume":"2997"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=61 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 09:00","open":"1.28979","high":"1.29538","low":"1.28963","close":"1.293","tick_volume":"3275"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=62 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 08:00","open":"1.2935","high":"1.2935","low":"1.28281","close":"1.28978","tick_volume":"4169"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=63 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 07:00","open":"1.29303","high":"1.29363","low":"1.29254","close":"1.29358","tick_volume":"1337"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=64 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:38 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 06:00","open":"1.29246","high":"1.29334","low":"1.29208","close":"1.29308","tick_volume":"880"}
+2020-03-15 16:53:38 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:38 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:38 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:38 SOCKETUTIL SocketUtil:62 - 
+New connection from i=65 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 05:00","open":"1.29164","high":"1.29258","low":"1.29124","close":"1.29245","tick_volume":"760"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=66 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 04:00","open":"1.29095","high":"1.29228","low":"1.29058","close":"1.29166","tick_volume":"784"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=67 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 03:00","open":"1.29053","high":"1.29108","low":"1.29034","close":"1.29093","tick_volume":"806"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=68 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 02:00","open":"1.29","high":"1.29133","low":"1.28978","close":"1.29053","tick_volume":"753"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=69 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 01:00","open":"1.29036","high":"1.29093","low":"1.2897","close":"1.29003","tick_volume":"862"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=70 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.11 00:00","open":"1.29033","high":"1.29113","low":"1.28993","close":"1.29037","tick_volume":"609"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=71 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 23:00","open":"1.2883","high":"1.29043","low":"1.28808","close":"1.29038","tick_volume":"518"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=72 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 22:00","open":"1.28901","high":"1.28958","low":"1.28663","close":"1.28813","tick_volume":"577"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=73 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:39 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 21:00","open":"1.29028","high":"1.29233","low":"1.28803","close":"1.29061","tick_volume":"1643"}
+2020-03-15 16:53:39 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:39 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:39 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:39 SOCKETUTIL SocketUtil:62 - 
+New connection from i=74 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:40 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 20:00","open":"1.29123","high":"1.29234","low":"1.28908","close":"1.29033","tick_volume":"2770"}
+2020-03-15 16:53:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=75 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:40 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 19:00","open":"1.29245","high":"1.29278","low":"1.28933","close":"1.29124","tick_volume":"3249"}
+2020-03-15 16:53:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=76 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:40 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 18:00","open":"1.29103","high":"1.29388","low":"1.28988","close":"1.29245","tick_volume":"3340"}
+2020-03-15 16:53:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=77 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:40 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 17:00","open":"1.29313","high":"1.29468","low":"1.29073","close":"1.29098","tick_volume":"4339"}
+2020-03-15 16:53:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=78 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:40 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 16:00","open":"1.30063","high":"1.30067","low":"1.29303","close":"1.29313","tick_volume":"3775"}
+2020-03-15 16:53:40 INFO  SocketUtil:75 - openFinDeskMessage.getContext() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noContext
+2020-03-15 16:53:40 INFO  SocketUtil:76 - openFinDeskMessage.getPayload() for message fetchCandles,GBPUSD,PERIOD_H1,0,100 is:noPayload
+2020-03-15 16:53:40 DEBUG SocketUtil:86 - sending to client from SocketUtil message:fetchCandles,GBPUSD,PERIOD_H1,0,100
+2020-03-15 16:53:40 SOCKETUTIL SocketUtil:62 - 
+New connection from i=79 is:192.168.1.100 using SocketUtil
+2020-03-15 16:53:40 DEBUG SocketUtil:72 - clean={"symbol":"GBPUSD","time":"2020.03.10 15:00","open":"1.30253","high":"1.30308","low":"1.29893","close":"1.30053","tick_volume":"2817"}
