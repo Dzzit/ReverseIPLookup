@@ -1,3 +1,5 @@
 ```
 2020-03-12 19:53:05 INFO  StatisticalTest:37 - delta[48]=-0.21068873015082135
-2020-03-12 19:53:05 INFO  StatisticalTest
+2020-03-12 19:53:05 INFO  StatisticalTest:70 - sampleMean=-1.6903261949313237
+2020-03-12 19:53:05 INFO  StatisticalTest:76 - sampleVariance=234.76295860826943
+2020-03-12 19:53:05 INFO  StatisticalTest:79 - sampleStandardDeviation=15.3
