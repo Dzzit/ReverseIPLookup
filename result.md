@@ -5,4 +5,6 @@
 2020-03-12 19:53:05 INFO  StatisticalTest:79 - sampleStandardDeviation=15.321976328407162
 2020-03-12 19:53:05 INFO  StatisticalTest:48 - tStatistic=-0.7722426344297403
 2020-03-12 19:53:05 INFO  StatisticalTest:59 - H0IsRejected=true
-2020-03-12 19:53:05 INFO  OpenFinDeskSprea
+2020-03-12 19:53:05 INFO  OpenFinDeskSpreadModeler:130 - Spread model is stationary with 95% confidence interval
+2020-03-12 19:53:05 INFO  OpenFinDeskSpreadModeler:131 - spreadThreshold=0.011548053601966224
+2020-03-12 19:53:0
