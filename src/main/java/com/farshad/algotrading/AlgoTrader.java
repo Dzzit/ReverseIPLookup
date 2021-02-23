@@ -11,4 +11,10 @@ import java.io.IOException;
 /**
  * @author Farshad Noravesh
  */
-public c
+public class AlgoTrader {
+
+    final static Logger logger= Logger.getLogger(AlgoTrader.class);
+
+    public static void main(String[] args) throws IOException, InterruptedException {
+
+         String mode="live";
