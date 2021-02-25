@@ -18,3 +18,9 @@ public class AlgoTrader {
     public static void main(String[] args) throws IOException, InterruptedException {
 
          String mode="live";
+        //String mode="backTest";
+
+        if (mode.equals("backTest")){
+            //BackTest backTest=new HMMBackTest();
+           // BackTest backTest=new FibonacciBackTest();
+            //BackTest backTest=n
