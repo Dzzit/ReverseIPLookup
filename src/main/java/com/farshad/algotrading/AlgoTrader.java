@@ -23,4 +23,8 @@ public class AlgoTrader {
         if (mode.equals("backTest")){
             //BackTest backTest=new HMMBackTest();
            // BackTest backTest=new FibonacciBackTest();
-            //BackTest backTest=n
+            //BackTest backTest=new ATSBackTest();
+            BackTest backTest=new FetchingForexBacktest();
+            backTest.begin();
+        }else if(mode.equals("live")){
+            LiveTrading liveTrading=new LiveT
