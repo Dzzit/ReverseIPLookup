@@ -27,4 +27,10 @@ public class AlgoTrader {
             BackTest backTest=new FetchingForexBacktest();
             backTest.begin();
         }else if(mode.equals("live")){
-            LiveTrading liveTrading=new LiveT
+            LiveTrading liveTrading=new LiveTrading();
+            liveTrading.beginLiveTrading();
+        }
+
+
+    }
+}
