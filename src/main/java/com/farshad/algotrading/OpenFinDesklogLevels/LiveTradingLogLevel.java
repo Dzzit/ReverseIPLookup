@@ -12,4 +12,6 @@ public class LiveTradingLogLevel  extends Level {
     public static final int SIGNALS_INT = WARN_INT +12;
 
 
-    public static final Lev
+    public static final Level PROCESS = new LiveTradingLogLevel(PROCESS_INT, "PROCESS", 1);
+    public static final Level SOCKETUTIL = new LiveTradingLogLevel(SOCKETUTIL_INT, "SOCKETUTIL", 2);
+    public static final L
