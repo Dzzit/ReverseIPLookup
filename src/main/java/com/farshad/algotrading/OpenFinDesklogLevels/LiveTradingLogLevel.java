@@ -14,4 +14,10 @@ public class LiveTradingLogLevel  extends Level {
 
     public static final Level PROCESS = new LiveTradingLogLevel(PROCESS_INT, "PROCESS", 1);
     public static final Level SOCKETUTIL = new LiveTradingLogLevel(SOCKETUTIL_INT, "SOCKETUTIL", 2);
-    public static final L
+    public static final Level SIGNALS = new LiveTradingLogLevel(SIGNALS_INT, "SIGNALS", 3);
+
+
+
+    public LiveTradingLogLevel(int level, String name, int value) {
+        super(level,name, value);
+   
