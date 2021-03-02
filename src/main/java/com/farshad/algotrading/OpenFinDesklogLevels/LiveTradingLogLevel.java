@@ -20,4 +20,8 @@ public class LiveTradingLogLevel  extends Level {
 
     public LiveTradingLogLevel(int level, String name, int value) {
         super(level,name, value);
-   
+    }
+
+
+
+}
