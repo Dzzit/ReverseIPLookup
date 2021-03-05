@@ -30,4 +30,6 @@ public class ATSBackTest extends BackTest {
         logger.info("*******ATSBackTest************");
          ss = new ServerSocket(5555);
 
-        InfluxDB influxDB=new Influx
+        InfluxDB influxDB=new InfluxDB();
+        Symbol<InfluxDB> eurusdSymbol = new Symbol<InfluxDB>(influxDB,"EURUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
+        Symbol<InfluxDB> audusdSymbol = new Symbol<InfluxDB>(influxDB,"AUD
