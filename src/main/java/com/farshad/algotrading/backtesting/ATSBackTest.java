@@ -36,4 +36,8 @@ public class ATSBackTest extends BackTest {
         Symbol<InfluxDB> gbpusdSymbol = new Symbol<InfluxDB>(influxDB,"GBPUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
 
 
-        //audusdSymbolD1.fe
+        //audusdSymbolD1.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore();
+        audusdSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(30);
+
+        //TimeSeries series=audusdSymbolD1.getSeries();
+        TimeSeri
