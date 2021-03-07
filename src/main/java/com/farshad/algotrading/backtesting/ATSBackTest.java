@@ -45,4 +45,5 @@ public class ATSBackTest extends BackTest {
         List<PriceTime> priceTimeList=new ArrayList<>();
         int index=series.getBarCount();
         for(int i=index-25;i<index;i++){
-            priceTimeList.add(n
+            priceTimeList.add(new PriceTime(series.getBar(i).getClosePrice().doubleValue(),series.getBar(i).getEndTime().toInstant()));
+            logger.info(series.getBar(i).getEndTime()+" "+series
