@@ -40,4 +40,9 @@ public class ATSBackTest extends BackTest {
         audusdSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(30);
 
         //TimeSeries series=audusdSymbolD1.getSeries();
-        TimeSeri
+        TimeSeries series=audusdSymbol.getSeries()[0];
+
+        List<PriceTime> priceTimeList=new ArrayList<>();
+        int index=series.getBarCount();
+        for(int i=index-25;i<index;i++){
+            priceTimeList.add(n
