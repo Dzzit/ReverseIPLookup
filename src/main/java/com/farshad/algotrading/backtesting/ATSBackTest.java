@@ -46,4 +46,10 @@ public class ATSBackTest extends BackTest {
         int index=series.getBarCount();
         for(int i=index-25;i<index;i++){
             priceTimeList.add(new PriceTime(series.getBar(i).getClosePrice().doubleValue(),series.getBar(i).getEndTime().toInstant()));
-            logger.info(series.getBar(i).getEndTime()+" "+series
+            logger.info(series.getBar(i).getEndTime()+" "+series.getBar(i).getClosePrice().doubleValue());
+        }
+
+/*
+        ATS ats1=new ATS(5,priceTimeList);
+        ats1.findPriceChangePoints();
+        List<PriceTime> priceTimeChangePoint
