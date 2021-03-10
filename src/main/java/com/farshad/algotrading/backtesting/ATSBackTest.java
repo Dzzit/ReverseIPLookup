@@ -54,4 +54,9 @@ public class ATSBackTest extends BackTest {
         ats1.findPriceChangePoints();
         List<PriceTime> priceTimeChangePointList1=ats1.getPriceChangeList();
         priceTimeChangePointList1.stream().forEach(pricetimechange-> {
-            logger.info(pricetimechange.getTime()+" "+pricetimechange.getPr
+            logger.info(pricetimechange.getTime()+" "+pricetimechange.getPrice());
+        });
+*/
+        ATS ats=new ATS(4,priceTimeList);
+        ats.findPriceChangePoints();
+        List<PriceTime> priceTimeChangePointList=ats.getPriceChangeList();
