@@ -60,3 +60,9 @@ public class ATSBackTest extends BackTest {
         ATS ats=new ATS(4,priceTimeList);
         ats.findPriceChangePoints();
         List<PriceTime> priceTimeChangePointList=ats.getPriceChangeList();
+        priceTimeChangePointList.stream().forEach(pricetimechange-> {
+            logger.info(pricetimechange.getTime()+" "+pricetimechange.getPrice());
+        });
+
+
+        InfluxDbManager influxDbManager=new 
