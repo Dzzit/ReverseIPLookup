@@ -65,4 +65,7 @@ public class ATSBackTest extends BackTest {
         });
 
 
-        InfluxDbManager influxDbManager=new 
+        InfluxDbManager influxDbManager=new InfluxDbManager<PriceTime>("PERIOD_D1","priceTime");
+        influxDbManager.executeSomeQuery("DROP MEASUREMENT \"priceTime\"",PriceTime.class);
+        influxDbManager.close();
+        influxDbManager=new 
