@@ -77,4 +77,10 @@ public class ATSBackTest extends BackTest {
          //influxDbManager=new InfluxDbManager<PriceTime>("PERIOD_D1","priceTime");
          influxDbManager=new InfluxDbManager<PriceTime>("PERIOD_H1","priceTime");
         try {
-            influxDbManager.writeTimeSeries(price
+            influxDbManager.writeTimeSeries(priceTimeChangePointList,"price");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        influxDbMan
