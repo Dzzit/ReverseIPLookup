@@ -83,4 +83,9 @@ public class ATSBackTest extends BackTest {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-        influxDbMan
+        influxDbManager.close();
+
+
+
+    }
+}
