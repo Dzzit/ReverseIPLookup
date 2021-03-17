@@ -16,4 +16,10 @@ public abstract class BackTest {
         private SocketUtil socketUtil;
         private List<OHLCData> ohlcDataList;
 
-        protected
+        protected BackTest() throws IOException {
+              //  ss=new ServerSocket(5555);
+              //  socketUtil=new SocketUtil(ss,new Socket());
+                 ohlcDataList=new ArrayList<>();
+
+        }
+
