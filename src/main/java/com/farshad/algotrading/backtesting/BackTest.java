@@ -29,4 +29,7 @@ public abstract class BackTest {
                 ohlcDataList.clear();
                 try {
                          String message="";
-                                message="fetchCandles"+","+symbolName+","+timeFrame+","+fromCandl
+                                message="fetchCandles"+","+symbolName+","+timeFrame+","+fromCandle+","+numberOfCandles;
+                                socketUtil.sendMessage(message);
+                        ohlcDataList=socketUtil.getOhlcDataList();
+                } catch (IOE
