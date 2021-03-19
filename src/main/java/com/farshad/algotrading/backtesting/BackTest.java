@@ -23,3 +23,7 @@ public abstract class BackTest {
 
         }
 
+        public abstract void begin() throws IOException;
+
+        public List<OHLCData> fetchDataUsingMetaTrader5(String symbolName,String timeFrame,int fromCandle,int numberOfCandles) {
+                ohlcDataList.clea
