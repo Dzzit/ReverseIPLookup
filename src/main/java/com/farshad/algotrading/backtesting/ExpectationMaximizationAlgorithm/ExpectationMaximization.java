@@ -1,1 +1,10 @@
-package com.farshad.algotrading.backtes
+package com.farshad.algotrading.backtesting.ExpectationMaximizationAlgorithm;
+
+import org.apache.log4j.Logger;
+
+public class ExpectationMaximization {
+
+    final static Logger logger= Logger.getLogger(ExpectationMaximization.class);
+
+
+    private String probabi
