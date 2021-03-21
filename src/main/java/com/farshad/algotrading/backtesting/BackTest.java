@@ -32,4 +32,10 @@ public abstract class BackTest {
                                 message="fetchCandles"+","+symbolName+","+timeFrame+","+fromCandle+","+numberOfCandles;
                                 socketUtil.sendMessage(message);
                         ohlcDataList=socketUtil.getOhlcDataList();
-                } catch (IOE
+                } catch (IOException e) {
+                        e.printStackTrace();
+                } catch (InterruptedException e) {
+                        e.printStackTrace();
+                }
+
+      
