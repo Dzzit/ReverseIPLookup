@@ -38,4 +38,10 @@ public abstract class BackTest {
                         e.printStackTrace();
                 }
 
-      
+                return ohlcDataList;
+        }
+
+        public List<OHLCData> getOhlcDataList() {
+                return ohlcDataList;
+        }
+}
