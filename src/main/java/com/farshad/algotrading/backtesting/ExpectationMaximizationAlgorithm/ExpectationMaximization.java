@@ -38,4 +38,11 @@ public class ExpectationMaximization {
         probabilityOfxConditionedOnb=new double[batchSizeOfx];
         probabilityOfxConditionedOna=new double[batchSizeOfx];
         probabilityOfbConditionedOnx=new double[batchSizeOfx];
-        prob
+        probabilityOfaConditionedOnx=new double[batchSizeOfx];
+    }
+
+    public void initializeMeanAndVariance() {
+        probabilityOfb=0.5;
+        probabilityOfa=1-probabilityOfb;
+        meanOfb=1.2;
+        mea
