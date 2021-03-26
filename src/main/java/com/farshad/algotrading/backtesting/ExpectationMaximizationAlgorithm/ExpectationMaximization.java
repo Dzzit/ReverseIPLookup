@@ -28,4 +28,11 @@ public class ExpectationMaximization {
 
 
 
-    private doub
+    private double probabilityOfb;
+
+    private double probabilityOfa;
+
+    public ExpectationMaximization(String probabilityType, int batchSize) {
+        batchSizeOfx=batchSize;
+        this.probabilityType=probabilityType;
+      
