@@ -18,4 +18,14 @@ public class ExpectationMaximization {
 
     private double[] probabilityOfxConditionedOnb;
 
-   
+    private double[] probabilityOfbConditionedOnx;
+
+    private double[] probabilityOfaConditionedOnx;
+
+    private double[] probabilityOfxConditionedOna;
+
+    private int batchSizeOfx;
+
+
+
+    private doub
