@@ -35,4 +35,7 @@ public class ExpectationMaximization {
     public ExpectationMaximization(String probabilityType, int batchSize) {
         batchSizeOfx=batchSize;
         this.probabilityType=probabilityType;
-      
+        probabilityOfxConditionedOnb=new double[batchSizeOfx];
+        probabilityOfxConditionedOna=new double[batchSizeOfx];
+        probabilityOfbConditionedOnx=new double[batchSizeOfx];
+        prob
