@@ -53,4 +53,9 @@ public class ExpectationMaximization {
     public void findMeanAndVariance(double[] batchedx) {
          expectationStep(batchedx);
         maximizationStep(batchedx);
-   
+    }
+
+
+    private void expectationStep(double[] batchedx) {
+        for(int i=0;i<batchSizeOfx;i++){
+            probabilityOfxConditionedOna[i]= (1 / Math.sqrt(2*Math.PI*vari
