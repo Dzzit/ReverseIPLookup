@@ -45,4 +45,12 @@ public class ExpectationMaximization {
         probabilityOfb=0.5;
         probabilityOfa=1-probabilityOfb;
         meanOfb=1.2;
-        mea
+        meanOfa=1.4;
+        varianceOfb=0.1;
+        varianceOfa=0.1;
+    }
+
+    public void findMeanAndVariance(double[] batchedx) {
+         expectationStep(batchedx);
+        maximizationStep(batchedx);
+   
