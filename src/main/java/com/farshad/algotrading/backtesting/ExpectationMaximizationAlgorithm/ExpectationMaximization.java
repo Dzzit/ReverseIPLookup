@@ -67,4 +67,11 @@ public class ExpectationMaximization {
     }
 
     private void maximizationStep(double[] batchedx) {
-  
+        double weightedSumofb=0;
+        double weightedSumofa=0;
+        double squaredWeightedSumOfb=0;
+        double squaredWeightedSumOfa=0;
+        double sumOfb=0;
+        double sumOfa=0;
+
+   
