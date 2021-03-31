@@ -61,4 +61,10 @@ public class ExpectationMaximization {
             probabilityOfxConditionedOna[i]= (1 / Math.sqrt(2*Math.PI*varianceOfa)) * Math.exp(-Math.pow(batchedx[i] - meanOfa, 2) / (2 * varianceOfa));
             probabilityOfxConditionedOnb[i] = (1 / Math.sqrt(2*Math.PI*varianceOfb)) * Math.exp(-Math.pow(batchedx[i] - meanOfb, 2) / (2 * varianceOfb));
 
-            probabilityOfbConditionedOnx[i] = probabilityOfxConditionedOnb[i]*probabilityOfb/(probabilityOfxConditionedOnb[i]*probabilityOfb+pr
+            probabilityOfbConditionedOnx[i] = probabilityOfxConditionedOnb[i]*probabilityOfb/(probabilityOfxConditionedOnb[i]*probabilityOfb+probabilityOfxConditionedOna[i]*probabilityOfa);
+            probabilityOfaConditionedOnx[i]= 1-probabilityOfbConditionedOnx[i];
+        }
+    }
+
+    private void maximizationStep(double[] batchedx) {
+  
