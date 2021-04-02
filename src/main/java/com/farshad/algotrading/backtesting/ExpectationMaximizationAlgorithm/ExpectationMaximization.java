@@ -80,4 +80,11 @@ public class ExpectationMaximization {
             sumOfb=sumOfb+probabilityOfbConditionedOnx[i];
             sumOfa=sumOfa+probabilityOfaConditionedOnx[i];
             squaredWeightedSumOfb=squaredWeightedSumOfb+probabilityOfbConditionedOnx[i]*Math.pow((batchedx[i]-meanOfb),2);
-            squaredWeightedSumOfa=squaredWeightedSumOfa+probabilityOfaConditionedOnx[i]*Math.pow
+            squaredWeightedSumOfa=squaredWeightedSumOfa+probabilityOfaConditionedOnx[i]*Math.pow((batchedx[i]-meanOfa),2);
+
+        }
+
+            meanOfb=weightedSumofb/sumOfb;
+            varianceOfb=squaredWeightedSumOfb/sumOfb;
+            meanOfa=weightedSumofa/sumOfa;
+            vari
