@@ -74,4 +74,6 @@ public class ExpectationMaximization {
         double sumOfb=0;
         double sumOfa=0;
 
-   
+        for(int i=0;i<batchSizeOfx;i++) {
+            weightedSumofb=weightedSumofb+probabilityOfbConditionedOnx[i]*batchedx[i];
+            weightedSumofa=weightedSumofa+pr
