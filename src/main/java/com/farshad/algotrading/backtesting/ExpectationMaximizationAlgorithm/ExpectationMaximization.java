@@ -87,4 +87,8 @@ public class ExpectationMaximization {
             meanOfb=weightedSumofb/sumOfb;
             varianceOfb=squaredWeightedSumOfb/sumOfb;
             meanOfa=weightedSumofa/sumOfa;
-            vari
+            varianceOfa=squaredWeightedSumOfa/sumOfa;
+        logger.info("meanOfb="+meanOfb);
+        logger.info("varianceOfb="+varianceOfb);
+        logger.info("meanOfa="+meanOfa);
+        logger.info("varianceOfa="+var
