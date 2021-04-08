@@ -105,4 +105,10 @@ public class ExpectationMaximization {
 
 
     public double getMeanOfa() {
-  
+        return meanOfa;
+    }
+
+    public double getVarianceOfa() {
+        return varianceOfa;
+    }
+}
