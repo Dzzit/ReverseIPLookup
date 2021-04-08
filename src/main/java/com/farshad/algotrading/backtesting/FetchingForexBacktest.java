@@ -1,4 +1,10 @@
 package com.farshad.algotrading.backtesting;
 
 import com.farshad.algotrading.core.Symbol;
-import com.farsha
+import com.farshad.algotrading.core.openFinDeskStore.influxdb.InfluxDB;
+import org.apache.log4j.Logger;
+import org.ta4j.core.TimeSeries;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+/**
