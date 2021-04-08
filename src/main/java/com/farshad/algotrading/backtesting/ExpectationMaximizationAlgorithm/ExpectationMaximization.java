@@ -91,4 +91,18 @@ public class ExpectationMaximization {
         logger.info("meanOfb="+meanOfb);
         logger.info("varianceOfb="+varianceOfb);
         logger.info("meanOfa="+meanOfa);
-        logger.info("varianceOfa="+var
+        logger.info("varianceOfa="+varianceOfa);
+    }
+
+
+    public double getMeanOfb() {
+        return meanOfb;
+    }
+
+    public double getVarianceOfb() {
+        return varianceOfb;
+    }
+
+
+    public double getMeanOfa() {
+  
