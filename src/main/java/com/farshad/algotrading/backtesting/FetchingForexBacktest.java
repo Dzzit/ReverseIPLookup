@@ -23,4 +23,5 @@ public class FetchingForexBacktest extends BackTest {
         ss = new ServerSocket(5555);
 
         InfluxDB influxDB=new InfluxDB();
- 
+        Symbol<InfluxDB> eurusdSymbol = new Symbol<InfluxDB>(influxDB,"EURUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
+        Symbol<InfluxDB> audusdSymbol = new Symbol<Influ
