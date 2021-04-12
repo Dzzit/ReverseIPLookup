@@ -15,4 +15,12 @@ public class FetchingForexBacktest extends BackTest {
 
     private ServerSocket ss;
 
-    pub
+    public FetchingForexBacktest() throws IOException {
+    }
+
+    @Override
+    public void begin() throws IOException {
+        ss = new ServerSocket(5555);
+
+        InfluxDB influxDB=new InfluxDB();
+ 
