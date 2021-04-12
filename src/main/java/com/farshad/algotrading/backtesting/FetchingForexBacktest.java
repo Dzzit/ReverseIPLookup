@@ -8,3 +8,11 @@ import org.ta4j.core.TimeSeries;
 import java.io.IOException;
 import java.net.ServerSocket;
 /**
+ * @author Farshad Noravesh
+ */
+public class FetchingForexBacktest extends BackTest {
+    final static Logger logger= Logger.getLogger(FetchingForexBacktest.class);
+
+    private ServerSocket ss;
+
+    pub
