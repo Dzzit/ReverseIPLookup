@@ -32,4 +32,9 @@ public class FetchingForexBacktest extends BackTest {
       //  eurusdSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(100);
        // audusdSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(100);
       //  gbpusdSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(100);
-        euraudSymbol.fetchCandlesFromMT5AndWriteItToO
+        euraudSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(100);
+
+     //   TimeSeries series=audusdSymbol.getSeries()[0];
+
+    }
+}
