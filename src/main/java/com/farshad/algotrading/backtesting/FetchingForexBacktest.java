@@ -25,4 +25,9 @@ public class FetchingForexBacktest extends BackTest {
         InfluxDB influxDB=new InfluxDB();
         Symbol<InfluxDB> eurusdSymbol = new Symbol<InfluxDB>(influxDB,"EURUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
         Symbol<InfluxDB> audusdSymbol = new Symbol<InfluxDB>(influxDB,"AUDUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
-        Symbol<InfluxDB> gbpusdSymbol = new Symbol<InfluxDB>(influxDB,"GBPUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",
+        Symbol<InfluxDB> gbpusdSymbol = new Symbol<InfluxDB>(influxDB,"GBPUSD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
+        Symbol<InfluxDB> euraudSymbol = new Symbol<InfluxDB>(influxDB,"EURAUD", new String[]{"PERIOD_H1","PERIOD_D1"}, "forex",ss);
+
+
+      //  eurusdSymbol.fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(100);
+ 
