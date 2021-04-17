@@ -4,4 +4,6 @@ package com.farshad.algotrading.backtesting;
 import com.farshad.algotrading.backtesting.influxDbCRUD.InfluxDbManager;
 import com.farshad.algotrading.backtesting.measurements.AUDUSDCandlePoint;
 import com.farshad.algotrading.backtesting.measurements.timeSeriesMeasurements.PriceTime;
-import 
+import com.farshad.algotrading.core.AlternatingTrendSmoothing.ATS;
+import com.farshad.algotrading.core.trendRangeAndWave.Trend;
+import com.farshad.algotrading.core.trendRangeAndWave.TrendGenerator;
