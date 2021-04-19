@@ -34,3 +34,7 @@ public class FibonacciBackTest extends BackTest {
         List<OHLCData> allOhlcDataList=new ArrayList<>();
         int batchSize=6;
         int howManyBatches=2;
+        int totalCandles=howManyBatches*batchSize;
+        for(int i=1;i<=totalCandles;i=i+batchSize) {
+            fetchDataUsingMetaTrader5("EURUSD", "PERIOD_H4", i-1, batchSize);
+  
