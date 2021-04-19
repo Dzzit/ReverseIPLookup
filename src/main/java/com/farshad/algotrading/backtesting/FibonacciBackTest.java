@@ -29,4 +29,8 @@ public class FibonacciBackTest extends BackTest {
 
     @Override
     public void begin() {
-        logg
+        logger.info("---com.farshad.algotrading.backtesting fibonacci---");
+        /*
+        List<OHLCData> allOhlcDataList=new ArrayList<>();
+        int batchSize=6;
+        int howManyBatches=2;
