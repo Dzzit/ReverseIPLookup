@@ -41,3 +41,7 @@ public class FibonacciBackTest extends BackTest {
         }
         allOhlcDataList.stream().forEach(candle-> System.out.println("candle.getClose())="+candle.getClose()));
         */
+        InfluxDbManager influxDbManager=new InfluxDbManager<AUDUSDCandlePoint>("H4","EURUSD");
+        //influxDbManager.writeCandles(allOhlcDataList);
+
+        String query="SELECT * FROM "+influxDb
