@@ -37,4 +37,7 @@ public class FibonacciBackTest extends BackTest {
         int totalCandles=howManyBatches*batchSize;
         for(int i=1;i<=totalCandles;i=i+batchSize) {
             fetchDataUsingMetaTrader5("EURUSD", "PERIOD_H4", i-1, batchSize);
-  
+            allOhlcDataList.addAll(getOhlcDataList());
+        }
+        allOhlcDataList.stream().forEach(candle-> System.out.println("candle.getClose())="+candle.getClose()));
+        */
