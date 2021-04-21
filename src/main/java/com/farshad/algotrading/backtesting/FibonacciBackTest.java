@@ -48,4 +48,6 @@ public class FibonacciBackTest extends BackTest {
         List<AUDUSDCandlePoint> candlePointList=influxDbManager.executeSomeQuery(query, AUDUSDCandlePoint.class);
 
         candlePointList.stream().forEach(candle->
-  
+                {
+                  //  System.out.println("candle.getClose():" + candle.getClose());
+                  //  System.out.println("candle.getTime().getEpochSecond
