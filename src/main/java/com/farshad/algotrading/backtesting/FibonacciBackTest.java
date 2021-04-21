@@ -59,4 +59,9 @@ public class FibonacciBackTest extends BackTest {
 
         List<PriceTime> priceTimeList=new ArrayList<>();
 
-        for(int i=can
+        for(int i=candlePointList.size()-30;i<candlePointList.size();i++){
+            priceTimeList.add(new PriceTime(candlePointList.get(i).getClose(),candlePointList.get(i).getTime()));
+        }
+
+
+        ATS ats=new ATS(6,p
