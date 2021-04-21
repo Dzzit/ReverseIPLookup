@@ -50,4 +50,13 @@ public class FibonacciBackTest extends BackTest {
         candlePointList.stream().forEach(candle->
                 {
                   //  System.out.println("candle.getClose():" + candle.getClose());
-                  //  System.out.println("candle.getTime().getEpochSecond
+                  //  System.out.println("candle.getTime().getEpochSecond():" + candle.getTime().getEpochSecond());
+                }
+        );
+        influxDbManager.close();
+
+
+
+        List<PriceTime> priceTimeList=new ArrayList<>();
+
+        for(int i=can
