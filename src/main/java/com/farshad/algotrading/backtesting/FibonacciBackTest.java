@@ -64,4 +64,9 @@ public class FibonacciBackTest extends BackTest {
         }
 
 
-        ATS ats=new ATS(6,p
+        ATS ats=new ATS(6,priceTimeList);
+        ats.findPriceChangePoints();
+
+        List<PriceTime> priceTimeChangePointList=ats.getPriceChangeList();
+
+        influxDbManager=new InfluxDbManager<PriceTime>("H4","tre
