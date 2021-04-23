@@ -69,4 +69,8 @@ public class FibonacciBackTest extends BackTest {
 
         List<PriceTime> priceTimeChangePointList=ats.getPriceChangeList();
 
-        influxDbManager=new InfluxDbManager<PriceTime>("H4","tre
+        influxDbManager=new InfluxDbManager<PriceTime>("H4","trendPointsEURUSD");
+        influxDbManager.executeSomeQuery("DROP MEASUREMENT \"trendPointsEURUSD\"",PriceTime.class);
+        influxDbManager.close();
+
+        influxDbManager=new 
