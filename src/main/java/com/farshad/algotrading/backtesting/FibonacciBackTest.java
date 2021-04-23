@@ -81,4 +81,9 @@ public class FibonacciBackTest extends BackTest {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-        influxDbManager.close(
+        influxDbManager.close();
+
+        TrendGenerator trendGenerator=new TrendGenerator(priceTimeChangePointList);
+        List<Trend> trendList=trendGenerator.generate();
+
+        WaveGenerator waveGenerator=new Wa
