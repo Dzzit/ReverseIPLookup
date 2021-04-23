@@ -76,4 +76,9 @@ public class FibonacciBackTest extends BackTest {
         influxDbManager=new InfluxDbManager<PriceTime>("H4","trendPointsEURUSD");
         try {
             influxDbManager.writeTimeSeries(priceTimeChangePointList,"price");
-        } ca
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        influxDbManager.close(
