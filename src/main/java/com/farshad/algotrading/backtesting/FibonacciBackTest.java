@@ -86,4 +86,9 @@ public class FibonacciBackTest extends BackTest {
         TrendGenerator trendGenerator=new TrendGenerator(priceTimeChangePointList);
         List<Trend> trendList=trendGenerator.generate();
 
-        WaveGenerator waveGenerator=new Wa
+        WaveGenerator waveGenerator=new WaveGenerator(trendList,trendGenerator.getStartingIndex());
+        List<Wave> waveList=waveGenerator.generate();
+
+
+        Fibonacci fibonacci=new Fibonacci();
+        fibonacci.addWa
