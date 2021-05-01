@@ -97,4 +97,8 @@ public class FibonacciBackTest extends BackTest {
         }
 
         fibonacci.calculateTypeOfGlobalRegime();
-        l
+        logger.info("fibonacci.getTypeOfGlobalRegime()="+fibonacci.getTypeOfGlobalRegime());
+
+        fibonacci.calculateInternalRetracement();
+        fibonacci.calculateGlobalStrength();
+   
