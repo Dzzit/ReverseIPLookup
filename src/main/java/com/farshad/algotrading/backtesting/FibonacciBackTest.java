@@ -91,4 +91,10 @@ public class FibonacciBackTest extends BackTest {
 
 
         Fibonacci fibonacci=new Fibonacci();
-        fibonacci.addWa
+        fibonacci.addWaves(waveList);
+        if(trendList.size()%2==1){
+            fibonacci.addTrend(trendList.get(trendList.size()-1));
+        }
+
+        fibonacci.calculateTypeOfGlobalRegime();
+        l
