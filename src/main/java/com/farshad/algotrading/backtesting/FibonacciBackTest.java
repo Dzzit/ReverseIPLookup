@@ -107,4 +107,16 @@ public class FibonacciBackTest extends BackTest {
         /*
          FiboClusterManager fiboClusterManager=new FiboClusterManager();
         waveList.forEach(w-> {
-            fibon
+            fibonacci.setWave(w);
+            fiboClusterManager.add(fibonacci);
+        });
+        fiboClusterManager.manage();
+        */
+
+
+    }
+
+
+
+
+}
