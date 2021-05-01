@@ -101,4 +101,10 @@ public class FibonacciBackTest extends BackTest {
 
         fibonacci.calculateInternalRetracement();
         fibonacci.calculateGlobalStrength();
-   
+        double strength=fibonacci.getStrength();
+
+
+        /*
+         FiboClusterManager fiboClusterManager=new FiboClusterManager();
+        waveList.forEach(w-> {
+            fibon
