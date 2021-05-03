@@ -17,4 +17,16 @@ public class BackwardAlgorithm {
 
     private double beta00;
 
-    private  d
+    private  double beta01;
+
+
+    private double[][] transitionProbability;
+
+    private int batchSize;
+
+
+
+    private  ExpectationMaximization expectationMaximization;
+
+
+    public BackwardAlgorithm(int numberOfHiddenSt
