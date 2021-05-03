@@ -5,4 +5,16 @@ import org.apache.log4j.Logger;
 
 public class BackwardAlgorithm {
 
-    final static Logger logger= Logger.ge
+    final static Logger logger= Logger.getLogger(BackwardAlgorithm.class);
+
+
+    private int numberOfHiddenStates;
+
+    private int numberOfValuesInEachHiddenState;
+
+    private double x[];
+
+
+    private double beta00;
+
+    private  d
