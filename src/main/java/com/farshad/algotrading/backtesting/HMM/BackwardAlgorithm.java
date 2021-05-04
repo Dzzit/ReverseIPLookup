@@ -29,4 +29,6 @@ public class BackwardAlgorithm {
     private  ExpectationMaximization expectationMaximization;
 
 
-    public BackwardAlgorithm(int numberOfHiddenSt
+    public BackwardAlgorithm(int numberOfHiddenStates, int numberOfValuesInEachHiddenState,int numberOfObservationData) {
+        this.numberOfHiddenStates = numberOfHiddenStates;
+        this.numberOfValuesInEachHiddenState = num
