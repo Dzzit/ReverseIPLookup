@@ -31,4 +31,9 @@ public class BackwardAlgorithm {
 
     public BackwardAlgorithm(int numberOfHiddenStates, int numberOfValuesInEachHiddenState,int numberOfObservationData) {
         this.numberOfHiddenStates = numberOfHiddenStates;
-        this.numberOfValuesInEachHiddenState = num
+        this.numberOfValuesInEachHiddenState = numberOfValuesInEachHiddenState;
+        x=new double[numberOfObservationData];
+          transitionProbability=new double[numberOfHiddenStates][numberOfHiddenStates];
+    }
+
+    public void runHMM(double[
