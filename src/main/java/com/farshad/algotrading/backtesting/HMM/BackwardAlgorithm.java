@@ -43,4 +43,9 @@ public class BackwardAlgorithm {
         }
         this.batchSize=batchSize;
 
-        calculateEmiss
+        calculateEmissionProbability();
+        calculateTransitionProbability();
+    }
+
+    public double beta00(double observation){
+        double pxConditionedOnaAtSpecificObservation=(1/Math.sqrt((2*Math.PI*expecta
