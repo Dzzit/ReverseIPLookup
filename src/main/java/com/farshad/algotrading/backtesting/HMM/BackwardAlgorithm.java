@@ -49,4 +49,4 @@ public class BackwardAlgorithm {
 
     public double beta00(double observation){
         double pxConditionedOnaAtSpecificObservation=(1/Math.sqrt((2*Math.PI*expectationMaximization.getVarianceOfa()))) * Math.exp(-Math.pow(observation - expectationMaximization.getMeanOfa(), 2) / (2 * expectationMaximization.getVarianceOfa()));
-        double pxConditionedOn
+        double pxConditionedOnbAtSpecificObservation=(1/Math.sqrt((2*Math.PI*expectationMaximization.getVarianceOfb()))) * Math.exp(-Math.pow(observation - expectationMaximization.getMeanOfb(), 2) / (2 * expectat
