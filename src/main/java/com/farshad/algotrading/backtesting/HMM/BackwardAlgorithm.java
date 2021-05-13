@@ -64,4 +64,8 @@ public class BackwardAlgorithm {
     }
 
 
-    private void calculateEmissionProbabili
+    private void calculateEmissionProbability() {
+        int numberOfBatches=x.length/batchSize;
+        logger.info("batchSize="+batchSize);
+        logger.info("numberOfBatches="+numberOfBatches);
+        expectationMaximization=new Ex
