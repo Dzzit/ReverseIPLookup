@@ -72,4 +72,10 @@ public class BackwardAlgorithm {
         expectationMaximization.initializeMeanAndVariance();
         double[][] batchedx = new double[numberOfBatches][batchSize];
 
-       
+        int k;
+        for(int j=0;j<numberOfBatches;j++) {
+            k=0;
+            for (int i = j*batchSize; i < (j+1)*batchSize; i++) {
+                batchedx[j][k] = x[i];
+                k++;
+   
