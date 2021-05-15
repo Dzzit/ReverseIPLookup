@@ -68,4 +68,8 @@ public class BackwardAlgorithm {
         int numberOfBatches=x.length/batchSize;
         logger.info("batchSize="+batchSize);
         logger.info("numberOfBatches="+numberOfBatches);
-        expectationMaximization=new Ex
+        expectationMaximization=new ExpectationMaximization("gaussian",batchSize);
+        expectationMaximization.initializeMeanAndVariance();
+        double[][] batchedx = new double[numberOfBatches][batchSize];
+
+       
