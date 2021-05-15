@@ -78,4 +78,11 @@ public class BackwardAlgorithm {
             for (int i = j*batchSize; i < (j+1)*batchSize; i++) {
                 batchedx[j][k] = x[i];
                 k++;
-   
+            }
+            expectationMaximization.findMeanAndVariance(batchedx[j]);
+        }
+
+    }
+
+    private void calculateTransitionProbability(){
+        transitionProbabilit
