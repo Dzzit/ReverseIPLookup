@@ -85,4 +85,10 @@ public class BackwardAlgorithm {
     }
 
     private void calculateTransitionProbability(){
-        transitionProbabilit
+        transitionProbability[0][0]=0.4;
+        transitionProbability[1][0]=0.6;
+        transitionProbability[0][1]=0.5;
+        transitionProbability[1][1]=0.5;
+    }
+
+}
