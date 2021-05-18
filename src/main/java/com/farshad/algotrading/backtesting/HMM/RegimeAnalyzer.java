@@ -9,3 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RegimeAnalyzer {
+
+    final static Logger logger= Logger.getLogger(RegimeAnalyzer.class);
+
+
+    private double[] difference=new double[0];
+    private double[] trendCloseDifferenceForExtreme=new
