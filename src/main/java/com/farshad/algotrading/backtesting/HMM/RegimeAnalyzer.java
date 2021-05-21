@@ -17,4 +17,8 @@ public class RegimeAnalyzer {
     private double[] trendCloseDifferenceForExtreme=new double[0];
     private List<PercentOfChange> percentageChangeList=new ArrayList<>();
     private List<AUDUSDCandlePoint> extremeList=new ArrayList<>();
-    private List<Return> ret
+    private List<Return> returnList=new ArrayList<>();
+    private List<Long> duration=new ArrayList<>();
+
+    public void classifyTrends(List<AUDUSDCandlePoint> candlePointList){
+        //System.out.println
