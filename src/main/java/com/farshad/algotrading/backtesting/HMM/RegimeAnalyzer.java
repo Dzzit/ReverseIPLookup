@@ -21,4 +21,8 @@ public class RegimeAnalyzer {
     private List<Long> duration=new ArrayList<>();
 
     public void classifyTrends(List<AUDUSDCandlePoint> candlePointList){
-        //System.out.println
+        //System.out.println("size of data="+candlePointList.size());
+          difference =new double[candlePointList.size()];
+
+        for(int i=0;i<candlePointList.size()-1;i++){
+            difference[i]=candlePointList.get(i+1).getClose()-candle
