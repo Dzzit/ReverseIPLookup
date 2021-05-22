@@ -28,4 +28,8 @@ public class RegimeAnalyzer {
             difference[i]=candlePointList.get(i+1).getClose()-candlePointList.get(i).getClose();
             PercentOfChange percentOfChange=new PercentOfChange();
             percentOfChange.setPercent(((difference[i]/candlePointList.get(i).getClose())*100));
-  
+            percentOfChange.setTime(candlePointList.get(i).getTime());
+
+            percentageChangeList.add(percentOfChange);
+
+            if (Math.abs(percentageChangeList.get(i).getPercent())>0.2){
