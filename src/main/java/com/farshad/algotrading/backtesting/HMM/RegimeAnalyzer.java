@@ -33,3 +33,11 @@ public class RegimeAnalyzer {
             percentageChangeList.add(percentOfChange);
 
             if (Math.abs(percentageChangeList.get(i).getPercent())>0.2){
+                extremeList.add(candlePointList.get(i));
+
+            }
+        }
+
+        trendCloseDifferenceForExtreme=new double[extremeList.size()];
+
+        for(int j=0;j<extremeList.size
