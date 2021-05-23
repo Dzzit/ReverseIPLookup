@@ -50,4 +50,6 @@ public class RegimeAnalyzer {
                 //System.out.println("trendCloseDifferenceForExtreme["+j+"]="+trendCloseDifferenceForExtreme[j]);
                 Return returnPoint=new Return();
 
-                duration.a
+                duration.add(extremeList.get(j+1).getTime().getEpochSecond()
+                        -extremeList.get(j).getTime().getEpochSecond());
+                if(Math.abs(10000000*trendCloseDifferenceForExtreme[j]/(duration.get(j)))>1){
