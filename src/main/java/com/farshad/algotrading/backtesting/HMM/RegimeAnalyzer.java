@@ -42,4 +42,7 @@ public class RegimeAnalyzer {
 
         for(int j=0;j<extremeList.size()-1;j++){
             //System.out.println("extremeList.get("+j+").getClose()="+extremeList.get(j).getClose());
-            //System.out.println("extremeList.get("+j+").getTime().getEpochSec
+            //System.out.println("extremeList.get("+j+").getTime().getEpochSecond()="+extremeList.get(j).getTime().getEpochSecond());
+
+
+            trendCloseDifferenceForExtreme[j]=extremeList.get(j+1).getClose()-extremeList.get(j).getClose();
