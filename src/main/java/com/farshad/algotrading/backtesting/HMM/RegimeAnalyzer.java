@@ -53,3 +53,6 @@ public class RegimeAnalyzer {
                 duration.add(extremeList.get(j+1).getTime().getEpochSecond()
                         -extremeList.get(j).getTime().getEpochSecond());
                 if(Math.abs(10000000*trendCloseDifferenceForExtreme[j]/(duration.get(j)))>1){
+                    returnPoint.setReturnValue(Math.abs(10000000*trendCloseDifferenceForExtreme[j]/(duration.get(j))));
+                    returnPoint.setTime(extremeList.get(j).getTime());
+    
