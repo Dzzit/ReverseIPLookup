@@ -46,3 +46,8 @@ public class RegimeAnalyzer {
 
 
             trendCloseDifferenceForExtreme[j]=extremeList.get(j+1).getClose()-extremeList.get(j).getClose();
+
+                //System.out.println("trendCloseDifferenceForExtreme["+j+"]="+trendCloseDifferenceForExtreme[j]);
+                Return returnPoint=new Return();
+
+                duration.a
