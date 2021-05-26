@@ -55,4 +55,11 @@ public class RegimeAnalyzer {
                 if(Math.abs(10000000*trendCloseDifferenceForExtreme[j]/(duration.get(j)))>1){
                     returnPoint.setReturnValue(Math.abs(10000000*trendCloseDifferenceForExtreme[j]/(duration.get(j))));
                     returnPoint.setTime(extremeList.get(j).getTime());
-    
+                    returnList.add(returnPoint) ;
+                }
+
+        }
+
+        //considering today
+        Return returnPoint=new Return();
+        trendCloseDifferenceForExtreme[extremeList.
