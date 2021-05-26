@@ -65,4 +65,7 @@ public class RegimeAnalyzer {
         trendCloseDifferenceForExtreme[extremeList.size()-1]=extremeList.get(extremeList.size()-1).getClose()
                 -extremeList.get(extremeList.size()-2).getClose();
 
-        duration.add(candlePointList.get(candlePointList.size()
+        duration.add(candlePointList.get(candlePointList.size()-1).getTime().getEpochSecond()
+                -extremeList.get(extremeList.size()-2).getTime().getEpochSecond());
+
+        returnPoint.setReturnValue(100000*trendCloseDifferenceForExt
