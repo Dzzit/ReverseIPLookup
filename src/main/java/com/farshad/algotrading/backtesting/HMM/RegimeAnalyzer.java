@@ -68,4 +68,11 @@ public class RegimeAnalyzer {
         duration.add(candlePointList.get(candlePointList.size()-1).getTime().getEpochSecond()
                 -extremeList.get(extremeList.size()-2).getTime().getEpochSecond());
 
-        returnPoint.setReturnValue(100000*trendCloseDifferenceForExt
+        returnPoint.setReturnValue(100000*trendCloseDifferenceForExtreme[extremeList.size()-1]/(duration.get(extremeList.size()-1)));
+        returnPoint.setTime(extremeList.get(extremeList.size()-1).getTime());
+        returnList.add(returnPoint);
+
+
+    }
+
+
