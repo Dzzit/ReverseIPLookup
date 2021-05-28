@@ -81,4 +81,12 @@ public class RegimeAnalyzer {
     }
 
     public void setPercentageChange(List<PercentOfChange> percentageChange) {
-        this.
+        this.percentageChangeList = percentageChange;
+    }
+
+    public List<Return> getReturnList() {
+        return returnList;
+    }
+
+    public List<AUDUSDCandlePoint> getExtremeList() {
+        
