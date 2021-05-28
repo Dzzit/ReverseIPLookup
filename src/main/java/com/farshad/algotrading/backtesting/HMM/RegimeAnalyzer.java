@@ -76,3 +76,9 @@ public class RegimeAnalyzer {
     }
 
 
+    public List<PercentOfChange> getPercentageChange() {
+        return percentageChangeList;
+    }
+
+    public void setPercentageChange(List<PercentOfChange> percentageChange) {
+        this.
