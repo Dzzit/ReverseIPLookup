@@ -89,4 +89,10 @@ public class RegimeAnalyzer {
     }
 
     public List<AUDUSDCandlePoint> getExtremeList() {
-        
+        return extremeList;
+    }
+
+    public List<Long> getDuration() {
+        return duration;
+    }
+}
