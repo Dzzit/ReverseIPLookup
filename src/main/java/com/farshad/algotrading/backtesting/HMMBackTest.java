@@ -12,4 +12,14 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 import java.util.ArrayList;
-import java.util.Lis
+import java.util.List;
+/**
+ * @author Farshad Noravesh
+ */
+public class HMMBackTest extends BackTest{
+
+    final static Logger logger= Logger.getLogger(HMMBackTest.class);
+
+
+    public HMMBackTest() throws IOException {
+  
