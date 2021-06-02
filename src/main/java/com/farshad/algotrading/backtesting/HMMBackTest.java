@@ -27,4 +27,8 @@ public class HMMBackTest extends BackTest{
     public void begin()  {
         System.out.println("------com.farshad.algotrading.backtesting-------");
         List<OHLCData> allOhlcDataList=new ArrayList<>();
-        int batchSi
+        int batchSize=6;
+        int howManyBatches=90;
+        int totalCandles=howManyBatches*batchSize;
+        for(int i=1;i<totalCandles;i=i+batchSize) {
+            fetchDataUsingMetaTrader5("EURUSD", "PERIOD_H4",
