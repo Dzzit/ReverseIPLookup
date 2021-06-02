@@ -22,4 +22,9 @@ public class HMMBackTest extends BackTest{
 
 
     public HMMBackTest() throws IOException {
-  
+    }
+
+    public void begin()  {
+        System.out.println("------com.farshad.algotrading.backtesting-------");
+        List<OHLCData> allOhlcDataList=new ArrayList<>();
+        int batchSi
