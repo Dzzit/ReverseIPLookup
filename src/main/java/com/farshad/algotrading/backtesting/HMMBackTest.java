@@ -35,4 +35,8 @@ public class HMMBackTest extends BackTest{
             allOhlcDataList.addAll(getOhlcDataList());
         }
 
-        InfluxDbManager influxDbManager=new InfluxDbManager<AUDUSDCandlePoint>("PERIOD_H4","EURU
+        InfluxDbManager influxDbManager=new InfluxDbManager<AUDUSDCandlePoint>("PERIOD_H4","EURUSD");
+        influxDbManager.writeCandles(allOhlcDataList);
+
+        String query="SELECT * FROM "+influxDbManager.getMeasurement();
+        List<AUDUSDCandlePoint> candlePointList=influxDbManager.execut
