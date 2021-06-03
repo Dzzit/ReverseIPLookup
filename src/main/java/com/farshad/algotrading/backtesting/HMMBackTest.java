@@ -31,4 +31,8 @@ public class HMMBackTest extends BackTest{
         int howManyBatches=90;
         int totalCandles=howManyBatches*batchSize;
         for(int i=1;i<totalCandles;i=i+batchSize) {
-            fetchDataUsingMetaTrader5("EURUSD", "PERIOD_H4",
+            fetchDataUsingMetaTrader5("EURUSD", "PERIOD_H4",i-1,batchSize);
+            allOhlcDataList.addAll(getOhlcDataList());
+        }
+
+        InfluxDbManager influxDbManager=new InfluxDbManager<AUDUSDCandlePoint>("PERIOD_H4","EURU
