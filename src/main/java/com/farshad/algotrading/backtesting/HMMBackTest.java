@@ -39,4 +39,9 @@ public class HMMBackTest extends BackTest{
         influxDbManager.writeCandles(allOhlcDataList);
 
         String query="SELECT * FROM "+influxDbManager.getMeasurement();
-        List<AUDUSDCandlePoint> candlePointList=influxDbManager.execut
+        List<AUDUSDCandlePoint> candlePointList=influxDbManager.executeSomeQuery(query, AUDUSDCandlePoint.class);
+
+        //  candlePointList.stream().forEach(candle-> System.out.println("candle.getClose():"+candle.getClose()));
+        influxDbManager.close();
+
+   
