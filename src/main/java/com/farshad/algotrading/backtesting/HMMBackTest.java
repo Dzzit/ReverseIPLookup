@@ -48,4 +48,7 @@ public class HMMBackTest extends BackTest{
         regimeAnalyzer.classifyTrends(candlePointList);
         influxDbManager=new InfluxDbManager<PercentOfChange>("H4","EURUSDChangeInPercent");
         try {
- 
+            influxDbManager.writeTimeSeries(regimeAnalyzer.getPercentageChange(),"percent");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessExcept
