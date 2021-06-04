@@ -51,4 +51,9 @@ public class HMMBackTest extends BackTest{
             influxDbManager.writeTimeSeries(regimeAnalyzer.getPercentageChange(),"percent");
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
-        } catch (IllegalAccessExcept
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        query="SELECT * FROM "+influxDbManager.getMeasurement();
+        influxDbManager.executeSomeQuery(query,PercentOfChange.class);
+        influ
