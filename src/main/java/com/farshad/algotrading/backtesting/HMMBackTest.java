@@ -44,4 +44,8 @@ public class HMMBackTest extends BackTest{
         //  candlePointList.stream().forEach(candle-> System.out.println("candle.getClose():"+candle.getClose()));
         influxDbManager.close();
 
-   
+        RegimeAnalyzer regimeAnalyzer=new RegimeAnalyzer();
+        regimeAnalyzer.classifyTrends(candlePointList);
+        influxDbManager=new InfluxDbManager<PercentOfChange>("H4","EURUSDChangeInPercent");
+        try {
+ 
