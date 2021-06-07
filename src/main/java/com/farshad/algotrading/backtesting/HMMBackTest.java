@@ -56,4 +56,9 @@ public class HMMBackTest extends BackTest{
         }
         query="SELECT * FROM "+influxDbManager.getMeasurement();
         influxDbManager.executeSomeQuery(query,PercentOfChange.class);
-        influ
+        influxDbManager.close();
+
+        //Now writing extreme to influxDb
+        influxDbManager=new InfluxDbManager<AUDUSDCandlePoint>("H4","EURUSDExtreme");
+        try {
+            influxDbManag
