@@ -68,4 +68,6 @@ public class HMMBackTest extends BackTest{
             e.printStackTrace();
         }
         query="SELECT * FROM "+influxDbManager.getMeasurement();
-        List<AUDUSDCandlePoint> candlePointListForExtremes=influxDb
+        List<AUDUSDCandlePoint> candlePointListForExtremes=influxDbManager.executeSomeQuery(query, AUDUSDCandlePoint.class);
+        candlePointListForExtremes.stream().forEach(candle-> System.out.println("candle:"+candle.getClose()));
+        influxDbManage
