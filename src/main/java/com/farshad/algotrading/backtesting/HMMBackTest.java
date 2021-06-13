@@ -64,4 +64,8 @@ public class HMMBackTest extends BackTest{
             influxDbManager.writeTimeSeries(regimeAnalyzer.getExtremeList(),"close");
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
-        } catch (IllegalAccessException e) 
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        query="SELECT * FROM "+influxDbManager.getMeasurement();
+        List<AUDUSDCandlePoint> candlePointListForExtremes=influxDb
