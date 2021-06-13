@@ -61,4 +61,7 @@ public class HMMBackTest extends BackTest{
         //Now writing extreme to influxDb
         influxDbManager=new InfluxDbManager<AUDUSDCandlePoint>("H4","EURUSDExtreme");
         try {
-            influxDbManag
+            influxDbManager.writeTimeSeries(regimeAnalyzer.getExtremeList(),"close");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) 
