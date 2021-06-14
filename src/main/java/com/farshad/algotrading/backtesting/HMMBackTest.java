@@ -70,4 +70,10 @@ public class HMMBackTest extends BackTest{
         query="SELECT * FROM "+influxDbManager.getMeasurement();
         List<AUDUSDCandlePoint> candlePointListForExtremes=influxDbManager.executeSomeQuery(query, AUDUSDCandlePoint.class);
         candlePointListForExtremes.stream().forEach(candle-> System.out.println("candle:"+candle.getClose()));
-        influxDbManage
+        influxDbManager.close();
+
+
+        //Now writing returns to influxDb
+        influxDbManager=new InfluxDbManager<PercentOfChange>("H4","EURUSDReturn");
+        try {
+            influxDbManager.
