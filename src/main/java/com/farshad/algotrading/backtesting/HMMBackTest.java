@@ -76,4 +76,8 @@ public class HMMBackTest extends BackTest{
         //Now writing returns to influxDb
         influxDbManager=new InfluxDbManager<PercentOfChange>("H4","EURUSDReturn");
         try {
-            influxDbManager.
+            influxDbManager.writeTimeSeries(regimeAnalyzer.getReturnList(),"returnValue");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.print
