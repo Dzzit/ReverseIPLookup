@@ -80,4 +80,7 @@ public class HMMBackTest extends BackTest{
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
-            e.print
+            e.printStackTrace();
+        }
+        query="SELECT * FROM "+influxDbManager.getMeasurement();
+        List<Return> returnList=influxDbManager.executeSomeQuery(query, Return.cla
