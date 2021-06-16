@@ -83,4 +83,9 @@ public class HMMBackTest extends BackTest{
             e.printStackTrace();
         }
         query="SELECT * FROM "+influxDbManager.getMeasurement();
-        List<Return> returnList=influxDbManager.executeSomeQuery(query, Return.cla
+        List<Return> returnList=influxDbManager.executeSomeQuery(query, Return.class);
+        //returnList.stream().forEach(returnV-> System.out.println("returnValue:"+returnV.getReturnValue()));
+        influxDbManager.close();
+
+        //Hidden Markov Model using Backward Algorithm
+    
