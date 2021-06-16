@@ -91,4 +91,9 @@ public class HMMBackTest extends BackTest{
         logger.info("size="+returnList.size());
          double[] x=new double[returnList.size()];
         for(int i=0;i<returnList.size();i++){
-            x[i]=Math.abs(returnList.get(i).getRet
+            x[i]=Math.abs(returnList.get(i).getReturnValue());
+        }
+
+        BackwardAlgorithm backwardAlgorithm=new BackwardAlgorithm(2,2,x.length);
+        backwardAlgorithm.runHMM(x,5);
+        logger.info("backwardAlgorithm.beta0
