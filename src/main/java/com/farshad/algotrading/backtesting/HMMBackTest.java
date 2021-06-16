@@ -88,4 +88,7 @@ public class HMMBackTest extends BackTest{
         influxDbManager.close();
 
         //Hidden Markov Model using Backward Algorithm
-    
+        logger.info("size="+returnList.size());
+         double[] x=new double[returnList.size()];
+        for(int i=0;i<returnList.size();i++){
+            x[i]=Math.abs(returnList.get(i).getRet
