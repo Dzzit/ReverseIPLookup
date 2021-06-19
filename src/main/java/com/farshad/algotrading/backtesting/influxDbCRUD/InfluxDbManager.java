@@ -71,3 +71,59 @@ public class InfluxDbManager<T extends TimeSeriesPoint > {
                     .addField("high", Double.parseDouble(ohlcDataList.get(i).getHigh()))
                     .addField("low", Double.parseDouble((ohlcDataList.get(i).getLow())))
                     .addField("close", Double.parseDouble((ohlcDataList.get(i).getClose())))
+                    .addField("volume", Integer.parseInt(ohlcDataList.get(i).getTick_volume()))
+                    .build();
+            batchPoints.point(point);
+
+        }
+         influxDB.write(batchPoints);
+    }
+
+    public void writeTimeSeries(List<T> timeSeries,String fieldString) throws NoSuchFieldException, IllegalAccessException {
+        this.timeSeries=timeSeries;
+        BatchPoints batchPoints = BatchPoints.database(this.database).tag("async", "true").build();
+        influxDB.enableBatch();
+        for (int i = 0; i < timeSeries.size(); i++) {
+            Field field = timeSeries.get(i).getClass().getDeclaredField(fieldString);
+            field.setAccessible(true);
+            Object value = field.get(timeSeries.get(i));
+            Point point = Point.measurement(this.measurement)
+                    .time(timeSeries.get(i).getTime().getEpochSecond(), TimeUnit.SECONDS)
+                    .addField(fieldString, (Double) value)
+                    .build();
+            batchPoints.point(point);
+        }
+        influxDB.write(batchPoints);
+    }
+
+    public List<T> executeSomeQuery(String query,Class<T> clazz) {
+        Query influxDbQuery = new Query(query, this.database);
+        QueryResult queryResult = influxDB.query(influxDbQuery);
+        InfluxDBResultMapper resultMapper = new InfluxDBResultMapper();
+        List<T> resultList = resultMapper
+                .toPOJO(queryResult,clazz);
+        return resultList;
+    }
+
+    public void close() {
+        influxDB.close();
+    }
+
+    public String getDatabase() {
+        return database;
+    }
+
+    public void setDatabase(String database) {
+        this.database = database;
+    }
+
+    public String getMeasurement() {
+        return measurement;
+    }
+
+    public void setMeasurement(String measurement) {
+        this.measurement = measurement;
+    }
+
+
+}
