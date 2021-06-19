@@ -96,4 +96,10 @@ public class HMMBackTest extends BackTest{
 
         BackwardAlgorithm backwardAlgorithm=new BackwardAlgorithm(2,2,x.length);
         backwardAlgorithm.runHMM(x,5);
-        logger.info("backwardAlgorithm.beta0
+        logger.info("backwardAlgorithm.beta00(1.7)="+backwardAlgorithm.beta00(1.7));
+        logger.info("backwardAlgorithm.beta01(1.7)="+backwardAlgorithm.beta01(1.7));
+
+    }
+
+
+}
