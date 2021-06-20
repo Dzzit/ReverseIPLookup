@@ -13,4 +13,17 @@ import org.influxdb.annotation.Measurement;
     private double open;
 
     @Column(name = "high")
-    private do
+    private double high;
+
+    @Column(name = "low")
+    private double low;
+
+    @Column(name = "close")
+    private double close;
+
+    @Column(name = "volume")
+    private int volume;
+
+
+    public double getOpen() {
+    
