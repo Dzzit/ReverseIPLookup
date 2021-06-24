@@ -26,4 +26,16 @@ import org.influxdb.annotation.Measurement;
 
 
     public double getOpen() {
-    
+        return open;
+    }
+
+    public double getHigh() {
+        return high;
+    }
+
+    public double getLow() {
+        return low;
+    }
+
+    public double getClose() {
+        return c
