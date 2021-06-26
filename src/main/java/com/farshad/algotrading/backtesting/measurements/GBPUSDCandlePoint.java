@@ -6,4 +6,17 @@ import org.influxdb.annotation.Column;
 import org.influxdb.annotation.Measurement;
 
 @Measurement(name = "GBPUSD")
-public class GBPUSDCandlePoint extends TimeSeriesPo
+public class GBPUSDCandlePoint extends TimeSeriesPoint {
+
+
+    @Column(name = "open")
+    private double open;
+
+    @Column(name = "high")
+    private double high;
+
+    @Column(name = "low")
+    private double low;
+
+    @Column(name = "close")
+    priva
