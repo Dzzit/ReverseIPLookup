@@ -38,4 +38,13 @@ import org.influxdb.annotation.Measurement;
     }
 
     public double getClose() {
-        return c
+        return close;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+}
+
+
+
