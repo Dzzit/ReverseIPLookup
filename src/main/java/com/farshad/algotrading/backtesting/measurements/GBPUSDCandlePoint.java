@@ -19,4 +19,16 @@ public class GBPUSDCandlePoint extends TimeSeriesPoint {
     private double low;
 
     @Column(name = "close")
-    priva
+    private double close;
+
+    @Column(name = "volume")
+    private int volume;
+
+
+    public double getOpen() {
+        return open;
+    }
+
+    public double getHigh() {
+        return high;
+  
