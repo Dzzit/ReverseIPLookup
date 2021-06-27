@@ -31,4 +31,21 @@ public class GBPUSDCandlePoint extends TimeSeriesPoint {
 
     public double getHigh() {
         return high;
-  
+    }
+
+    public double getLow() {
+        return low;
+    }
+
+    public double getClose() {
+        return close;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+}
+
+
+
+
