@@ -16,4 +16,7 @@ public class PercentOfChange extends TimeSeriesPoint {
         return percent;
     }
 
-    public void setPercent(double
+    public void setPercent(double percent) {
+        this.percent = percent;
+    }
+}
