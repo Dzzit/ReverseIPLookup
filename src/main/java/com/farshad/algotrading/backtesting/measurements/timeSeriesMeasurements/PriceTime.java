@@ -36,3 +36,6 @@ public class PriceTime extends TimeSeriesPoint {
     }
 
     public void setPrice(double price) {
+        this.price = price;
+    }
+}
