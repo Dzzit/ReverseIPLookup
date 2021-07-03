@@ -23,4 +23,16 @@ public class PriceTime extends TimeSeriesPoint {
 
     @Override
     public Instant getTime() {
-        return time
+        return time;
+    }
+
+    @Override
+    public void setTime(Instant time) {
+        this.time = time;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
