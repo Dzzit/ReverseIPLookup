@@ -13,4 +13,14 @@ public class PriceTime extends TimeSeriesPoint {
     @Column(name = "price")
     private double price;
 
-    privat
+    private Instant time;
+
+
+    public PriceTime(double price,Instant time) {
+        this.time = time;
+        this.price = price;
+    }
+
+    @Override
+    public Instant getTime() {
+        return time
