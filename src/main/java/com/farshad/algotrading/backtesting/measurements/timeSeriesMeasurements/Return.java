@@ -4,4 +4,11 @@ import org.influxdb.annotation.Column;
 import org.influxdb.annotation.Measurement;
 
 
-@Measu
+@Measurement(name = "EURUSDReturn")
+public class Return extends TimeSeriesPoint{
+
+    @Column(name = "returnValue")
+    private double returnValue;
+
+    public double getReturnValue() {
+       
