@@ -41,3 +41,50 @@ public class ATS {
         int d=0;
         while((m+h)<priceTimeList.size()) {
             b[m] =  priceTimeList.get(m).getTime();
+            c[m] = priceTimeList.get(m).getPrice();
+                    for (int i = m; i < m + h; i++) {
+                        b[i + 1] = priceTimeList.get(i + 1).getTime();
+                        c[i + 1] = priceTimeList.get(i + 1).getPrice();
+                        slope = (c[i + 1] - c[m]);
+
+                        if ((Math.signum(slope) == r)) {
+                            logger.info("slope=" + slope);
+                            d = i+1;
+                        }else if(Math.signum(slope) != r){
+                            d = i+1;
+                            logger.info("break at d="+d);
+                            break;
+                        }
+                    }
+            if(d!=(m+h)) {
+             //   if((d-m)>1){
+                    priceChangeList.add(new PriceTime(c[m], b[m]));
+                    r = r * (-1);
+             //   }
+            }
+
+            m = d;
+            logger.debug("m="+m+",r="+r);
+        }
+        //add last point to cover data
+        priceChangeList.add(priceTimeList.get(priceTimeList.size()-1));
+    }
+
+
+
+
+
+
+
+    public List<PriceTime> getPriceChangeList() {
+        logger.debug("priceChangeList.size()="+priceChangeList.size());
+        logger.debug("priceTimeList.size()="+priceTimeList.size());
+        priceTimeList.stream().forEach(priceTime -> {
+            logger.debug("price="+priceTime.getPrice()+" ,time="+priceTime.getTime());
+        });
+        priceChangeList.stream().forEach(priceTime -> {
+            logger.debug("price="+priceTime.getPrice()+" time:"+priceTime.getTime() );
+        });
+        return priceChangeList;
+    }
+}
