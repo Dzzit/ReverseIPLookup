@@ -11,4 +11,10 @@ public class Return extends TimeSeriesPoint{
     private double returnValue;
 
     public double getReturnValue() {
-       
+        return returnValue;
+    }
+
+    public void setReturnValue(double returnValue) {
+        this.returnValue = returnValue;
+    }
+}
