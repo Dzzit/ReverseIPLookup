@@ -11,4 +11,13 @@ import java.time.temporal.ChronoUnit;
 
 /**
  * @author farshad noravesh
- * @since 
+ * @since version 1.0.0
+ */
+public class Comparison {
+
+    final static Logger logger= Logger.getLogger(Comparison.class);
+
+
+    private long difference;
+
+    public int compareTwoTimes(String time1, String time2)
