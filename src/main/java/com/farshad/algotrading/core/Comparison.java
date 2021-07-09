@@ -20,4 +20,7 @@ public class Comparison {
 
     private long difference;
 
-    public int compareTwoTimes(String time1, String time2)
+    public int compareTwoTimes(String time1, String time2){
+
+        TimeParser timeParser1=new TimeParser(time1);
+        LocalDateTime ldt1 = LocalDateTime.of(timeParser1.getYear(), Month.of(timeParser1.getMonth()), timeParser1.getDates(), timeParser1.g
