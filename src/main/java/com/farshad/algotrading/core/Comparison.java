@@ -27,4 +27,7 @@ public class Comparison {
         ZonedDateTime tehranDateTime1 ;
         tehranDateTime1=ldt1.atZone(ZoneId.of("Asia/Tehran"));
         logger.info("time1="+time1);
-        l
+        logger.info("Tehran Date Time1="+tehranDateTime1);
+
+        TimeParser timeParser2=new TimeParser(time2);
+        LocalDateTime ldt2 = LocalDateTime.of(timeParser2.getYear(), Month.of
