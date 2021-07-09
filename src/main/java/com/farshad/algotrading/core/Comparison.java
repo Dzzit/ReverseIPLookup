@@ -23,4 +23,8 @@ public class Comparison {
     public int compareTwoTimes(String time1, String time2){
 
         TimeParser timeParser1=new TimeParser(time1);
-        LocalDateTime ldt1 = LocalDateTime.of(timeParser1.getYear(), Month.of(timeParser1.getMonth()), timeParser1.getDates(), timeParser1.g
+        LocalDateTime ldt1 = LocalDateTime.of(timeParser1.getYear(), Month.of(timeParser1.getMonth()), timeParser1.getDates(), timeParser1.getHour(), timeParser1.getMinute());
+        ZonedDateTime tehranDateTime1 ;
+        tehranDateTime1=ldt1.atZone(ZoneId.of("Asia/Tehran"));
+        logger.info("time1="+time1);
+        l
