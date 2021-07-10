@@ -44,3 +44,13 @@ public class Comparison {
         difference=zonedDateTimeDifference(ZonedDateTime.parse(time1),ZonedDateTime.parse(time2),ChronoUnit.MINUTES);
         return ZonedDateTime.parse(time1).toInstant().compareTo(ZonedDateTime.parse(time2).toInstant());
 
+    }
+
+
+    static long zonedDateTimeDifference(ZonedDateTime d1, ZonedDateTime d2, ChronoUnit unit){
+        return unit.between(d2, d1);
+    }
+
+
+    public long getDifference() {
+        return difference;
