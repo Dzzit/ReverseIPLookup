@@ -36,4 +36,9 @@ public class Comparison {
         logger.info("time2="+time2);
         logger.info("Tehran Date Time2="+tehranDateTime2);
         difference=zonedDateTimeDifference(tehranDateTime1,tehranDateTime2,ChronoUnit.MINUTES);
-      
+        return tehranDateTime1.toInstant().compareTo(tehranDateTime2.toInstant());
+    }
+
+
+    public int compareTwoTimesWithFormat(String time1, String time2) {
+        difference=zonedDate
