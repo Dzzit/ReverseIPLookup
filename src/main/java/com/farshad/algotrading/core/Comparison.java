@@ -41,4 +41,6 @@ public class Comparison {
 
 
     public int compareTwoTimesWithFormat(String time1, String time2) {
-        difference=zonedDate
+        difference=zonedDateTimeDifference(ZonedDateTime.parse(time1),ZonedDateTime.parse(time2),ChronoUnit.MINUTES);
+        return ZonedDateTime.parse(time1).toInstant().compareTo(ZonedDateTime.parse(time2).toInstant());
+
