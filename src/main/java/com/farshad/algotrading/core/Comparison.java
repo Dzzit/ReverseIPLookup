@@ -33,4 +33,7 @@ public class Comparison {
         LocalDateTime ldt2 = LocalDateTime.of(timeParser2.getYear(), Month.of(timeParser2.getMonth()), timeParser2.getDates(), timeParser2.getHour(), timeParser2.getMinute());
         ZonedDateTime tehranDateTime2 ;
         tehranDateTime2=ldt2.atZone(ZoneId.of("Asia/Tehran"));
-        logg
+        logger.info("time2="+time2);
+        logger.info("Tehran Date Time2="+tehranDateTime2);
+        difference=zonedDateTimeDifference(tehranDateTime1,tehranDateTime2,ChronoUnit.MINUTES);
+      
