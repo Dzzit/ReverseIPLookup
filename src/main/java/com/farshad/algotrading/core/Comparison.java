@@ -54,3 +54,5 @@ public class Comparison {
 
     public long getDifference() {
         return difference;
+    }
+}
