@@ -9,4 +9,6 @@ public class ParabolicSarExitRule extends OpenFinDeskExitRule {
     @Override
     public void applyExitRule() {
         int lastIndex=series.getBarCount()-1;
-         ParabolicSarIndicator parabolicSarIndicator=new ParabolicSarIndicator(ser
+         ParabolicSarIndicator parabolicSarIndicator=new ParabolicSarIndicator(series);
+        getOpenFinDeskOrder().setPrice(series.getBar(lastIndex).getClosePrice().doubleValue());
+        getOpenFinDeskOrder().setStopLoss(parabolicSarIndicator.getValue(series.g
