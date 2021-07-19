@@ -15,4 +15,9 @@ public class ParabolicSarExitRule extends OpenFinDeskExitRule {
         if(getOpenFinDeskOrder().getOrderType().equals("openBuy")){
             getOpenFinDeskOrder().setTakeProfit(round(series.getBar(lastIndex).getClosePrice().doubleValue()+0.0015,5));
          }else if(getOpenFinDeskOrder().getOrderType().equals("openSell")){
-             getOpenFinDeskOrder().setTakeProfit(round(series.getBar(lastInde
+             getOpenFinDeskOrder().setTakeProfit(round(series.getBar(lastIndex).getClosePrice().doubleValue()-0.0015,5));
+        }
+
+    }
+
+}
