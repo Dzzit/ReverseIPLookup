@@ -19,4 +19,10 @@ public class QuantizedTpAndSlExitRule extends OpenFinDeskExitRule {
         logger.info("orderType="+ getOpenFinDeskOrder().getOrderType());
         getOpenFinDeskOrder().setPrice(price);
         logger.info("strategy="+getOpenFinDeskOrder().getStrategyName());
-        logger.info("action="+ getOpenFinDeskOrder().getActi
+        logger.info("action="+ getOpenFinDeskOrder().getAction());
+        setQuantizedExitRuleAction(getOpenFinDeskOrder().getAction());
+        logger.info("quantizedExitRuleAction="+quantizedExitRuleAction);
+
+
+
+        switch(quant
