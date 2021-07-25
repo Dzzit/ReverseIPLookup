@@ -25,4 +25,11 @@ public class QuantizedTpAndSlExitRule extends OpenFinDeskExitRule {
 
 
 
-        switch(quant
+        switch(quantizedExitRuleAction) {
+
+            case "buyUsingScalping":
+                getOpenFinDeskOrder().setStopLoss(0.005);
+                getOpenFinDeskOrder().setTakeProfit(round(0.0004,5));
+                break;
+
+ 
