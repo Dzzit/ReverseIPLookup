@@ -16,4 +16,7 @@ public class QuantizedTpAndSlExitRule extends OpenFinDeskExitRule {
         double price=0.5*(series.getBar(lastIndex).getClosePrice().doubleValue()+series.getBar(lastIndex).getOpenPrice().doubleValue());
         logger.info("symbol="+ getOpenFinDeskOrder().getSymbol());
         logger.info("price="+price);
-        logger.info("orderType="+ getOpenF
+        logger.info("orderType="+ getOpenFinDeskOrder().getOrderType());
+        getOpenFinDeskOrder().setPrice(price);
+        logger.info("strategy="+getOpenFinDeskOrder().getStrategyName());
+        logger.info("action="+ getOpenFinDeskOrder().getActi
