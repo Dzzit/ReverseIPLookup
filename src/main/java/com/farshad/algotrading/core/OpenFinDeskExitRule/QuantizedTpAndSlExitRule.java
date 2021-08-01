@@ -42,4 +42,8 @@ public class QuantizedTpAndSlExitRule extends OpenFinDeskExitRule {
                 break;
             case "buyUsingThirdQuantizedLevel":
                 getOpenFinDeskOrder().setStopLoss(0.01);
-                getOpenFinDeskOrder().setTakePro
+                getOpenFinDeskOrder().setTakeProfit(round(0.0025,5));
+                break;
+            case "sellUsingFirstQuantizedLevel":
+                getOpenFinDeskOrder().setStopLoss(0.005);
+                getOpenFinDeskO
