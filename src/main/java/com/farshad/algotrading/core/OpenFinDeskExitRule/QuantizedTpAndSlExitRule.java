@@ -69,4 +69,6 @@ public class QuantizedTpAndSlExitRule extends OpenFinDeskExitRule {
 
 
     private void setQuantizedExitRuleAction(String quantizedExitRuleAction) {
-        this.quantizedEx
+        this.quantizedExitRuleAction = quantizedExitRuleAction;
+    }
+}
