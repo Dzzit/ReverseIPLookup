@@ -151,3 +151,140 @@ public class Symbol<T extends OpenFinDeskStore> {
 
     public TimeSeries[] getSeries(){
         return series;
+    }
+
+
+    public T getOpenFinDeskStore() {
+        return openFinDeskStore;
+    }
+
+
+    private void findLatestTimeDownloaded(int whichTimeFrame) throws IOException {
+            latestTimeDownloaded=openFinDeskStore.findLatestTimeDownloaded(symbolName,timeFrames[whichTimeFrame]);
+    }
+
+    private void convertZoneDateTimeInStringToNormalFormat(String zoneDateTimeInString) {
+        String newDateWithDash=zoneDateTimeInString.split("T")[0];
+        String[] newDateArray=newDateWithDash.split("-");
+        latestTimeDownloaded=newDateArray[0]+"."+newDateArray[1]+"."+newDateArray[2]+" "+zoneDateTimeInString.split("T")[1];
+        latestTimeDownloaded=latestTimeDownloaded.split("Z")[0];
+        logger.debug("latestTimeDownloaded="+latestTimeDownloaded);
+    }
+
+    private void findMissedTimes(int whichTimeFrame){
+        //System.out.println("openFinDeskStore.getClass().getCanonicalName()="+openFinDeskStore.getClass().getCanonicalName());
+        if(openFinDeskStore.getClass().getCanonicalName().equals("com.farshad.algotrading.core.openFinDeskStore.influxdb.InfluxDB")){
+            String zoneDateTimeInString=latestTimeDownloaded;
+            logger.debug("zoneDateTimeInString="+zoneDateTimeInString);
+            convertZoneDateTimeInStringToNormalFormat(zoneDateTimeInString);
+        }else if(openFinDeskStore.getClass().getCanonicalName().equals("com.farshad.algotrading.core.openFinDeskStore.csv.CSV")) {
+            logger.debug("no need to convert");
+        }
+             oldDate = latestTimeDownloaded.split(" ")[0];
+            logger.debug("old date=" + oldDate);
+             oldTime = latestTimeDownloaded.split(" ")[1];
+            logger.debug("old time=" + oldTime);
+            newDate = latestTimeFromMarket[whichTimeFrame].split(" ")[0];
+                logger.debug("new date=" + newDate);
+                newTime = latestTimeFromMarket[whichTimeFrame].split(" ")[1];
+               logger.debug("new time=" + newTime);
+
+
+            numberOfMissedMonth = Integer.parseInt(newDate.split(Pattern.quote("."))[1].replaceAll("^[0]+", "")) -
+                    Integer.parseInt(oldDate.split(Pattern.quote("."))[1].replaceAll("^[0]+", ""));
+            logger.debug("numberOfMissedMonth=" + numberOfMissedMonth);
+
+
+            numberOfMissedDates = Integer.parseInt(newDate.split(Pattern.quote("."))[2].replaceAll("^[0]+", "")) -
+                    Integer.parseInt(oldDate.split(Pattern.quote("."))[2].replaceAll("^[0]+", ""));
+            logger.debug("numberOfMissedDates=" + numberOfMissedDates);
+             if (Integer.parseInt(newTime.split(":")[1]) >= Integer.parseInt(oldTime.split(":")[1])) {
+
+                    numberOfMissedHours = Integer.parseInt(newTime.split(":")[0]) -
+                            Integer.parseInt(oldTime.split(":")[0]) + numberOfMissedDates * 24;
+                    numberOfMissedMinutes = 60 * numberOfMissedHours + Integer.parseInt(newTime.split(":")[1]) -
+                            Integer.parseInt(oldTime.split(":")[1]);
+                } else {
+                    numberOfMissedHours = numberOfMissedDates * 24;
+                    if (numberOfMissedHours > 0) {
+                        numberOfMissedMinutes = 60 * numberOfMissedHours - (Integer.parseInt(oldTime.split(":")[1]) -
+                                Integer.parseInt(newTime.split(":")[1]));
+
+                    } else {
+                        numberOfMissedMinutes = 60 - Integer.parseInt(oldTime.split(":")[1]) + Integer.parseInt(newTime.split(":")[1]);
+
+                    }
+
+                }
+            logger.debug("numberOfMissedHours=" + numberOfMissedHours);
+            logger.debug("numberOfMissedMinutes=" + numberOfMissedMinutes);
+    }
+
+
+
+
+
+    private void findLatestMarketData(int  whichTimeFrame) throws IOException {
+        List<OHLCData> ohlcDataList=new ArrayList<>();
+        SocketUtil socketUtil=new SocketUtil(ss,client);
+        String message="fetchCandles"+","+symbolName+","+timeFrames[whichTimeFrame]+","+0+","+1;
+        try {
+            socketUtil.sendMessage(message);
+        } catch (InterruptedException e) {
+            logger.error("error in symbol,message:"+e.getMessage());
+            e.printStackTrace();
+        }
+        ohlcDataList=socketUtil.getOhlcDataList();
+        latestTimeFromMarket[whichTimeFrame]=ohlcDataList.get(0).getTime();
+    }
+
+    public String getLatestTimeFromMarket(int whichTimeFrame) {
+        return latestTimeFromMarket[whichTimeFrame];
+    }
+
+    public void setLatestTimeFromMarket(int whichTimeFrame,String latestTimeFromMarket) {
+        this.latestTimeFromMarket[whichTimeFrame] = latestTimeFromMarket;
+    }
+
+
+    public ServerSocket getSs() {
+        return ss;
+    }
+
+
+    public SocketUtil getSocketUtil() {
+        return socketUtil;
+    }
+
+    public void closeSocket() throws IOException {
+        ss.close();
+    }
+
+    public String getSymbolName() {
+        return symbolName;
+    }
+
+    public void show(int whichTimeFrame) {
+        Num firstClosePrice = series[whichTimeFrame].getBar(0).getClosePrice();
+        Num secondClosePrice = series[whichTimeFrame].getBar(1).getClosePrice();
+        logger.debug("first close time:"+series[whichTimeFrame].getBar(0).getEndTime());
+        logger.debug(firstClosePrice.isEqual(secondClosePrice)); // equal to firstClosePrice
+        logger.debug("First close price: " + firstClosePrice.doubleValue());
+        logger.debug("Second close price: " + secondClosePrice.doubleValue());
+    }
+
+    public void setTicketNumbers(OpenFinDeskMessage findAllTicketNumbersMessage) {
+        positionManager.updatePositions(findAllTicketNumbersMessage.getPayload());
+        actionPerformer.setNumberOfOpenOrders(positionManager.getNumberOfOpenPositions());
+    }
+
+    public String stringifyOrder(OpenFinDeskOrder openFinDeskOrder) {
+        return  actionPerformer.stringifyOrder(positionManager.filterOrder(openFinDeskOrder));
+    }
+
+    public void setReward(double reward) {
+        this.reward=reward;
+    }
+
+
+}
