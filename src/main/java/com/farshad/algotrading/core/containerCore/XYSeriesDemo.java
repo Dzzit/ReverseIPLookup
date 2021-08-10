@@ -10,4 +10,14 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 public class XYSeriesDemo extends ApplicationFrame {
 
-    public XYSeries series = new XYSeries(
+    public XYSeries series = new XYSeries("Q action value");
+
+
+
+
+    public XYSeriesDemo(final String title) {
+        super(title);
+/*
+        series.add(1.0,500.2);
+        series.add(5.0,694.1);
+        series.add(4.0,100.0
