@@ -20,4 +20,10 @@ public class XYSeriesDemo extends ApplicationFrame {
 /*
         series.add(1.0,500.2);
         series.add(5.0,694.1);
-        series.add(4.0,100.0
+        series.add(4.0,100.0);
+        series.add(12.5,734.4);
+        series.add(17.3,453.2);
+        series.add(21.2,500.2);
+        series.add(21.9,320);
+        series.add(25.6,734.4);
+        serie
