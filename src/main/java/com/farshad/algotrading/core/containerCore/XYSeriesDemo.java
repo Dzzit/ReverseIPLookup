@@ -34,4 +34,11 @@ public class XYSeriesDemo extends ApplicationFrame {
     public void plotNow(){
         final XYSeriesCollection data = new XYSeriesCollection(series);
         final JFreeChart chart = ChartFactory.createXYLineChart(
-       
+                "Reinforcement Learning Results",
+                "iteration",
+                "Q",
+                data,
+                PlotOrientation.VERTICAL,
+                true,
+                true,
+ 
