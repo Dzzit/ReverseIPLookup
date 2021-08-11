@@ -41,4 +41,9 @@ public class XYSeriesDemo extends ApplicationFrame {
                 PlotOrientation.VERTICAL,
                 true,
                 true,
- 
+                false
+        );
+
+        final ChartPanel chartPanel = new ChartPanel(chart);
+        chartPanel.setPreferredSize(new java.awt.Dimension(500,270));
+        setContentPane(char
