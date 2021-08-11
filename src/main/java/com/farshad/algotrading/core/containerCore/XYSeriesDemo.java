@@ -26,4 +26,12 @@ public class XYSeriesDemo extends ApplicationFrame {
         series.add(21.2,500.2);
         series.add(21.9,320);
         series.add(25.6,734.4);
-        serie
+        series.add(30.0,453.2);
+  */
+
+    }
+
+    public void plotNow(){
+        final XYSeriesCollection data = new XYSeriesCollection(series);
+        final JFreeChart chart = ChartFactory.createXYLineChart(
+       
