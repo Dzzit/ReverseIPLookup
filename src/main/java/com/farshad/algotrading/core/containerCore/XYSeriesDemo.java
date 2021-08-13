@@ -46,4 +46,8 @@ public class XYSeriesDemo extends ApplicationFrame {
 
         final ChartPanel chartPanel = new ChartPanel(chart);
         chartPanel.setPreferredSize(new java.awt.Dimension(500,270));
-        setContentPane(char
+        setContentPane(chartPanel);
+    }
+
+
+}
