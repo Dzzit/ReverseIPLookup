@@ -10,4 +10,7 @@ public class Fibonacci {
 
     final static Logger logger= Logger.getLogger(Fibonacci.class);
 
-    private List<Double> internalRetracementLevels=new ArrayLis
+    private List<Double> internalRetracementLevels=new ArrayList<>();
+    private List<Double> externalRetracementLevels=new ArrayList<>();
+    private List<Double> extensionLevels=new ArrayList<>();
+    private List<Double> projectionLevels=new Array
