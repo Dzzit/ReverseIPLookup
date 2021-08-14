@@ -18,4 +18,12 @@ public class Fibonacci {
 
     private List<Double> quantizedInternalRetracementList=new ArrayList<>();
     private List<Double> quantizedExternalRetracementList=new ArrayList<>();
-    private List<Double> quantizedExtensio
+    private List<Double> quantizedExtensionList=new ArrayList<>();
+    private List<Double> quantizedProjectionList=new ArrayList<>();
+
+
+    private double strength;
+
+    public Fibonacci() {
+        internalRetracementLevels.add(0.382);
+        in
