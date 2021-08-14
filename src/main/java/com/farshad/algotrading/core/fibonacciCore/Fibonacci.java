@@ -13,4 +13,9 @@ public class Fibonacci {
     private List<Double> internalRetracementLevels=new ArrayList<>();
     private List<Double> externalRetracementLevels=new ArrayList<>();
     private List<Double> extensionLevels=new ArrayList<>();
-    private List<Double> projectionLevels=new Array
+    private List<Double> projectionLevels=new ArrayList<>();
+
+
+    private List<Double> quantizedInternalRetracementList=new ArrayList<>();
+    private List<Double> quantizedExternalRetracementList=new ArrayList<>();
+    private List<Double> quantizedExtensio
