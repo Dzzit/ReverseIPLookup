@@ -26,4 +26,9 @@ public class Fibonacci {
 
     public Fibonacci() {
         internalRetracementLevels.add(0.382);
-        in
+        internalRetracementLevels.add(0.5);
+        internalRetracementLevels.add(0.618);
+
+        externalRetracementLevels.add(1.272);
+        externalRetracementLevels.add(1.618);
+        externalRetracemen
