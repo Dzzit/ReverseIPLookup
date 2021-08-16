@@ -31,4 +31,15 @@ public class Fibonacci {
 
         externalRetracementLevels.add(1.272);
         externalRetracementLevels.add(1.618);
-        externalRetracemen
+        externalRetracementLevels.add(2.618);
+
+        extensionLevels.add(1.272);
+        extensionLevels.add(1.618);
+
+        projectionLevels.add((double) 1);
+        projectionLevels.add(1.618);
+    }
+
+
+
+    
