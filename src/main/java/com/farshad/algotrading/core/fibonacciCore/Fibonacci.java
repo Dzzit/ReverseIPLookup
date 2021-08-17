@@ -49,4 +49,8 @@ public class Fibonacci {
     private String   typeOfGlobalRegime;
 
     public void addWaves(List<Wave> waveList){
-        this.trendList=new
+        this.trendList=new ArrayList<>();
+        this.waveList=waveList;
+        logger.info("waveList.size()="+waveList.size());
+        for(int i=0;i<waveList.size();i++){
+            trendList.add(waveList.get(i).getFirstTren
