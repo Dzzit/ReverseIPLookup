@@ -42,4 +42,11 @@ public class Fibonacci {
 
 
 
-    
+    private List<Wave> waveList;
+
+    private List<Trend> trendList;
+
+    private String   typeOfGlobalRegime;
+
+    public void addWaves(List<Wave> waveList){
+        this.trendList=new
