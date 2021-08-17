@@ -53,4 +53,11 @@ public class Fibonacci {
         this.waveList=waveList;
         logger.info("waveList.size()="+waveList.size());
         for(int i=0;i<waveList.size();i++){
-            trendList.add(waveList.get(i).getFirstTren
+            trendList.add(waveList.get(i).getFirstTrend());
+            trendList.add(waveList.get(i).getSecondTrend());
+        }
+    }
+
+    public void addTrend(Trend trend){
+        trendList.add(trend);
+        logger.info("trendLis
