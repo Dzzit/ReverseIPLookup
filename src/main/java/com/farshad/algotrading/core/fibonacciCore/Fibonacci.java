@@ -60,4 +60,10 @@ public class Fibonacci {
 
     public void addTrend(Trend trend){
         trendList.add(trend);
-        logger.info("trendLis
+        logger.info("trendList.size()="+trendList.size());
+     }
+
+    public void calculateTypeOfGlobalRegime() {
+        typeOfGlobalRegime="ranging";
+        boolean waveIsIncreasing=false;
+        boolean waveIsDecr
