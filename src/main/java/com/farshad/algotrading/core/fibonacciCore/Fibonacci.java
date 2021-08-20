@@ -71,4 +71,11 @@ public class Fibonacci {
         if (waveList.size()==0){
             String trendType=trendList.get(0).getTrendType();
             if(trendType.equals("upward")){
-                typeO
+                typeOfGlobalRegime="increasing";
+            }else if(trendType.equals("downward")){
+                typeOfGlobalRegime="decreasing";
+            }
+            return;
+        }
+
+        if (waveList.
