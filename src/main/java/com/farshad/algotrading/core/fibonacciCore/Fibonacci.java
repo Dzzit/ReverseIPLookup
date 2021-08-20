@@ -66,4 +66,9 @@ public class Fibonacci {
     public void calculateTypeOfGlobalRegime() {
         typeOfGlobalRegime="ranging";
         boolean waveIsIncreasing=false;
-        boolean waveIsDecr
+        boolean waveIsDecreasing=false;
+
+        if (waveList.size()==0){
+            String trendType=trendList.get(0).getTrendType();
+            if(trendType.equals("upward")){
+                typeO
