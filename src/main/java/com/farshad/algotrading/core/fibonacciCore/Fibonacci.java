@@ -92,4 +92,14 @@ public class Fibonacci {
         }
 
         if (waveIsIncreasing){
-            typeOfGlobalRegime="incre
+            typeOfGlobalRegime="increasing";
+        }else if(waveIsDecreasing){
+            typeOfGlobalRegime="decreasing";
+        }else{
+            typeOfGlobalRegime="ranging";
+        }
+
+     }
+
+
+    public void calculateI
