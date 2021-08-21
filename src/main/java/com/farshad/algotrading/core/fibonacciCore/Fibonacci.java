@@ -88,3 +88,8 @@ public class Fibonacci {
 
         for(int i=1;i<waveList.size();i++){
             waveIsIncreasing=waveList.get(i).getTypeOfWave().equals("increasing")&&waveIsIncreasing;
+            waveIsDecreasing=waveList.get(i).getTypeOfWave().equals("decreasing")&&waveIsDecreasing;
+        }
+
+        if (waveIsIncreasing){
+            typeOfGlobalRegime="incre
