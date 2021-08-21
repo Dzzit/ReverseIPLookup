@@ -81,4 +81,10 @@ public class Fibonacci {
         if (waveList.get(0).getTypeOfWave().equals("increasing")){
             waveIsIncreasing=true;
         }else if (waveList.get(0).getTypeOfWave().equals("decreasing")){
-  
+            waveIsDecreasing=true;
+        }else{
+            return;
+        }
+
+        for(int i=1;i<waveList.size();i++){
+            waveIsIncreasing=waveList.get(i).getTypeOfWave().equals("increasing")&&waveIsIncreasing;
