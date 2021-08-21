@@ -102,4 +102,9 @@ public class Fibonacci {
      }
 
 
-    public void calculateI
+    public void calculateInternalRetracement() {
+        double differenceForTrend1=0;
+        double differenceForTrend2=0;
+        double actualRatio=0;
+        for(int i=0;i<waveList.size();i++){
+            diffe
