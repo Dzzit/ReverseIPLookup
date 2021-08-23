@@ -107,4 +107,5 @@ public class Fibonacci {
         double differenceForTrend2=0;
         double actualRatio=0;
         for(int i=0;i<waveList.size();i++){
-            diffe
+            differenceForTrend1=Math.abs(waveList.get(i).getFirstTrend().getPriceTimePoints().get(0).getPrice()-waveList.get(i).getFirstTrend().getPriceTimePoints().get(1).getPrice());
+            differe
