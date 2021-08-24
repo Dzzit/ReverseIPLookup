@@ -112,4 +112,6 @@ public class Fibonacci {
             logger.debug("differenceForTrend1="+differenceForTrend1);
             logger.debug("differenceForTrend2="+differenceForTrend2);
             actualRatio=differenceForTrend2/differenceForTrend1;
-            if(actualRatio<
+            if(actualRatio<1){
+                quantizedInternalRetracementList.add(quantized(actualRatio,internalRetracementLevels));
+                logger.info("actualRatio at wave: "+i+"  = "+actualRatio
