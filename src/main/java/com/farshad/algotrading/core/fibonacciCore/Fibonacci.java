@@ -109,4 +109,7 @@ public class Fibonacci {
         for(int i=0;i<waveList.size();i++){
             differenceForTrend1=Math.abs(waveList.get(i).getFirstTrend().getPriceTimePoints().get(0).getPrice()-waveList.get(i).getFirstTrend().getPriceTimePoints().get(1).getPrice());
             differenceForTrend2=Math.abs(waveList.get(i).getSecondTrend().getPriceTimePoints().get(1).getPrice()-waveList.get(i).getSecondTrend().getPriceTimePoints().get(0).getPrice());
-            l
+            logger.debug("differenceForTrend1="+differenceForTrend1);
+            logger.debug("differenceForTrend2="+differenceForTrend2);
+            actualRatio=differenceForTrend2/differenceForTrend1;
+            if(actualRatio<
