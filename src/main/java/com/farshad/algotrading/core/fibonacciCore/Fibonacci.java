@@ -122,4 +122,13 @@ public class Fibonacci {
     private double quantized(double actualRatio,List<Double> levels) {
         List<Double> diff=new ArrayList<>();
         levels.stream().forEach(ret->diff.add(Math.abs(ret-actualRatio)));
-        return levels.get(diff.indexOf(Collections
+        return levels.get(diff.indexOf(Collections.min(diff)));
+    }
+
+
+    public String getTypeOfGlobalRegime() {
+        return typeOfGlobalRegime;
+    }
+
+    public void calculateGlobalStrength() {
+        if (waveList.size()==0)
