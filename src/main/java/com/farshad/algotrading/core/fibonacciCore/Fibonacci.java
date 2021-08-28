@@ -119,4 +119,7 @@ public class Fibonacci {
         }
     }
 
-    private double quantized(double actualRatio,List<Double>
+    private double quantized(double actualRatio,List<Double> levels) {
+        List<Double> diff=new ArrayList<>();
+        levels.stream().forEach(ret->diff.add(Math.abs(ret-actualRatio)));
+        return levels.get(diff.indexOf(Collections
