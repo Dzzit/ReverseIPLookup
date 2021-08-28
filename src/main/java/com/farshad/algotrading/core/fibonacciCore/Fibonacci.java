@@ -114,4 +114,9 @@ public class Fibonacci {
             actualRatio=differenceForTrend2/differenceForTrend1;
             if(actualRatio<1){
                 quantizedInternalRetracementList.add(quantized(actualRatio,internalRetracementLevels));
-                logger.info("actualRatio at wave: "+i+"  = "+actualRatio
+                logger.info("actualRatio at wave: "+i+"  = "+actualRatio+" ,quantizedRatio for internalRetracementLevels="+quantized(actualRatio,internalRetracementLevels));
+            }
+        }
+    }
+
+    private double quantized(double actualRatio,List<Double>
