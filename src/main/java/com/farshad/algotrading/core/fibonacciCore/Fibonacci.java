@@ -131,4 +131,12 @@ public class Fibonacci {
     }
 
     public void calculateGlobalStrength() {
-        if (waveList.size()==0)
+        if (waveList.size()==0) {
+            //strength is a monotonic function of slope.
+            strength=Math.abs(trendList.get(0).getSlope());
+            return;
+        }
+
+
+        double[] weights=new double[waveList.size()];
+        weights
