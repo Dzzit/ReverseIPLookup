@@ -147,4 +147,10 @@ public class Fibonacci {
         double numerator=0;
         double denumerator=0;
 
-        if (quantizedInternalRet
+        if (quantizedInternalRetracementList.size()!=waveList.size()){
+            logger.debug("found an external retracement or a ranging condition!");
+            strength=0.000001;
+            return;
+        }
+
+ 
