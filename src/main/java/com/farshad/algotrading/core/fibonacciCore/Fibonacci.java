@@ -153,4 +153,6 @@ public class Fibonacci {
             return;
         }
 
- 
+        for(int i=0;i<weights.length;i++){
+            numerator=numerator+weights[i]*internalRetracementLevels.get(0);
+            denumerator=denumerator+weights[i]*quantizedInternalRetracementL
