@@ -139,4 +139,12 @@ public class Fibonacci {
 
 
         double[] weights=new double[waveList.size()];
-        weights
+        weights[0]=10;
+
+         for(int i=1;i<waveList.size();i++){
+             weights[i]=2*weights[i-1];
+         }
+        double numerator=0;
+        double denumerator=0;
+
+        if (quantizedInternalRet
