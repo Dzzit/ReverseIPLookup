@@ -155,4 +155,8 @@ public class Fibonacci {
 
         for(int i=0;i<weights.length;i++){
             numerator=numerator+weights[i]*internalRetracementLevels.get(0);
-            denumerator=denumerator+weights[i]*quantizedInternalRetracementL
+            denumerator=denumerator+weights[i]*quantizedInternalRetracementList.get(i);
+        }
+        quantizedInternalRetracementList.stream().forEach(ret-> System.out.print(ret.doubleValue()));
+        strength=numerator/denumerator;
+        logger.info("strength="+s
