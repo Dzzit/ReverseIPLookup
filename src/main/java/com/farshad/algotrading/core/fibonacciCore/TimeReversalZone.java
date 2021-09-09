@@ -6,3 +6,14 @@ public class TimeReversalZone {
 
     public double getLowerTime() {
         return lowerTime;
+    }
+
+    public void setLowerTime(double lowerTime) {
+        this.lowerTime = lowerTime;
+    }
+
+    public double getUpperTime() {
+        return upperTime;
+    }
+
+    public void 
