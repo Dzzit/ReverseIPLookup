@@ -159,4 +159,10 @@ public class Fibonacci {
         }
         quantizedInternalRetracementList.stream().forEach(ret-> System.out.print(ret.doubleValue()));
         strength=numerator/denumerator;
-        logger.info("strength="+s
+        logger.info("strength="+strength);
+     }
+
+    public double getStrength() {
+        return strength;
+    }
+}
