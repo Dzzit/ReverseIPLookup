@@ -16,4 +16,7 @@ public class TimeReversalZone {
         return upperTime;
     }
 
-    public void 
+    public void setUpperTime(double upperTime) {
+        this.upperTime = upperTime;
+    }
+}
