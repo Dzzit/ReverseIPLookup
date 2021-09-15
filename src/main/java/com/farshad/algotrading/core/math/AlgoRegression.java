@@ -23,4 +23,10 @@ public class AlgoRegression {
         /*
         regression.addData(1.1,2.2);
         regression.addData(2,4.2);
-        regression.addData(3.1,
+        regression.addData(3.1,5.95);
+         */
+        intercept=regression.getIntercept();
+        slope=regression.getSlope();
+        logger.info("intercept="+intercept);
+        logger.info("slope="+slope);
+        logger.info("regres
