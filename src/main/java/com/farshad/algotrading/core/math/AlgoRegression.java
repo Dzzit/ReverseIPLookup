@@ -17,4 +17,10 @@ public class AlgoRegression {
     public void comparePairs(List<Double> asset1, List<Double> asset2){
 
         SimpleRegression regression = new SimpleRegression();
-        
+        for(int i=0;i<asset1.size();i++){
+           regression.addData(asset1.get(i),asset2.get(i));
+        }
+        /*
+        regression.addData(1.1,2.2);
+        regression.addData(2,4.2);
+        regression.addData(3.1,
