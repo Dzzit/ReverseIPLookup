@@ -11,4 +11,10 @@ public class AlgoRegression {
 
 
     private double slope;
-   
+    private double intercept;
+
+
+    public void comparePairs(List<Double> asset1, List<Double> asset2){
+
+        SimpleRegression regression = new SimpleRegression();
+        
