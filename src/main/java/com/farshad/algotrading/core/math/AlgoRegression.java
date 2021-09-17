@@ -29,4 +29,14 @@ public class AlgoRegression {
         slope=regression.getSlope();
         logger.info("intercept="+intercept);
         logger.info("slope="+slope);
-        logger.info("regres
+        logger.info("regression.getSumSquaredErrors()="+regression.getSumSquaredErrors());
+
+    }
+
+    public double estimator(double atPoint){
+        return slope*atPoint+intercept;
+    }
+
+
+    public double getSlope(){
+     
