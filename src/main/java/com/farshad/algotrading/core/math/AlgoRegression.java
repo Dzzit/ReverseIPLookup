@@ -39,4 +39,10 @@ public class AlgoRegression {
 
 
     public double getSlope(){
-     
+          return slope;
+    }
+
+    public double getIntercept() {
+        return intercept;
+    }
+}
