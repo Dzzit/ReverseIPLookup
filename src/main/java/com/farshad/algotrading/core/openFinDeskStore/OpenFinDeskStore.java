@@ -10,4 +10,10 @@ public abstract class OpenFinDeskStore {
 
     public abstract void fetchCandlesFromMT5AndWriteItToOpenFinDeskStore(String symbolName,String timeFrame,int numberOfRequiredCandles,int count);
 
-    public abstract TimeSeries getSeries(String symbolName,String timeFrame,int numberOfLinesTore
+    public abstract TimeSeries getSeries(String symbolName,String timeFrame,int numberOfLinesToread);
+
+    public abstract String findLatestTimeDownloaded(String symbolName,String timeFrame);
+
+
+
+}
