@@ -116,3 +116,73 @@ public class CSV extends OpenFinDeskStore {
 
     @Override
     public String findLatestTimeDownloaded(String symbolName,String timeFrame) {
+        String directory="csv";
+        File idea=new File(directory,symbolName+"-"+timeFrame+".csv");
+        String fileName="/"+idea.getPath();
+        csvReader.setFileName(fileName);
+          int numberOfLines=0;
+
+        try {
+            numberOfLines=csvReader.getLines();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        //System.out.println("number Of Lines="+numberOfLines);
+
+        String[] strings= new String[0];
+        try {
+            strings = csvReader.readRow(1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        List<String> stringList= Arrays.asList(strings);
+        String latestTimeDownloaded=stringList.get(0).trim();
+        logger.debug("latest time downloaded is:"+latestTimeDownloaded);
+        return  latestTimeDownloaded;
+    }
+
+    public TimeSeries getSeries(String symbolName,String timeFrame,int numberOfLinesToread) {
+        String directory="csv";
+        File idea=new File(directory,symbolName+"-"+timeFrame+".csv");
+        String fileName="/"+idea.getPath();
+        csvReader.setFileName(fileName);
+
+        // System.out.println("number Of Lines in "+fileName+"="+numberOfLines);
+
+        TimeSeries series = new BaseTimeSeries.SeriesBuilder().withName(symbolName).build();
+        String[] strings=null;
+
+        //System.out.println("numberOfLinesToread="+numberOfLinesToread);
+        for(int i=numberOfLinesToread;i>0;i--){
+            try {
+                strings=csvReader.readRow(i);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            List<String> stringList= Arrays.asList(strings);
+            TimeParser timeParser=new TimeParser(stringList.get(0));
+            LocalDateTime ldt = LocalDateTime.of(timeParser.getYear(), Month.of(timeParser.getMonth()), timeParser.getDates(), timeParser.getHour(), timeParser.getMinute());
+            ZonedDateTime tehranDateTime ;
+            tehranDateTime=ldt.atZone(ZoneId.of("Asia/Tehran"));
+            series.addBar(tehranDateTime,
+                    Double.valueOf(stringList.get(1)),
+                    Double.valueOf(stringList.get(2)),
+                    Double.valueOf(stringList.get(3)),
+                    Double.valueOf(stringList.get(4)) ,
+                    Double.valueOf(stringList.get(5)));
+        }
+        try {
+            csvReader.closeReader();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return series;
+    }
+
+
+
+    public SocketUtil getSocketUtil() {
+        return socketUtil;
+    }
+
+}
