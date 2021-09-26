@@ -14,4 +14,13 @@ public class OHLCData {
         return symbol;
     }
 
- 
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+   
