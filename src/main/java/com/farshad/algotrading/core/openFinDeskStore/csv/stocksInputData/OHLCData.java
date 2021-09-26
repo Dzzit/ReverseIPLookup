@@ -35,3 +35,15 @@ public class OHLCData {
     }
 
     public String getHigh() {
+        return high;
+    }
+
+    public void setHigh(String high) {
+        this.high = high;
+    }
+
+    public String getLow() {
+        return low;
+    }
+
+    public 
