@@ -46,4 +46,16 @@ public class OHLCData {
         return low;
     }
 
-    public 
+    public void setLow(String low) {
+        this.low = low;
+    }
+
+    public String getClose() {
+        return close;
+    }
+
+    public void setClose(String close) {
+        this.close = close;
+    }
+
+    public String ge
