@@ -23,4 +23,15 @@ public class OHLCData {
     }
 
     public void setTime(String time) {
-   
+        this.time = time;
+    }
+
+    public String getOpen() {
+        return open;
+    }
+
+    public void setOpen(String open) {
+        this.open = open;
+    }
+
+    public String getHigh() {
