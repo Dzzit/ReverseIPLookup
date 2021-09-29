@@ -58,4 +58,11 @@ public class OHLCData {
         this.close = close;
     }
 
-    public String ge
+    public String getTick_volume() {
+        return tick_volume;
+    }
+
+    public void setTick_volume(String tick_volume) {
+        this.tick_volume = tick_volume;
+    }
+}
