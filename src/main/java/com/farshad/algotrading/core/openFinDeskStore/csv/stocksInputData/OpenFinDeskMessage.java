@@ -7,4 +7,15 @@ public class OpenFinDeskMessage {
     private String payload;
 
     public String getContext() {
-        return co
+        return context;
+    }
+
+    public String getPayload() {
+        return payload;
+    }
+
+    public void setContext(String context) {
+        this.context = context;
+    }
+
+    public void setPayload(String 
