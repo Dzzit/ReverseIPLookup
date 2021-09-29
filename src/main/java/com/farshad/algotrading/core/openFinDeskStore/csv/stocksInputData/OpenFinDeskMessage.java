@@ -18,4 +18,12 @@ public class OpenFinDeskMessage {
         this.context = context;
     }
 
-    public void setPayload(String 
+    public void setPayload(String payload) {
+        this.payload = payload;
+    }
+
+    public OpenFinDeskMessage() {
+        this.context = "noContext";
+        this.payload = "noPayload";
+    }
+}
