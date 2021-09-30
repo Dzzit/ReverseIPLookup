@@ -7,4 +7,12 @@ import java.io.*;
 
 public class CSVReader {
 
-    private Buffere
+    private BufferedReader csvReader;
+    private BufferedReader csvReader2;
+
+    private int lines;
+
+    private String absolutePath;
+
+     public void setFileName(String fileName){
+         String
