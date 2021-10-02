@@ -15,4 +15,8 @@ public class CSVReader {
     private String absolutePath;
 
      public void setFileName(String fileName){
-         String
+         String filePath = new File("").getAbsolutePath();
+         absolutePath=filePath+fileName;
+         try {
+             csvReader = new BufferedReader(new FileReader(absolutePath));
+         } catch (FileNotFoun
