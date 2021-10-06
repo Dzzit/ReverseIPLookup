@@ -19,4 +19,12 @@ public class CSVReader {
          absolutePath=filePath+fileName;
          try {
              csvReader = new BufferedReader(new FileReader(absolutePath));
-         } catch (FileNotFoun
+         } catch (FileNotFoundException e) {
+             e.printStackTrace();
+         }
+     }
+
+    public int getLines() throws IOException {
+
+        try {
+            csvReader2 = new BufferedReader(new FileReade
