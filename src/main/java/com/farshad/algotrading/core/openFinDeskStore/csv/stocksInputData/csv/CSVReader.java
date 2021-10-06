@@ -43,4 +43,12 @@ public class CSVReader {
         csvReader = new BufferedReader(new FileReader(absolutePath));
 
         String row=null;
- 
+        for(int i=0;i<lineNumber;i++){
+            row = csvReader.readLine();
+        }
+
+        String[] data=null;
+        if(row!=null){
+            data = row.split(",");
+        }else{
+      
