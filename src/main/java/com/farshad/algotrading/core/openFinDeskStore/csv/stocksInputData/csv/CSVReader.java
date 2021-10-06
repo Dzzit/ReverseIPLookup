@@ -33,4 +33,14 @@ public class CSVReader {
         }
         lines = 0;
         while (csvReader2.readLine() != null) {
-            line
+            lines++;
+        }
+
+        return lines;
+    }
+
+    public String[] readRow(int lineNumber) throws IOException {
+        csvReader = new BufferedReader(new FileReader(absolutePath));
+
+        String row=null;
+ 
