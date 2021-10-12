@@ -51,4 +51,13 @@ public class CSVReader {
         if(row!=null){
             data = row.split(",");
         }else{
-      
+            System.out.println("data is null in csvreader");
+        }
+
+        csvReader.close();
+        return data;
+    }
+
+    public String[] readRow() throws IOException {
+
+        
