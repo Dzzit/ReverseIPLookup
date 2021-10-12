@@ -60,4 +60,14 @@ public class CSVReader {
 
     public String[] readRow() throws IOException {
 
-        
+        String row1=csvReader.readLine();
+        String[] data = row1.split(",");
+        for (String d:data
+        ) {
+          //  System.out.println("d="+d);
+        }
+
+        return data;
+    }
+
+    pu
