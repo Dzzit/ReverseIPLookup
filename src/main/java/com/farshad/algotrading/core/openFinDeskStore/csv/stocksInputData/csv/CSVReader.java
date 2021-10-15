@@ -70,4 +70,10 @@ public class CSVReader {
         return data;
     }
 
-    pu
+    public void closeReader() throws IOException {
+        csvReader.close();
+
+    }
+
+
+}
