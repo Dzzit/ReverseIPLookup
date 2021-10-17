@@ -10,4 +10,12 @@ import java.util.List;
 
 public class CSVWriter {
 
-    private static Logger LOGGER= Logg
+    private static Logger LOGGER= Logger.getLogger(CSVWriter.class);
+    private FileWriter csvWriter;
+    private File file;
+
+
+    public void setFile(File file){
+        this.file=file;
+        if (file.exists()){
+           
