@@ -24,3 +24,10 @@ public class CSVWriter {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    public void writeHeader(List<String> row) throws IOException {
+            //empty the file
+            PrintWriter writer = new PrintWriter(file);
+            writer.prin
