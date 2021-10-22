@@ -18,4 +18,9 @@ public class CSVWriter {
     public void setFile(File file){
         this.file=file;
         if (file.exists()){
-           
+            LOGGER.info("file exists!");
+            try {
+                csvWriter=new FileWriter(file, true);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
