@@ -30,4 +30,9 @@ public class CSVWriter {
     public void writeHeader(List<String> row) throws IOException {
             //empty the file
             PrintWriter writer = new PrintWriter(file);
-            writer.prin
+            writer.print("");
+            writer.close();
+            csvWriter = new FileWriter(file,true);
+            csvWriter.append(String.join(",",  row));
+            csvWriter.append("\n");
+    
