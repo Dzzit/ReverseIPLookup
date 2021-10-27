@@ -35,4 +35,10 @@ public class CSVWriter {
             csvWriter = new FileWriter(file,true);
             csvWriter.append(String.join(",",  row));
             csvWriter.append("\n");
-    
+            csvWriter.flush();
+    }
+
+    public void writeRow(List<String> row) throws IOException {
+        csvWriter.append(String.join(",", row));
+        csvWriter.append("\n");
+        csvWriter.flush(
