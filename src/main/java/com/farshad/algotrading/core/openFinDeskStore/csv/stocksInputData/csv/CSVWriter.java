@@ -41,4 +41,14 @@ public class CSVWriter {
     public void writeRow(List<String> row) throws IOException {
         csvWriter.append(String.join(",", row));
         csvWriter.append("\n");
-        csvWriter.flush(
+        csvWriter.flush();
+    }
+
+
+
+    public void writeOnTop(List<String> row) throws IOException {
+
+        //Read old Data
+        CSVReader csvReader=new CSVReader();
+        csvReader.setFileName("/csv/"+file.getName());
+        String[]
