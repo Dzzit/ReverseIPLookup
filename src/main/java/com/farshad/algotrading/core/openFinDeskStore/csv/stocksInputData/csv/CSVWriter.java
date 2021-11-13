@@ -51,4 +51,9 @@ public class CSVWriter {
         //Read old Data
         CSVReader csvReader=new CSVReader();
         csvReader.setFileName("/csv/"+file.getName());
-        String[]
+        String[] strings;
+        List<List<String>> listList=new ArrayList<>();
+        List<String> stringList=new ArrayList<>();
+        int numberOfLines=csvReader.getLines();
+
+            for (int i = 0;
