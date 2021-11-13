@@ -59,4 +59,12 @@ public class CSVWriter {
             for (int i = 0; i < numberOfLines; i++) {
                 strings = csvReader.readRow(numberOfLines-i);
                 stringList = Arrays.asList(strings);
-                list
+                listList.add(stringList);
+            }
+          csvReader.closeReader();
+        //empty the file
+        PrintWriter writer = new PrintWriter(file);
+        writer.print("");
+        writer.close();
+
+   
