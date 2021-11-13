@@ -56,4 +56,7 @@ public class CSVWriter {
         List<String> stringList=new ArrayList<>();
         int numberOfLines=csvReader.getLines();
 
-            for (int i = 0;
+            for (int i = 0; i < numberOfLines; i++) {
+                strings = csvReader.readRow(numberOfLines-i);
+                stringList = Arrays.asList(strings);
+                list
