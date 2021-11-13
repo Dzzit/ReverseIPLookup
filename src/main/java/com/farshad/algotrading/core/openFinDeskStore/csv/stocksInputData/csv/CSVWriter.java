@@ -67,4 +67,9 @@ public class CSVWriter {
         writer.print("");
         writer.close();
 
-   
+        writeRow(row);
+
+        //append old data
+        for(int i=0;i<numberOfLines;i++){
+           // csvWriter = new FileWriter(file,true);
+            csvWriter.append(String.join(",", listList.get(numberOfLines-i-1))
