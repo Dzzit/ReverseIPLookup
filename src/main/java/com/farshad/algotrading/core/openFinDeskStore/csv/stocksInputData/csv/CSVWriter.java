@@ -85,4 +85,9 @@ public class CSVWriter {
         csvWriter.flush();
    }
 
-    public void closeS
+    public void closeStream() throws IOException {
+        csvWriter.close();
+    }
+
+}
+
