@@ -132,3 +132,56 @@ public class InfluxDB extends OpenFinDeskStore {
             candlePointListEURAUD=influxDbManager.executeSomeQuery(query, EURAUDCandlePoint.class);
             for(int i=numberOfLinesToread-1;i>=0;i--){
                 series.addBar(ZonedDateTime.ofInstant(candlePointListEURAUD.get(i).getTime(),ZoneId.of("UTC")),
+                        Double.valueOf(candlePointListEURAUD.get(i).getOpen()),
+                        Double.valueOf(candlePointListEURAUD.get(i).getHigh()),
+                        Double.valueOf(candlePointListEURAUD.get(i).getLow()),
+                        Double.valueOf(candlePointListEURAUD.get(i).getClose()) ,
+                        Double.valueOf(candlePointListEURAUD.get(i).getVolume()));
+            }
+        }
+
+         logger.debug("query in getSeries="+query+" ,and timeFrame="+timeFrame);
+        influxDbManager.close();
+       return series;
+    }
+
+    @Override
+    public String findLatestTimeDownloaded(String symbolName,String timeFrame) {
+        String latestTimeDownloaded="";
+        InfluxDbManager influxDbManager=null;
+        if(symbolName.equals("EURUSD")) {
+             influxDbManager = new InfluxDbManager<EURUSDCandlePoint>(timeFrame, symbolName);
+            String query = "SELECT time,last(close) FROM " + influxDbManager.getMeasurement();
+            List<EURUSDCandlePoint> candlePointList = influxDbManager.executeSomeQuery(query, EURUSDCandlePoint.class);
+            int size = candlePointList.size();
+            logger.debug("latest time downloaded:" + candlePointList.get(size - 1).getTime());
+            latestTimeDownloaded=String.valueOf(candlePointList.get(size-1).getTime().atZone(ZoneId.of("UTC")));
+        }else if(symbolName.equals("AUDUSD")) {
+            influxDbManager = new InfluxDbManager<AUDUSDCandlePoint>(timeFrame, symbolName);
+            String query = "SELECT time,last(close) FROM " + influxDbManager.getMeasurement();
+            List<AUDUSDCandlePoint> candlePointList = influxDbManager.executeSomeQuery(query, AUDUSDCandlePoint.class);
+            int size = candlePointList.size();
+            logger.debug("latest time downloaded:" + candlePointList.get(size - 1).getTime());
+            latestTimeDownloaded=String.valueOf(candlePointList.get(size-1).getTime().atZone(ZoneId.of("UTC")));
+        }else if(symbolName.equals("GBPUSD")) {
+            influxDbManager = new InfluxDbManager<GBPUSDCandlePoint>(timeFrame, symbolName);
+            String query = "SELECT time,last(close) FROM " + influxDbManager.getMeasurement();
+            List<GBPUSDCandlePoint> candlePointList = influxDbManager.executeSomeQuery(query, GBPUSDCandlePoint.class);
+            int size = candlePointList.size();
+            logger.debug("latest time downloaded:" + candlePointList.get(size - 1).getTime());
+            latestTimeDownloaded=String.valueOf(candlePointList.get(size-1).getTime().atZone(ZoneId.of("UTC")));
+        }else if(symbolName.equals("EURAUD")) {
+            influxDbManager = new InfluxDbManager<EURAUDCandlePoint>(timeFrame, symbolName);
+            String query = "SELECT time,last(close) FROM " + influxDbManager.getMeasurement();
+            List<EURAUDCandlePoint> candlePointList = influxDbManager.executeSomeQuery(query, EURAUDCandlePoint.class);
+            int size = candlePointList.size();
+            logger.debug("latest time downloaded:" + candlePointList.get(size - 1).getTime());
+            latestTimeDownloaded=String.valueOf(candlePointList.get(size-1).getTime().atZone(ZoneId.of("UTC")));
+        }
+        influxDbManager.close();
+
+        return latestTimeDownloaded;
+    }
+
+
+}
