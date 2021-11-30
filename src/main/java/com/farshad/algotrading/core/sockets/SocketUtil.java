@@ -12,4 +12,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
-import java.ne
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
+
+public class SocketUtil {
+
+    final static Logger logger= Logger.getLogger(SocketUtil.class);
+
+
+    private Socket client;
+
+    priva
