@@ -29,4 +29,15 @@ public class SocketUtil {
 
     private OHLCData ohlcData=new OHLCData();
 
-    private List<OHLCData> ohlcDataList=new ArrayList<>
+    private List<OHLCData> ohlcDataList=new ArrayList<>();
+
+    PrintWriter out;
+
+    public SocketUtil(ServerSocket ss,Socket client)
+    {
+        this.ss = ss;
+        this.client=client;
+
+    }
+
+    public void setOpenFinDeskMe
