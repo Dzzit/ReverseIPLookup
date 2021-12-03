@@ -23,4 +23,10 @@ public class SocketUtil {
 
     private Socket client;
 
-    priva
+    private ServerSocket ss;
+
+    private OpenFinDeskMessage openFinDeskMessage=new OpenFinDeskMessage();
+
+    private OHLCData ohlcData=new OHLCData();
+
+    private List<OHLCData> ohlcDataList=new ArrayList<>
