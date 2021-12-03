@@ -40,4 +40,9 @@ public class SocketUtil {
 
     }
 
-    public void setOpenFinDeskMe
+    public void setOpenFinDeskMessage(String context ,String payload) {
+        this.openFinDeskMessage.setContext(context);
+        this.openFinDeskMessage.setPayload(payload);
+    }
+
+    public OpenFinDeskMessage sendMessage(String message) thro
