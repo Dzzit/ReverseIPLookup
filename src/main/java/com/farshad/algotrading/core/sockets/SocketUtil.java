@@ -45,4 +45,8 @@ public class SocketUtil {
         this.openFinDeskMessage.setPayload(payload);
     }
 
-    public OpenFinDeskMessage sendMessage(String message) thro
+    public OpenFinDeskMessage sendMessage(String message) throws IOException, InterruptedException {
+        openFinDeskMessage=new OpenFinDeskMessage();
+        int numberOfLoops=2;
+        if (message.split(",")[0].equals("fetchCandles")){
+            numberOfLo
