@@ -49,4 +49,12 @@ public class SocketUtil {
         openFinDeskMessage=new OpenFinDeskMessage();
         int numberOfLoops=2;
         if (message.split(",")[0].equals("fetchCandles")){
-            numberOfLo
+            numberOfLoops= Integer.parseInt(message.split(",")[4])+1;
+        }else{
+            numberOfLoops=2;
+        }
+
+
+        outerloop:
+        for (int i=0;i<numberOfLoops;i++) {
+            client 
