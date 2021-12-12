@@ -60,4 +60,8 @@ public class SocketUtil {
             client = ss.accept(); // blocking call, this will wait until a connection is attempted on this port.
             String clientAddress = client.getInetAddress().getHostAddress();
             logger.log(LiveTradingLogLevel.SOCKETUTIL,"\r\nNew connection from i="+i+" is:" + clientAddress+" using SocketUtil");
-            BufferedReader in = new BufferedRe
+            BufferedReader in = new BufferedReader(
+                    new InputStreamReader(client.getInputStream()));
+            Gson gson = new Gson();
+            String data = "";
+            while ((data = in.readLine()) != n
