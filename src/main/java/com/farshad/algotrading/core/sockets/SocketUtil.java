@@ -57,4 +57,6 @@ public class SocketUtil {
 
         outerloop:
         for (int i=0;i<numberOfLoops;i++) {
-            client 
+            client = ss.accept(); // blocking call, this will wait until a connection is attempted on this port.
+            String clientAddress = client.getInetAddress().getHostAddress();
+    
