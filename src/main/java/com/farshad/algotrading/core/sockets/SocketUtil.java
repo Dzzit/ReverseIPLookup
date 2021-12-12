@@ -59,4 +59,5 @@ public class SocketUtil {
         for (int i=0;i<numberOfLoops;i++) {
             client = ss.accept(); // blocking call, this will wait until a connection is attempted on this port.
             String clientAddress = client.getInetAddress().getHostAddress();
-    
+            logger.log(LiveTradingLogLevel.SOCKETUTIL,"\r\nNew connection from i="+i+" is:" + clientAddress+" using SocketUtil");
+            BufferedReader in = new BufferedRe
