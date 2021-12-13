@@ -64,4 +64,9 @@ public class SocketUtil {
                     new InputStreamReader(client.getInputStream()));
             Gson gson = new Gson();
             String data = "";
-            while ((data = in.readLine()) != n
+            while ((data = in.readLine()) != null) {
+                Thread.sleep(100);
+                String delimiter = "\\}";
+                String[] sepString = data.split(delimiter);
+                String clean = sepString[0] + "}";
+    
