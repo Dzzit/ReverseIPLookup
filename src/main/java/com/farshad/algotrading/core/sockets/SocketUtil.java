@@ -72,4 +72,5 @@ public class SocketUtil {
                 logger.debug("clean="+clean);
                 if (clean!=null) {
                     openFinDeskMessage = gson.fromJson(clean, OpenFinDeskMessage.class);
-                    logger.info
+                    logger.info("openFinDeskMessage.getContext() for message " + message + " is:" + openFinDeskMessage.getContext());
+                    logger.info("openFinDeskMessage.getPayload() for message " + message + 
