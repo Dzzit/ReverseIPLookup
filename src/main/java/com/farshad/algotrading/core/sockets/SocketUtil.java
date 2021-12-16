@@ -69,4 +69,7 @@ public class SocketUtil {
                 String delimiter = "\\}";
                 String[] sepString = data.split(delimiter);
                 String clean = sepString[0] + "}";
-    
+                logger.debug("clean="+clean);
+                if (clean!=null) {
+                    openFinDeskMessage = gson.fromJson(clean, OpenFinDeskMessage.class);
+                    logger.info
