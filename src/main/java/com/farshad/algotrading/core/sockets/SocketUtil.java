@@ -87,4 +87,11 @@ public class SocketUtil {
 
             if (!(openFinDeskMessage.getContext().equals("noContext"))
                     || message.split(",")[0].equals("e2")||
-                   
+                    message.split(",")[0].equals("e1")
+            ){
+                logger.warn("message has already been sent!");
+                break outerloop;
+            }
+
+
+            out = new PrintW
