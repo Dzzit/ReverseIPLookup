@@ -78,4 +78,9 @@ public class SocketUtil {
                     if(!openFinDeskMessage.getContext().equals("noContext")){
                         break outerloop;
                     }else{
-                        oh
+                        ohlcData = gson.fromJson(clean, OHLCData.class);
+                        ohlcDataList.add(ohlcData);
+                    }
+                }
+            }
+            logger.debug("sending to client f
