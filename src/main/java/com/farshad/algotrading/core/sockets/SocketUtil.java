@@ -83,4 +83,8 @@ public class SocketUtil {
                     }
                 }
             }
-            logger.debug("sending to client f
+            logger.debug("sending to client from SocketUtil message:"+message);
+
+            if (!(openFinDeskMessage.getContext().equals("noContext"))
+                    || message.split(",")[0].equals("e2")||
+                   
