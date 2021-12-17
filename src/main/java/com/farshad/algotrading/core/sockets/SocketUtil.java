@@ -73,4 +73,9 @@ public class SocketUtil {
                 if (clean!=null) {
                     openFinDeskMessage = gson.fromJson(clean, OpenFinDeskMessage.class);
                     logger.info("openFinDeskMessage.getContext() for message " + message + " is:" + openFinDeskMessage.getContext());
-                    logger.info("openFinDeskMessage.getPayload() for message " + message + 
+                    logger.info("openFinDeskMessage.getPayload() for message " + message + " is:" + openFinDeskMessage.getPayload());
+
+                    if(!openFinDeskMessage.getContext().equals("noContext")){
+                        break outerloop;
+                    }else{
+                        oh
