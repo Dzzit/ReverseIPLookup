@@ -108,4 +108,9 @@ public class SocketUtil {
     }
 
 
-    public List<OHLC
+    public List<OHLCData> getOhlcDataList() {
+        return ohlcDataList;
+    }
+
+
+}
