@@ -94,4 +94,18 @@ public class SocketUtil {
             }
 
 
-            out = new PrintW
+            out = new PrintWriter(client.getOutputStream(), true);
+            out.println(message);
+
+
+
+
+            client.close();
+        }
+        client.close();
+        return openFinDeskMessage;
+
+    }
+
+
+    public List<OHLC
