@@ -10,4 +10,10 @@ import java.util.List;
  * @since version 1.0.0
  */
 public class Trend {
-    final static Logger logger= Logger
+    final static Logger logger= Logger.getLogger(TrendGenerator.class);
+
+     private String trendType;      //upward or downward
+
+     private List<PriceTime> priceTimePoints;
+
+    public Trend(String trendType, List<PriceTime> priceTimePoints) 
