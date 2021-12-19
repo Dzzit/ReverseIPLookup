@@ -19,4 +19,12 @@ public class Trend {
     public Trend(String trendType, List<PriceTime> priceTimePoints) {
         this.trendType = trendType;
         this.priceTimePoints = priceTimePoints;
-        logger.info("adding trend:"+trendType+" ,price1:"+priceTimePoints.get(0).getPrice()
+        logger.info("adding trend:"+trendType+" ,price1:"+priceTimePoints.get(0).getPrice()+" ,price2:"+priceTimePoints.get(1).getPrice());
+    }
+
+    public String getTrendType() {
+        return trendType;
+    }
+
+    public List<PriceTime> getPriceTimePoints() {
+        re
