@@ -27,4 +27,9 @@ public class Trend {
     }
 
     public List<PriceTime> getPriceTimePoints() {
-        re
+        return priceTimePoints;
+    }
+
+    public double getSlope() {
+        double priceDifference=priceTimePoints.get(1).getPrice()-priceTimePoints.get(0).getPrice();
+        double timeDifference=(priceTimePoin
