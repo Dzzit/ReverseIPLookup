@@ -34,4 +34,7 @@ public class Trend {
         double priceDifference=priceTimePoints.get(1).getPrice()-priceTimePoints.get(0).getPrice();
         double timeDifference=(priceTimePoints.get(1).getTime().getEpochSecond()-priceTimePoints.get(0).getTime().getEpochSecond());
         double slope=priceDifference/timeDifference;
-        logger.info("slope of trend i
+        logger.info("slope of trend is:"+slope);
+        return slope;
+    }
+}
