@@ -7,4 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TrendGenerator {
-    final static Logger logger= Logger.getLogger(TrendGenerator.clas
+    final static Logger logger= Logger.getLogger(TrendGenerator.class);
+
+    private int startingIndex;
+    private List<PriceTime> priceTimeChangePointList;
+
+    private List<Trend> trendList=new ArrayList<>();
+
+
+    public TrendGenerator(List<PriceTime> pri
