@@ -21,4 +21,9 @@ public class TrendGenerator {
 
     public List<Trend> generate(){
         priceTimeChangePointList.stream().forEach(priceTime -> {
-           
+            logger.info("priceTimeChangePointList:"+priceTime.getPrice()+" ,"+priceTime.getTime());
+        });
+
+        double difference=0;
+
+        for(int i=0;i<priceTimeChangePointList.size()-1;
