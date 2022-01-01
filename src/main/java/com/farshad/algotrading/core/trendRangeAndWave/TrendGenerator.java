@@ -15,4 +15,10 @@ public class TrendGenerator {
     private List<Trend> trendList=new ArrayList<>();
 
 
-    public TrendGenerator(List<PriceTime> pri
+    public TrendGenerator(List<PriceTime> priceTimeChangePointList) {
+       this.priceTimeChangePointList=priceTimeChangePointList;
+    }
+
+    public List<Trend> generate(){
+        priceTimeChangePointList.stream().forEach(priceTime -> {
+           
