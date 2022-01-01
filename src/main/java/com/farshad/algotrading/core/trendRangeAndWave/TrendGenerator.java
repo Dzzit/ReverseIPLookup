@@ -30,4 +30,8 @@ public class TrendGenerator {
             List<PriceTime> priceTimes=new ArrayList<>();
 
             PriceTime currentPriceTime=priceTimeChangePointList.get(i);
-            PriceTime nextPriceTime=priceTimeChan
+            PriceTime nextPriceTime=priceTimeChangePointList.get(i+1);
+            priceTimes.add(currentPriceTime);
+            priceTimes.add(nextPriceTime);
+            difference=nextPriceTime.getPrice()-currentPriceTime.getPrice();
+        
