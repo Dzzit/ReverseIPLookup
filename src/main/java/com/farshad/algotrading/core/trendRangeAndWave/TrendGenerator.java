@@ -38,4 +38,13 @@ public class TrendGenerator {
                 Trend trend=new Trend("upward",priceTimes);
                 trendList.add(trend);
             }else if((difference<0)&&(nextPriceTime.getTime().getEpochSecond()>currentPriceTime.getTime().getEpochSecond())){
-                Trend trend=new Trend("downward",price
+                Trend trend=new Trend("downward",priceTimes);
+                trendList.add(trend);
+            }
+
+        }
+
+        startingIndex=0;
+
+        if (trendList.size()!=1) {
+            if (trendList.get(0).getTrendType().equa
