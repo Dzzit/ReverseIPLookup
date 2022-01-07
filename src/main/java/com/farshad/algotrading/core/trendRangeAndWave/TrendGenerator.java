@@ -50,3 +50,7 @@ public class TrendGenerator {
             if (trendList.get(0).getTrendType().equals("downward")) {
                 if (trendList.get(1).getPriceTimePoints().get(1).getPrice() > trendList.get(0).getPriceTimePoints().get(0).getPrice()) {
                     startingIndex = 1;
+                }
+            } else {
+                //upward
+                if (trendList.get(0).getPriceTimePoints().get(0).getPrice() > trendList.get(1).getPriceTimePoints().get(1).getPrice()
