@@ -53,4 +53,12 @@ public class TrendGenerator {
                 }
             } else {
                 //upward
-                if (trendList.get(0).getPriceTimePoints().get(0).getPrice() > trendList.get(1).getPriceTimePoints().get(1).getPrice()
+                if (trendList.get(0).getPriceTimePoints().get(0).getPrice() > trendList.get(1).getPriceTimePoints().get(1).getPrice()) {
+                    startingIndex = 1;
+                }
+            }
+        }
+
+        trendList.stream().forEach(trend -> {
+            logger.info("trend.getTrendType()="+trend.getTrendType());
+    
