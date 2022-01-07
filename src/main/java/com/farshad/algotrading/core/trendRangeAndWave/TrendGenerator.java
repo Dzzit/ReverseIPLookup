@@ -47,4 +47,6 @@ public class TrendGenerator {
         startingIndex=0;
 
         if (trendList.size()!=1) {
-            if (trendList.get(0).getTrendType().equa
+            if (trendList.get(0).getTrendType().equals("downward")) {
+                if (trendList.get(1).getPriceTimePoints().get(1).getPrice() > trendList.get(0).getPriceTimePoints().get(0).getPrice()) {
+                    startingIndex = 1;
