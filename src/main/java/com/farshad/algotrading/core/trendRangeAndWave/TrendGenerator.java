@@ -61,4 +61,8 @@ public class TrendGenerator {
 
         trendList.stream().forEach(trend -> {
             logger.info("trend.getTrendType()="+trend.getTrendType());
-    
+            logger.info("trend.point1="+trend.getPriceTimePoints().get(0).getPrice());
+            logger.info("trend.point2="+trend.getPriceTimePoints().get(1).getPrice());
+
+        });
+        retu
