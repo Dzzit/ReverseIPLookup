@@ -186,3 +186,6 @@ public class StrategyContainerHandler {
     }
 
     public void setNumberOfContainers(int numberOfContainers) {
+        this.numberOfContainers = numberOfContainers;
+    }
+}
