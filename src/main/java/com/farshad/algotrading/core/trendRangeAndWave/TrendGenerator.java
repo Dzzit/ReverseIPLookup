@@ -65,4 +65,11 @@ public class TrendGenerator {
             logger.info("trend.point2="+trend.getPriceTimePoints().get(1).getPrice());
 
         });
-        retu
+        return trendList;
+    }
+
+
+    public int getStartingIndex() {
+        return startingIndex;
+    }
+}
