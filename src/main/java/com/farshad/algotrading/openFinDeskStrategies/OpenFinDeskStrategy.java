@@ -15,4 +15,14 @@ public abstract class OpenFinDeskStrategy {
 
     public TimeSeries series;
 
-    public abstract Callable<OpenFinDeskOrder> define() th
+    public abstract Callable<OpenFinDeskOrder> define() throws IOException;
+
+    public OpenFinDeskStrategy() {
+    }
+
+    public void start(){
+    }
+
+      public TimeSeries setSeries(TimeSeries series) {
+        this.series=series;
+          return 
