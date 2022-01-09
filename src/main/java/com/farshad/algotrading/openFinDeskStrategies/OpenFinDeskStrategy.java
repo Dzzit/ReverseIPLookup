@@ -25,4 +25,9 @@ public abstract class OpenFinDeskStrategy {
 
       public TimeSeries setSeries(TimeSeries series) {
         this.series=series;
-          return 
+          return series;
+      }
+
+
+
+}
