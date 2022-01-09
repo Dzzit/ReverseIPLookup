@@ -7,4 +7,12 @@ import java.io.IOException;
 import java.util.concurrent.Callable;
 
 /**
- * @author fa
+ * @author farshad noravesh
+ * @since version 1.0.0
+ */
+public abstract class OpenFinDeskStrategy {
+
+
+    public TimeSeries series;
+
+    public abstract Callable<OpenFinDeskOrder> define() th
