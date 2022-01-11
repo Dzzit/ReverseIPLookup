@@ -7,4 +7,9 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.util.concurrent.Callable;
 
-public class EngulfingPatternStrategy  extends Op
+public class EngulfingPatternStrategy  extends OpenFinDeskStrategy {
+    final static Logger logger= Logger.getLogger(EngulfingPatternStrategy.class);
+
+    @Override
+    public Callable<OpenFinDeskOrder> define() throws IOException {
+       
