@@ -12,4 +12,7 @@ public class EngulfingPatternStrategy  extends OpenFinDeskStrategy {
 
     @Override
     public Callable<OpenFinDeskOrder> define() throws IOException {
-       
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
+        openFinDeskOrder.setSymbol(series.getName());
+        openFinDeskOrder.setStrategyName("EngulfingPatternStrategy");
+     
