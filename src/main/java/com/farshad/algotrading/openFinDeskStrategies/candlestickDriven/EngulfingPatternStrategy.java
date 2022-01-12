@@ -21,4 +21,6 @@ public class EngulfingPatternStrategy  extends OpenFinDeskStrategy {
         double currentBarOpenPrice=series.getBar(index-2).getOpenPrice().doubleValue();
         double nextBarOpenPrice=series.getBar(index-1).getOpenPrice().doubleValue();
 
-        double previousBarClosePrice=series.get
+        double previousBarClosePrice=series.getBar(index-3).getClosePrice().doubleValue();
+        double currentBarClosePrice=series.getBar(index-2).getClosePrice().doubleValue();
+        double nextBarClosePrice=series.getBar(index-1).getClose
