@@ -27,4 +27,7 @@ public class EngulfingPatternStrategy  extends OpenFinDeskStrategy {
 
         if((currentBarClosePrice>previousBarOpenPrice)&&(currentBarOpenPrice<previousBarClosePrice)){
             if(nextBarOpenPrice>currentBarOpenPrice) {
-         
+                openFinDeskOrder.setPosition("bullishEngulfingCandleStick");
+            }
+        }else if((currentBarOpenPrice>previousBarClosePrice)&&(currentBarClosePrice<previousBarOpenPrice)){
+           if
