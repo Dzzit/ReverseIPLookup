@@ -36,4 +36,8 @@ public class EngulfingPatternStrategy  extends OpenFinDeskStrategy {
         }
 
 
-        logger.info("symbol="+openFinDeskOrder.get
+        logger.info("symbol="+openFinDeskOrder.getSymbol());
+        logger.info("position="+openFinDeskOrder.getPosition());
+        OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
+        return () -> {
+            logger.debug("Observabl
