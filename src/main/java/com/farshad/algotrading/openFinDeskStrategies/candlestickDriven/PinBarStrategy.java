@@ -5,4 +5,10 @@ import com.farshad.algotrading.openFinDeskStrategies.OpenFinDeskStrategy;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
-import 
+import java.util.concurrent.Callable;
+
+public class PinBarStrategy extends OpenFinDeskStrategy {
+    final static Logger logger= Logger.getLogger(PinBarStrategy.class);
+
+    @Override
+    public Callable<Ope
