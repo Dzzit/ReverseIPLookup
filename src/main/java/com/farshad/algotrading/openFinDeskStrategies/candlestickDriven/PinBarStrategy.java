@@ -11,4 +11,7 @@ public class PinBarStrategy extends OpenFinDeskStrategy {
     final static Logger logger= Logger.getLogger(PinBarStrategy.class);
 
     @Override
-    public Callable<Ope
+    public Callable<OpenFinDeskOrder> define() throws IOException {
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
+        openFinDeskOrder.setSymbol(series.getName());
+     
