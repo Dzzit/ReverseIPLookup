@@ -14,4 +14,8 @@ public class PinBarStrategy extends OpenFinDeskStrategy {
     public Callable<OpenFinDeskOrder> define() throws IOException {
         OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
         openFinDeskOrder.setSymbol(series.getName());
-     
+        openFinDeskOrder.setStrategyName("PinBarStrategy");
+        openFinDeskOrder.setPosition("*");
+
+        int index=series.getBarCount();
+        double bodyLength=series.g
