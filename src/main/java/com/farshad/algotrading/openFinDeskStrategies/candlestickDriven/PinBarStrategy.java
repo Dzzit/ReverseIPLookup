@@ -24,4 +24,6 @@ public class PinBarStrategy extends OpenFinDeskStrategy {
 
         double shadowLength=0;
         if(bodyLength>0){
-            shadowLength=series.get
+            shadowLength=series.getBar(index-1).getMaxPrice().doubleValue()-series.getBar(index-1).getClosePrice().doubleValue();
+        }else{
+            shadowLength=series.getBar(index-1).getMaxPrice().doubleValue()-series.getBar(index-1).g
