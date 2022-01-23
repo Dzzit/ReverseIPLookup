@@ -36,4 +36,10 @@ public class PinBarStrategy extends OpenFinDeskStrategy {
                   }
               }else {
                   if (series.getBar(index - 1).getClosePrice().doubleValue() > series.getBar(index - 2).getClosePrice().doubleValue()) {
-                      openFi
+                      openFinDeskOrder.setPosition("bullishPinBar");
+                  }
+              }
+        }
+
+        logger.info("symbol="+openFinDeskOrder.getSymbol());
+        logger.info("position="+openFinDeskOrd
