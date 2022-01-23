@@ -34,4 +34,6 @@ public class PinBarStrategy extends OpenFinDeskStrategy {
                   if (series.getBar(index - 1).getClosePrice().doubleValue() < series.getBar(index - 2).getClosePrice().doubleValue()) {
                       openFinDeskOrder.setPosition("bearishPinBar");
                   }
-              
+              }else {
+                  if (series.getBar(index - 1).getClosePrice().doubleValue() > series.getBar(index - 2).getClosePrice().doubleValue()) {
+                      openFi
