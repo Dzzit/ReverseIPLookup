@@ -42,4 +42,7 @@ public class PinBarStrategy extends OpenFinDeskStrategy {
         }
 
         logger.info("symbol="+openFinDeskOrder.getSymbol());
-        logger.info("position="+openFinDeskOrd
+        logger.info("position="+openFinDeskOrder.getPosition());
+        OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
+        return () -> {
+            logger.debug("Observable thread: " + Thread.cur
