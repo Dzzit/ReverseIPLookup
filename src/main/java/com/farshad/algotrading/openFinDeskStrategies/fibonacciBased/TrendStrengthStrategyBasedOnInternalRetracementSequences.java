@@ -14,4 +14,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import ja
+import java.util.concurrent.Callable;
+
+public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends OpenFinDeskStrategy {
+    final static Logger logger= Logger.getLogger(TrendStreng
