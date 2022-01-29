@@ -17,4 +17,11 @@ import java.util.List;
 import java.util.concurrent.Callable;
 
 public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends OpenFinDeskStrategy {
-    final static Logger logger= Logger.getLogger(TrendStreng
+    final static Logger logger= Logger.getLogger(TrendStrengthStrategyBasedOnInternalRetracementSequences.class);
+
+
+    @Override
+    public Callable<OpenFinDeskOrder> define() throws IOException {
+        int index=series.getBarCount();
+
+        List<PriceTime> priceTimeList=new Ar
