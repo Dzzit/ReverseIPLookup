@@ -24,4 +24,7 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
     public Callable<OpenFinDeskOrder> define() throws IOException {
         int index=series.getBarCount();
 
-        List<PriceTime> priceTimeList=new Ar
+        List<PriceTime> priceTimeList=new ArrayList<>();
+
+        for(int i=index-25;i<index;i++){
+            priceTimeList.add(new PriceTime(series.getBar(i).getClosePrice().doubleValue(),series.getBar(i).getEndTime().toInst
