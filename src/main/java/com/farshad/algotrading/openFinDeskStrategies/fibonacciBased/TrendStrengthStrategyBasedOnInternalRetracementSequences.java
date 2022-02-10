@@ -35,4 +35,7 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
 
         List<PriceTime> priceTimeChangePointList=ats.getPriceChangeList();
 
-        TrendGenerator trendGenerato
+        TrendGenerator trendGenerator=new TrendGenerator(priceTimeChangePointList);
+        List<Trend> trendList=new ArrayList<>();
+        if (priceTimeChangePointList.size()>1){
+            trendList=trendGenerator.gene
