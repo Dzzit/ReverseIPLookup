@@ -44,4 +44,8 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
 
         WaveGenerator waveGenerator=new WaveGenerator(trendList,trendGenerator.getStartingIndex());
         List<Wave> waveList=waveGenerator.generate();
-        FibonacciHel
+        FibonacciHelper fibonacciHelper=new FibonacciHelper(waveList,trendList.get(trendList.size()-1));
+        fibonacciHelper.startProcedure();
+
+
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName()
