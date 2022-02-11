@@ -48,4 +48,7 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
         fibonacciHelper.startProcedure();
 
 
-        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName()
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
+        openFinDeskOrder.setSymbol(series.getName());
+        openFinDeskOrder.setStrategyName("TrendStrengthStrategyBasedOnInternalRetracementSequences");
+        openFinDeskOrder.setVolume("0.
