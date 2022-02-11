@@ -38,4 +38,10 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
         TrendGenerator trendGenerator=new TrendGenerator(priceTimeChangePointList);
         List<Trend> trendList=new ArrayList<>();
         if (priceTimeChangePointList.size()>1){
-            trendList=trendGenerator.gene
+            trendList=trendGenerator.generate();
+        }
+
+
+        WaveGenerator waveGenerator=new WaveGenerator(trendList,trendGenerator.getStartingIndex());
+        List<Wave> waveList=waveGenerator.generate();
+        FibonacciHel
