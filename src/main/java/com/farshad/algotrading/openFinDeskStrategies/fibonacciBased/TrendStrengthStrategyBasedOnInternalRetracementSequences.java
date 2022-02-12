@@ -51,4 +51,6 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
         OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
         openFinDeskOrder.setSymbol(series.getName());
         openFinDeskOrder.setStrategyName("TrendStrengthStrategyBasedOnInternalRetracementSequences");
-        openFinDeskOrder.setVolume("0.
+        openFinDeskOrder.setVolume("0.01");
+        openFinDeskOrder.setPrice(0.5*(series.getBar(index-1).getClosePrice().doubleValue()+series.getBar(index-1).getOpenPrice().doubleValue()));
+        openFinDeskOrder.setParam
