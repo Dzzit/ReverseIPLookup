@@ -56,4 +56,7 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
         openFinDeskOrder.setParameter(String.valueOf(fibonacciHelper.getStrength()));
         if((fibonacciHelper.getFibonacci().getTypeOfGlobalRegime().equals("increasing"))){
              openFinDeskOrder.setPosition("buy");
-        }else 
+        }else if((fibonacciHelper.getFibonacci().getTypeOfGlobalRegime().equals("decreasing"))){
+             openFinDeskOrder.setPosition("sell");
+        }else{
+            openFinDeskOrder
