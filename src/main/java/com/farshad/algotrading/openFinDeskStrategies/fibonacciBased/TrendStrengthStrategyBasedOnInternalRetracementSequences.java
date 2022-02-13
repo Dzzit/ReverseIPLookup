@@ -65,4 +65,8 @@ public class TrendStrengthStrategyBasedOnInternalRetracementSequences extends Op
 
         OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
         return () -> {
-            logger.debug("Observable thread: " + Thread.current
+            logger.debug("Observable thread: " + Thread.currentThread().getName());
+            return openFinDeskOrder;
+        };
+    }
+}
