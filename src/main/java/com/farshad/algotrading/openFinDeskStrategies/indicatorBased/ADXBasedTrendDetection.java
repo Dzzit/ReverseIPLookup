@@ -1,3 +1,5 @@
 package com.farshad.algotrading.openFinDeskStrategies.indicatorBased;
 
-import com.farshad.algotrading.core
+import com.farshad.algotrading.core.openFinDeskOrder.OpenFinDeskOrder;
+import com.farshad.algotrading.openFinDeskStrategies.CrossingTimeSeriesDetector;
+import com.farshad.algotrading.openFinDeskStrategies.OpenFinDeskSt
