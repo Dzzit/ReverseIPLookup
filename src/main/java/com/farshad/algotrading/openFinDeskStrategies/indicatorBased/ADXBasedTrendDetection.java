@@ -21,4 +21,12 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
     @Override
     public Callable<OpenFinDeskOrder> define() throws IOException {
-        int index=series.getBarCou
+        int index=series.getBarCount();
+
+         int big=20;
+
+        ParabolicSarIndicator parabolicSarIndicator=new ParabolicSarIndicator(series);
+
+
+        ADXIndicator adxIndicator=new ADXIndicator(series,14);
+        PlusDIIndicator plusDIInd
