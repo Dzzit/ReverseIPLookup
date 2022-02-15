@@ -15,3 +15,10 @@ import java.util.concurrent.Callable;
 
 public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
+
+    final static Logger logger= Logger.getLogger(ADXBasedTrendDetection.class);
+
+
+    @Override
+    public Callable<OpenFinDeskOrder> define() throws IOException {
+        int index=series.getBarCou
