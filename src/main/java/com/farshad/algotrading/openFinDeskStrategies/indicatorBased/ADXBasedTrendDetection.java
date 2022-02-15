@@ -6,4 +6,12 @@ import com.farshad.algotrading.openFinDeskStrategies.OpenFinDeskStrategy;
 import org.apache.log4j.Logger;
 import org.ta4j.core.indicators.ParabolicSarIndicator;
 import org.ta4j.core.indicators.adx.ADXIndicator;
-import org.ta4j.core.indicators.adx.MinusDIIndica
+import org.ta4j.core.indicators.adx.MinusDIIndicator;
+import org.ta4j.core.indicators.adx.PlusDIIndicator;
+
+
+import java.io.IOException;
+import java.util.concurrent.Callable;
+
+public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
+
