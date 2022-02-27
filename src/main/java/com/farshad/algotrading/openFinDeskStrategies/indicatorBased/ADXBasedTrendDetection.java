@@ -35,4 +35,8 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
 
         int horizen=5;
-        double[] plusDIIndicatorArray = new doubl
+        double[] plusDIIndicatorArray = new double[horizen];
+        double[] minusDIIndicatorArray = new double[horizen];
+        int j=0;
+        for(int i=index-horizen;i<index;i++){
+            plusDIIndicatorArray[j]= plusDIIndicator.g
