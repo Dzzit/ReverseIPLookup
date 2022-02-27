@@ -29,4 +29,10 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
 
         ADXIndicator adxIndicator=new ADXIndicator(series,14);
-        PlusDIIndicator plusDIInd
+        PlusDIIndicator plusDIIndicator=new PlusDIIndicator(series,14);
+        MinusDIIndicator minusDIIndicator=new MinusDIIndicator(series,14);
+
+
+
+        int horizen=5;
+        double[] plusDIIndicatorArray = new doubl
