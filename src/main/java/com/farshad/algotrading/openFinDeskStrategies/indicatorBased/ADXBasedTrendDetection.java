@@ -47,4 +47,7 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
         CrossingTimeSeriesDetector crossUpDetector=new CrossingTimeSeriesDetector(plusDIIndicatorArray,minusDIIndicatorArray);
         String statusForCrossUp=crossUpDetector.detect(horizen);
 
-        CrossingTimeSeriesDetector crossDownDetector=new Cr
+        CrossingTimeSeriesDetector crossDownDetector=new CrossingTimeSeriesDetector(minusDIIndicatorArray,plusDIIndicatorArray);
+        String statusForCrossDown=crossDownDetector.detect(horizen);
+
+        logger.info("crossUpDetector: status in ADXBased
