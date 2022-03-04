@@ -55,4 +55,11 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
 
         for(int i=index-1;i>index-2;i--){
-            logger.info("symbol:"+series.getName()+",14-ticks-ADXIndicator value at the "+i+"th index: " + adxIndicator.getValue(i).doubleValue
+            logger.info("symbol:"+series.getName()+",14-ticks-ADXIndicator value at the "+i+"th index: " + adxIndicator.getValue(i).doubleValue());
+         }
+
+        start();
+
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
+        openFinDeskOrder.setSymbol(series.getName());
+        openFinDeskOrder.setStrategyName("ADX
