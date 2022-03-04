@@ -51,4 +51,8 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
         String statusForCrossDown=crossDownDetector.detect(horizen);
 
         logger.info("crossUpDetector: status in ADXBasedTrendDetection:"+statusForCrossUp+" ,crossPoint="+crossUpDetector.getCrossPoint());
-        logger.info("crossDownDetector: status in ADXBasedTrendDetection:"+statusForCrossDown+" ,crossPoint="+crossDownDetector.get
+        logger.info("crossDownDetector: status in ADXBasedTrendDetection:"+statusForCrossDown+" ,crossPoint="+crossDownDetector.getCrossPoint());
+
+
+        for(int i=index-1;i>index-2;i--){
+            logger.info("symbol:"+series.getName()+",14-ticks-ADXIndicator value at the "+i+"th index: " + adxIndicator.getValue(i).doubleValue
