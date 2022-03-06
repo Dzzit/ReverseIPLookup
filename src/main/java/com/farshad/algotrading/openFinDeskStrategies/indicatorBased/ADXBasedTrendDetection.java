@@ -74,4 +74,5 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
                 if ((statusForCrossUp.equals("crossUp"))&&(crossUpDetector.getSlopeAtLatestIndex1()>0)){
                     openFinDeskOrder.setPosition("buy");
-    
+                    logger.info("symbol:"+series.getName()+",crossUp and crossPoint is at " + crossUpDetector.getCrossPoint() + " th index" +
+                         
