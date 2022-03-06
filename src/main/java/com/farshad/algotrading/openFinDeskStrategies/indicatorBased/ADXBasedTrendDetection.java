@@ -69,4 +69,9 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
         logger.info("symbol:"+series.getName()+",minusDIIndicator.getValue(index-1).doubleValue()="+minusDIIndicator.getValue(index-1).doubleValue());
         logger.info("symbol:"+series.getName()+",adxIndicator.getValue(index-1).doubleValue()="+adxIndicator.getValue(index-1).doubleValue());
 
-        if 
+        if (adxIndicator.getValue(index-1).doubleValue()>=25){
+
+
+                if ((statusForCrossUp.equals("crossUp"))&&(crossUpDetector.getSlopeAtLatestIndex1()>0)){
+                    openFinDeskOrder.setPosition("buy");
+    
