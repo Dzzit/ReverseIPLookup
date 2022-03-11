@@ -82,4 +82,10 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
                             "with slope:" + crossDownDetector.getSlopeAtLatestIndex2());
                 }else{
 
-                    openFinDeskOrder.setPosition("*")
+                    openFinDeskOrder.setPosition("*");
+                }
+
+
+            openFinDeskOrder.setOrderType("noOrder");
+            openFinDeskOrder.setPrice(series.getBar(index-1).getClosePrice().doubleValue());
+            //openFinDeskOr
