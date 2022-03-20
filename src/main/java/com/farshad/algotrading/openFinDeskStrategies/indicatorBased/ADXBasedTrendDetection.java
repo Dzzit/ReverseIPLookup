@@ -100,4 +100,9 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
 
         openFinDeskOrder.setStopLoss(parabolicSarIndicator.getValue(index-1).doubleValue());
 
-        OpenFi
+        OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
+        return () -> {
+            logger.debug("Observable thread: " + Thread.currentThread().getName());
+            return openFinDeskOrder;
+        };
+  
