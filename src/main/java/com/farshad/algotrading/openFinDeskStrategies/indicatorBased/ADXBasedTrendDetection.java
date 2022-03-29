@@ -105,4 +105,6 @@ public class ADXBasedTrendDetection extends OpenFinDeskStrategy {
             logger.debug("Observable thread: " + Thread.currentThread().getName());
             return openFinDeskOrder;
         };
-  
+    }
+
+}
