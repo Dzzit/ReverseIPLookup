@@ -17,3 +17,8 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
 
     @Override
     public Callable<OpenFinDeskOrder> define() throws IOException {
+        int index=series.getBarCount();
+
+        ClosePriceIndicator closePrice = new ClosePriceIndicator(series);
+        MACDIndicator macd = new MACDIndicator(closePrice, 9, 26);
+   
