@@ -8,4 +8,12 @@ import org.ta4j.core.indicators.MACDIndicator;
 import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
 
 import java.io.IOException;
-import java.util.co
+import java.util.concurrent.Callable;
+
+public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
+
+
+
+
+    @Override
+    public Callable<OpenFinDeskOrder> define() throws IOException {
