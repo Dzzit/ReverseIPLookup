@@ -28,4 +28,8 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
 
         double[] macdArray = new double[horizen];
         double[] emaMacdArray = new double[horizen];
-        in
+        int j=0;
+        for(int i=index-horizen;i<index;i++){
+            macdArray[j]= macd.getValue(i).doubleValue();
+            emaMacdArray[j]=  emaMacd.getValue(i).doubleValue();
+  
