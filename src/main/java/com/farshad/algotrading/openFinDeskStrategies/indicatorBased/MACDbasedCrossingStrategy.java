@@ -21,4 +21,11 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
 
         ClosePriceIndicator closePrice = new ClosePriceIndicator(series);
         MACDIndicator macd = new MACDIndicator(closePrice, 9, 26);
-   
+        EMAIndicator emaMacd = new EMAIndicator(macd, 18);
+
+
+        int horizen=5;
+
+        double[] macdArray = new double[horizen];
+        double[] emaMacdArray = new double[horizen];
+        in
