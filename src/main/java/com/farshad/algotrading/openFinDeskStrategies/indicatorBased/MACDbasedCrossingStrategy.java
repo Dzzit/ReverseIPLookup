@@ -32,4 +32,8 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
         for(int i=index-horizen;i<index;i++){
             macdArray[j]= macd.getValue(i).doubleValue();
             emaMacdArray[j]=  emaMacd.getValue(i).doubleValue();
-  
+            j++;
+        }
+
+        CrossingTimeSeriesDetector crossUpTimeSeriesDetector=new CrossingTimeSeriesDetector(macdArray,emaMacdArray);
+        String crossUpStatus=crossUpTimeSeriesDetect
