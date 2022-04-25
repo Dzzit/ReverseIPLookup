@@ -42,4 +42,7 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
 
         start();
 
-        OpenFinDeskO
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
+        openFinDeskOrder.setSymbol(series.getName());
+        openFinDeskOrder.setStrategyName("MACDbasedCrossingStrategy");
+        openFin
