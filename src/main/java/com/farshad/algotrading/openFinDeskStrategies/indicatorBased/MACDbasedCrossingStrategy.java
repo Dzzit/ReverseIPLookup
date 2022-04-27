@@ -52,4 +52,6 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
 
         if ((crossUpStatus.equals("crossUp"))&&(crossUpTimeSeriesDetector.getSlopeAtLatestIndex1()>0)){
                 openFinDeskOrder.setPosition("buy");
-         
+                openFinDeskOrder.setOrderType("openBuy");
+                openFinDeskOrder.setStopLoss(series.getBar(index-1).getClosePrice().doubleValue() - 0.01);
+                openFinDeskOrder
