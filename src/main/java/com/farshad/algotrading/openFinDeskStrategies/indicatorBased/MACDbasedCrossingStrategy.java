@@ -62,4 +62,12 @@ public class MACDbasedCrossingStrategy extends OpenFinDeskStrategy {
                 openFinDeskOrder.setTakeProfit(series.getBar(index-1).getClosePrice().doubleValue() - 0.01);
         }
 
-        OpenFinDeskOrder 
+        OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
+        return () -> {
+            System.out.println("Observable thread: " + Thread.currentThread().getName());
+            return openFinDeskOrder;
+        };
+    }
+
+
+}
