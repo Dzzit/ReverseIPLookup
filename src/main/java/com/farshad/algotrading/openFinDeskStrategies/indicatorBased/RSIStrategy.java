@@ -25,4 +25,7 @@ public class RSIStrategy extends OpenFinDeskStrategy {
 
 
         ClosePriceIndicator closePrice = new ClosePriceIndicator(series);
-     
+        RSIIndicator rsiIndicator=new RSIIndicator(closePrice,14);
+        if(rsiIndicator.getValue(index-1).doubleValue()>50){
+            openFinDeskOrder.setPosition("buy");
+            openFinDeskOr
