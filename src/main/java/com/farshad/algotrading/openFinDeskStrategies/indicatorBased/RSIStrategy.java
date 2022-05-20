@@ -17,4 +17,7 @@ public class RSIStrategy extends OpenFinDeskStrategy {
         int index=series.getBarCount();
         OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
         openFinDeskOrder.setSymbol(series.getName());
-        openFinDeskOrder.setStrategyNam
+        openFinDeskOrder.setStrategyName("RSIStrategy");
+        openFinDeskOrder.setPosition("*");
+        openFinDeskOrder.setVolume("0.01");
+        openFinDeskOrder.setPrice(0.5*(series.getBar(index-1).get
