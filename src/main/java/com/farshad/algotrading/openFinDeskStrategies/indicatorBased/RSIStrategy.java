@@ -6,4 +6,12 @@ import org.ta4j.core.indicators.RSIIndicator;
 import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
 
 import java.io.IOException;
-i
+import java.util.concurrent.Callable;
+
+public class RSIStrategy extends OpenFinDeskStrategy {
+
+
+
+    @Override
+    public Callable<OpenFinDeskOrder> define() throws IOException {
+        
