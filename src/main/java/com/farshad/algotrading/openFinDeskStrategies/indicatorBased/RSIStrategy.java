@@ -20,4 +20,9 @@ public class RSIStrategy extends OpenFinDeskStrategy {
         openFinDeskOrder.setStrategyName("RSIStrategy");
         openFinDeskOrder.setPosition("*");
         openFinDeskOrder.setVolume("0.01");
-        openFinDeskOrder.setPrice(0.5*(series.getBar(index-1).get
+        openFinDeskOrder.setPrice(0.5*(series.getBar(index-1).getClosePrice().doubleValue()+
+                series.getBar(index-1).getOpenPrice().doubleValue()));
+
+
+        ClosePriceIndicator closePrice = new ClosePriceIndicator(series);
+     
