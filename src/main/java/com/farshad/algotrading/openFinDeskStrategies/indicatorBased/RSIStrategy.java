@@ -30,4 +30,8 @@ public class RSIStrategy extends OpenFinDeskStrategy {
             openFinDeskOrder.setPosition("buy");
             openFinDeskOrder.setOrderType("openBuy");
             openFinDeskOrder.setStopLoss(series.getBar(index-1).getClosePrice().doubleValue() - 0.01);
-            openFinDeskOrder.setTakeProfit(series.getBar(i
+            openFinDeskOrder.setTakeProfit(series.getBar(index-1).getClosePrice().doubleValue() + 0.01);
+        }else{
+            openFinDeskOrder.setPosition("sell");
+            openFinDeskOrder.setOrderType("openSell");
+          
