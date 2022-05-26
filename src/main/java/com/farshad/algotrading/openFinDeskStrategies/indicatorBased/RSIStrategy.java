@@ -38,3 +38,11 @@ public class RSIStrategy extends OpenFinDeskStrategy {
             openFinDeskOrder.setTakeProfit(series.getBar(index-1).getClosePrice().doubleValue() - 0.01);
         }
 
+        start();
+
+
+
+
+        OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
+        return () -> {
+            System.out.println("Observable thread: " + Thread.curr
