@@ -45,4 +45,9 @@ public class RSIStrategy extends OpenFinDeskStrategy {
 
         OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
         return () -> {
-            System.out.println("Observable thread: " + Thread.curr
+            System.out.println("Observable thread: " + Thread.currentThread().getName());
+            return openFinDeskOrder;
+        };
+    }
+
+}
