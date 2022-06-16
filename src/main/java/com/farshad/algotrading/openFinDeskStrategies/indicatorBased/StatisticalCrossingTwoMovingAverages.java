@@ -99,3 +99,18 @@ public class StatisticalCrossingTwoMovingAverages extends OpenFinDeskStrategy {
                         openFinDeskOrder.setPrice(series.getBar(index - 1).getClosePrice().doubleValue());
                         openFinDeskOrder.setStopLoss(series.getBar(index - 1).getClosePrice().doubleValue() + 0.03);
                         openFinDeskOrder.setTakeProfit(series.getBar(index - 1).getClosePrice().doubleValue() - 0.03);
+                    }
+                }
+            }
+
+            OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
+            return () -> {
+                System.out.println("Observable thread: " + Thread.currentThread().getName());
+                return openFinDeskOrder;
+            };
+
+        }
+
+
+
+}
