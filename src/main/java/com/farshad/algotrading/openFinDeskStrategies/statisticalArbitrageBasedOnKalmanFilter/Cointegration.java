@@ -10,4 +10,10 @@ public class Cointegration {
     int mNobs = 2;
 
     public Cointegration(double delta, double r) {
-        mDe
+        mDelta = delta;
+        mR = r;
+
+        Matrix vw = Matrix.identity(mNobs).multiply(mDelta / (1 - delta));
+        Matrix a = Matrix.identity(mNobs);
+
+        Matrix x = Matrix.z
