@@ -22,4 +22,9 @@ public class Cointegration {
         mFilter.setUpdateMatrix(a);
         mFilter.setState(x);
         mFilter.setStateCovariance(Matrix.zero(mNobs, mNobs));
-        mFil
+        mFilter.setUpdateCovariance(vw);
+        mFilter.setMeasurementCovariance(Matrix.constant(1, 1, r));
+    }
+
+    public void step(double x, double y) {
+        mFilter.setExtractionMatrix(Matrix.from
