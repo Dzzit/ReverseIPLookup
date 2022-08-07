@@ -27,4 +27,12 @@ public class Cointegration {
     }
 
     public void step(double x, double y) {
-        mFilter.setExtractionMatrix(Matrix.from
+        mFilter.setExtractionMatrix(Matrix.from1DArray(1, 2, new double[]{1, x}));
+        mFilter.step(Matrix.constant(1, 1, y));
+    }
+
+    public double getAlpha() {
+        return mFilter.getState().getRow(0).get(0);
+    }
+
+  
