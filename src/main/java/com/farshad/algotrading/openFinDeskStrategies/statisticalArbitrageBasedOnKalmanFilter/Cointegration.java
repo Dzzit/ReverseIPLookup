@@ -16,4 +16,10 @@ public class Cointegration {
         Matrix vw = Matrix.identity(mNobs).multiply(mDelta / (1 - delta));
         Matrix a = Matrix.identity(mNobs);
 
-        Matrix x = Matrix.z
+        Matrix x = Matrix.zero(mNobs, 1);
+
+        mFilter = new KalmanFilter(mNobs, 1);
+        mFilter.setUpdateMatrix(a);
+        mFilter.setState(x);
+        mFilter.setStateCovariance(Matrix.zero(mNobs, mNobs));
+        mFil
