@@ -35,4 +35,12 @@ public class Cointegration {
         return mFilter.getState().getRow(0).get(0);
     }
 
-  
+    public double getBeta() {
+        return mFilter.getState().getRow(1).get(0);
+    }
+
+    public double getVariance() {
+        return mFilter.getInnovationCovariance().get(0, 0);
+    }
+
+    public d
