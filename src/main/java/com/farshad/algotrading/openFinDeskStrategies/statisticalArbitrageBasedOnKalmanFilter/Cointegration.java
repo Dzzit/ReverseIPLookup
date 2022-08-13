@@ -43,4 +43,9 @@ public class Cointegration {
         return mFilter.getInnovationCovariance().get(0, 0);
     }
 
-    public d
+    public double getError() {
+        return mFilter.getInnovation().get(0, 0);
+    }
+}
+
+
