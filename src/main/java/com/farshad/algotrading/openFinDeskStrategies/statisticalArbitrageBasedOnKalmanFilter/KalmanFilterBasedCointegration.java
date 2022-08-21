@@ -6,4 +6,9 @@ import com.farshad.algotrading.openFinDeskStrategies.OpenFinDeskStrategy;
 import org.ta4j.com.farshad.algotrading.containerCore.TimeSeriesPoint;
 import org.ta4j.com.farshad.algotrading.containerCore.TradingRecord;
 
-import java.io.IOEx
+import java.io.IOException;
+import java.util.concurrent.Callable;
+
+public class KalmanFilterBasedCointegration extends OpenFinDeskStrategy {
+
+    public KalmanFilterBasedCointegration(TimeSeriesPoint series, TradingR
