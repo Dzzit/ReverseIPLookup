@@ -11,4 +11,12 @@ import java.util.concurrent.Callable;
 
 public class KalmanFilterBasedCointegration extends OpenFinDeskStrategy {
 
-    public KalmanFilterBasedCointegration(TimeSeriesPoint series, TradingR
+    public KalmanFilterBasedCointegration(TimeSeriesPoint series, TradingRecord tradingRecord) {
+        super(series, tradingRecord);
+    }
+
+    @Override
+    public Callable<OpenFinDeskOrder> define() throws IOException {
+
+
+        Process process=new Process(series,t
