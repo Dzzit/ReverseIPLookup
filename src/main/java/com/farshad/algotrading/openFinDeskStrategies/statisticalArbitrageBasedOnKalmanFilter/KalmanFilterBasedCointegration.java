@@ -19,4 +19,11 @@ public class KalmanFilterBasedCointegration extends OpenFinDeskStrategy {
     public Callable<OpenFinDeskOrder> define() throws IOException {
 
 
-        Process process=new Process(series,t
+        Process process=new Process(series,tradingRecord);
+        process.initialize();
+        process.calculate();
+
+
+        OpenFinDeskOrder openFinDeskOrder=new OpenFinDeskOrder(series.getName());
+
+        openFinDeskOrder.setSymbol("a
