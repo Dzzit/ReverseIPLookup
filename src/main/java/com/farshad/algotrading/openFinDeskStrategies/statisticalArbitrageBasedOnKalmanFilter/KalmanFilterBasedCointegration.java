@@ -30,4 +30,10 @@ public class KalmanFilterBasedCointegration extends OpenFinDeskStrategy {
         openFinDeskOrder.setStrategyName("KalmanFilterBasedCointegration");
 
             openFinDeskOrder.setPosition("buy");
-            openFinDeskOrder.setPrice(series.getBar(0).getC
+            openFinDeskOrder.setPrice(series.getBar(0).getClosePrice().doubleValue());
+            openFinDeskOrder.setStopLoss(3);
+            openFinDeskOrder.setTakeProfit(8);
+            openFinDeskOrder.setVolume(300);
+
+
+        OpenFinDeskOrder final
