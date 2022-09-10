@@ -39,4 +39,8 @@ public class KalmanFilterBasedCointegration extends OpenFinDeskStrategy {
         OpenFinDeskOrder finalOpenFinDeskOrder = openFinDeskOrder;
         return () -> {
             System.out.println("Observable thread: " + Thread.currentThread().getName());
-            return openFinD
+            return openFinDeskOrder;
+        };
+    }
+}
+*/
