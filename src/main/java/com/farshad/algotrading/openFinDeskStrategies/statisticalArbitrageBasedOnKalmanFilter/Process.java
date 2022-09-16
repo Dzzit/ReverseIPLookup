@@ -6,4 +6,11 @@ import org.ta4j.com.farshad.algotrading.containerCore.TimeSeriesPoint;
 import org.ta4j.com.farshad.algotrading.containerCore.TradingRecord;
 import com.farshad.algotrading.containerCore.Symbol;
 
-import java.io.IOEx
+import java.io.IOException;
+
+public class Process {
+    private static Logger LOGGER= Logger.getLogger(Process.class);
+
+    boolean mReinvest = false;
+
+    String mX, mY
