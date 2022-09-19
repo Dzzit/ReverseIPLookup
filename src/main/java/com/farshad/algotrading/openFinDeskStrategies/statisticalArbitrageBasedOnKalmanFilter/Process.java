@@ -13,4 +13,13 @@ public class Process {
 
     boolean mReinvest = false;
 
-    String mX, mY
+    String mX, mY;
+    //TradingContext mContext;
+    Cointegration mCoint;
+
+    TimeSeriesPoint mAlpha;
+    TimeSeriesPoint mBeta;
+    TimeSeriesPoint mXs;
+    TimeSeriesPoint mYs;
+    TimeSeriesPoint mError;
+ 
