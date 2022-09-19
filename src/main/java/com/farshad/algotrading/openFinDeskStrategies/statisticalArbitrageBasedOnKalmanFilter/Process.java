@@ -22,4 +22,11 @@ public class Process {
     TimeSeriesPoint mXs;
     TimeSeriesPoint mYs;
     TimeSeriesPoint mError;
- 
+    TimeSeriesPoint mVariance;
+    TimeSeriesPoint mModel;
+
+    TimeSeriesPoint series;
+    TradingRecord tradingRecord;
+
+    public Process(TimeSeriesPoint series, TradingRecord tradingRecord) {
+       
