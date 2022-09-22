@@ -29,4 +29,11 @@ public class Process {
     TradingRecord tradingRecord;
 
     public Process(TimeSeriesPoint series, TradingRecord tradingRecord) {
-       
+        this.series = series;
+        this.tradingRecord = tradingRecord;
+    }
+
+    public void initialize() throws IOException {
+        //mContext = context;
+
+        mCoint = new Cointegration(
