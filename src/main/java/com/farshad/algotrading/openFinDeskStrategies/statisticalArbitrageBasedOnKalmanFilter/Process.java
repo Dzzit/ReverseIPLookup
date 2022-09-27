@@ -36,4 +36,7 @@ public class Process {
     public void initialize() throws IOException {
         //mContext = context;
 
-        mCoint = new Cointegration(
+        mCoint = new Cointegration(1e-10, 1e-7);
+        mAlpha=new Symbol("alpha").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
+        mBeta=new Symbol("beta").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
+        mXs=
