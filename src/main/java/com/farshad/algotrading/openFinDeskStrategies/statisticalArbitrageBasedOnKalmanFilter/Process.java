@@ -46,4 +46,9 @@ public class Process {
         mModel=new Symbol("mModel").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
 
         // mAlpha = new DoubleSeries("alpha");
-        //mBeta = new DoubleSeries("beta")
+        //mBeta = new DoubleSeries("beta");
+        //mXs = new DoubleSeries("x");
+        //mYs = new DoubleSeries("y");
+        //mError = new DoubleSeries("error");
+        //mVariance = new DoubleSeries("variance");
+        //m
