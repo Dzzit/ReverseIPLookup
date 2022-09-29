@@ -42,4 +42,8 @@ public class Process {
         mXs=new Symbol("mXs").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
         mYs=new Symbol("mYs").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
         mError=new Symbol("mError").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
-        mVariance=new Symbol("mVariance").getSeriesFromFile("/src/main/java/files/sarood-M1.cs
+        mVariance=new Symbol("mVariance").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
+        mModel=new Symbol("mModel").getSeriesFromFile("/src/main/java/files/sarood-M1.csv");
+
+        // mAlpha = new DoubleSeries("alpha");
+        //mBeta = new DoubleSeries("beta")
