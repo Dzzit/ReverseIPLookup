@@ -51,4 +51,10 @@ public class Process {
         //mYs = new DoubleSeries("y");
         //mError = new DoubleSeries("error");
         //mVariance = new DoubleSeries("variance");
-        //m
+        //mModel = new DoubleSeries("model");
+    }
+
+    public void calculate(){
+        //mContext=context;
+        double x = mXs.getLastBar().getClosePrice().doubleValue();
+        double y = mYs
