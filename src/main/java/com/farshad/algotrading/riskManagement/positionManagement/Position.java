@@ -21,4 +21,11 @@ public class Position {
         this.price = price;
     }
 
-    public int
+    public int getTicketNumber() {
+        return ticketNumber;
+    }
+
+    public void setTicketNumber(int ticketNumber) {
+        this.ticketNumber = ticketNumber;
+    }
+}
