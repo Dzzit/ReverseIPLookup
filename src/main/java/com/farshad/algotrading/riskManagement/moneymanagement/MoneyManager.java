@@ -26,3 +26,17 @@ public class MoneyManager {
         return numberOfOpenOrders;
     }
 
+
+
+    public void setNumberOfAllowedOrders(int numberOfAllowedOrders) {
+        this.numberOfAllowedOrders = numberOfAllowedOrders;
+    }
+
+    public void setNumberOfOpenOrders(int numberOfOpenOrders) {
+        this.numberOfOpenOrders = numberOfOpenOrders;
+        logger.info("numberOfOpenOrders updated to:"+numberOfOpenOrders);
+    }
+
+
+
+}
