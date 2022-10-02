@@ -62,4 +62,9 @@ public class Process {
         double beta = mCoint.getBeta();
 
         mCoint.step(x, y);
-        mAlpha.add(alpha, mConte
+        mAlpha.add(alpha, mContext.getTime());
+        mBeta.add(beta, mContext.getTime());
+        mXs.add(x, mContext.getTime());
+        mYs.add(y, mContext.getTime());
+        mError.add(mCoint.getError(), mContext.getTime());
+      
