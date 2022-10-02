@@ -67,4 +67,9 @@ public class Process {
         mXs.add(x, mContext.getTime());
         mYs.add(y, mContext.getTime());
         mError.add(mCoint.getError(), mContext.getTime());
-      
+        mVariance.add(mCoint.getVariance(), mContext.getTime());
+
+        double error = mCoint.getError();
+
+        mModel.add(beta * x + alpha, mContext.getTime());
+        LOGGER.info("bet
