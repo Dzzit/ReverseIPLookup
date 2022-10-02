@@ -57,4 +57,9 @@ public class Process {
     public void calculate(){
         //mContext=context;
         double x = mXs.getLastBar().getClosePrice().doubleValue();
-        double y = mYs
+        double y = mYs.getLastBar().getClosePrice().doubleValue();
+        double alpha = mCoint.getAlpha();
+        double beta = mCoint.getBeta();
+
+        mCoint.step(x, y);
+        mAlpha.add(alpha, mConte
