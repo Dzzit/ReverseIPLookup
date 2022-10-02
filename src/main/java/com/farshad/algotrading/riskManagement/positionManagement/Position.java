@@ -10,4 +10,15 @@ public class Position {
 
 
     public Position() {
-      
+        ticketNumber=999999;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int
