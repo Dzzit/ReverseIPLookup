@@ -72,4 +72,8 @@ public class Process {
         double error = mCoint.getError();
 
         mModel.add(beta * x + alpha, mContext.getTime());
-        LOGGER.info("bet
+        LOGGER.info("beta * x + alpha="+beta * x + alpha+" time="+mContext.getTime() );
+    }
+
+}
+*/
