@@ -2,4 +2,6 @@ package com.farshad.algotrading.strategyContainer.container1;
 
 import com.farshad.algotrading.openFinDeskAnnotations.OpenFinDeskChanceNode;
 import com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy;
-import com.farshad.algotradi
+import com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences;
+import org.apache.log4j.Logger;
+import com.farshad.algotrading.c
