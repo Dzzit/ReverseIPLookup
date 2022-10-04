@@ -4,4 +4,8 @@ import com.farshad.algotrading.openFinDeskAnnotations.OpenFinDeskChanceNode;
 import com.farshad.algotrading.openFinDeskStrategies.candlestickDriven.PinBarStrategy;
 import com.farshad.algotrading.openFinDeskStrategies.fibonacciBased.TrendStrengthStrategyBasedOnInternalRetracementSequences;
 import org.apache.log4j.Logger;
-import com.farshad.algotrading.c
+import com.farshad.algotrading.core.containerCore.ChanceNode;
+
+@OpenFinDeskChanceNode(containerId=1,nodeId=0
+,openfindeskStrategies={PinBarStrategy.class,TrendStrengthStrategyBasedOnInternalRetracementSequences.class}
+,timeFra
