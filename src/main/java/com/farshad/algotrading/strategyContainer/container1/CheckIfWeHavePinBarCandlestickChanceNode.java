@@ -15,4 +15,8 @@ public class CheckIfWeHavePinBarCandlestickChanceNode extends ChanceNode {
     @Override
     public void executeCurrentChanceNode() {
         this.openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
-        this.openFinDeskOrder.setPosition(
+        this.openFinDeskOrder.setPosition("*");
+        this.openFinDeskOrder.setOrderType("noOrder");
+        this.openFinDeskOrder.setStrategyName("no signal from container 1");
+        this.openFinDeskOrder.setAction("doNothingAndWait");
+        this.
