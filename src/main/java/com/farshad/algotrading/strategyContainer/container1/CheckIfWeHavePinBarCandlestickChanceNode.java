@@ -29,4 +29,11 @@ public class CheckIfWeHavePinBarCandlestickChanceNode extends ChanceNode {
         }else if((featureVector.get(0).getPosition().equals("bullishPinBar"))&&(featureVector.get(1).getPosition().equals("buy"))){
             this.openFinDeskOrder.setOrderType("openBuy");
             this.openFinDeskOrder.setAction("buyUsingScalping");
-            t
+            this.openFinDeskOrder.setStrategyName("container1");
+        }
+        decisionIsMade=true;
+
+    }
+
+
+}
