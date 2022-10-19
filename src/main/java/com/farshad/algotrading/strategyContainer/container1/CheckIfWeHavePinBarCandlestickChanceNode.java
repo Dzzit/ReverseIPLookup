@@ -19,4 +19,6 @@ public class CheckIfWeHavePinBarCandlestickChanceNode extends ChanceNode {
         this.openFinDeskOrder.setOrderType("noOrder");
         this.openFinDeskOrder.setStrategyName("no signal from container 1");
         this.openFinDeskOrder.setAction("doNothingAndWait");
-        this.
+        this.openFinDeskOrder.setVolume("0.01");
+        logger.info("featureVector.get(0).getPosition()="+featureVector.get(0).getPosition());
+        logger.info("featureVector.get(1).getPosition()="+fe
