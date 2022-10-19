@@ -10,4 +10,9 @@ import com.farshad.algotrading.core.containerCore.ChanceNode;
 ,openfindeskStrategies={PinBarStrategy.class,TrendStrengthStrategyBasedOnInternalRetracementSequences.class}
 ,timeFrames={"PERIOD_H1","PERIOD_D1"},disabled=true)
 public class CheckIfWeHavePinBarCandlestickChanceNode extends ChanceNode {
-    final static Logger logger= Logger.getLogger(CheckIfWeHave
+    final static Logger logger= Logger.getLogger(CheckIfWeHavePinBarCandlestickChanceNode.class);
+
+    @Override
+    public void executeCurrentChanceNode() {
+        this.openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
+        this.openFinDeskOrder.setPosition(
