@@ -21,4 +21,6 @@ public class CheckIfWeHavePinBarCandlestickChanceNode extends ChanceNode {
         this.openFinDeskOrder.setAction("doNothingAndWait");
         this.openFinDeskOrder.setVolume("0.01");
         logger.info("featureVector.get(0).getPosition()="+featureVector.get(0).getPosition());
-        logger.info("featureVector.get(1).getPosition()="+fe
+        logger.info("featureVector.get(1).getPosition()="+featureVector.get(1).getPosition());
+        if ((featureVector.get(0).getPosition().equals("bearishPinBar"))&&(featureVector.get(1).getPosition().equals("sell"))){
+            this.openFinDeskOrder.setOrderType("openSel
