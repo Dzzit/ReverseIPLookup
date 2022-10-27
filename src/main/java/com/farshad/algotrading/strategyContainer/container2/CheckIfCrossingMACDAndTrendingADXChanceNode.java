@@ -7,4 +7,6 @@ import com.farshad.algotrading.core.containerCore.ChanceNode;
 import org.apache.log4j.Logger;
 
 @OpenFinDeskChanceNode(containerId=2,nodeId=0
-  
+        ,openfindeskStrategies={MACDbasedCrossingStrategy.class, ADXBasedTrendDetection.class}
+        ,timeFrames={"PERIOD_H1","PERIOD_D1"})
+public class CheckIfCrossingMACDAndTrendingADXChanceNode extends 
