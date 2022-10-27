@@ -9,4 +9,9 @@ import org.apache.log4j.Logger;
 @OpenFinDeskChanceNode(containerId=2,nodeId=0
         ,openfindeskStrategies={MACDbasedCrossingStrategy.class, ADXBasedTrendDetection.class}
         ,timeFrames={"PERIOD_H1","PERIOD_D1"})
-public class CheckIfCrossingMACDAndTrendingADXChanceNode extends 
+public class CheckIfCrossingMACDAndTrendingADXChanceNode extends ChanceNode {
+    final static Logger logger= Logger.getLogger(CheckIfCrossingMACDAndTrendingADXChanceNode.class);
+
+    @Override
+    public void executeCurrentChanceNode() {
+        thi
