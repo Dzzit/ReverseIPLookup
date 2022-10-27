@@ -14,4 +14,7 @@ public class CheckIfCrossingMACDAndTrendingADXChanceNode extends ChanceNode {
 
     @Override
     public void executeCurrentChanceNode() {
-        thi
+        this.openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
+        this.openFinDeskOrder.setPosition("*");
+        this.openFinDeskOrder.setOrderType("noOrder");
+        this.openFinDeskOrder.setStrategyNa
