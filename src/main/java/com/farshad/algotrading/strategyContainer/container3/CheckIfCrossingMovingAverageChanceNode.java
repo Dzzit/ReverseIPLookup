@@ -2,4 +2,6 @@ package com.farshad.algotrading.strategyContainer.container3;
 
 
 import com.farshad.algotrading.openFinDeskAnnotations.OpenFinDeskChanceNode;
-import com.farshad.algotrading.openFinDeskStrategie
+import com.farshad.algotrading.openFinDeskStrategies.indicatorBased.ADXBasedTrendDetection;
+import com.farshad.algotrading.openFinDeskStrategies.indicatorBased.CrossingTwoMovingAverages;
+import com.farshad.algotrading.core.containerCore.Chanc
