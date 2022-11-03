@@ -26,4 +26,7 @@ public class CheckIfCrossingMACDAndTrendingADXChanceNode extends ChanceNode {
         if ((featureVector.get(0).getPosition().equals("buy")) && (featureVector.get(1).getPosition().equals("buy"))) {
             this.openFinDeskOrder.setOrderType("openBuy");
             this.openFinDeskOrder.setAction("buyUsingSecondQuantizedLevel");
-            this.openFi
+            this.openFinDeskOrder.setStrategyName("Container2");
+
+        }else if ((featureVector.get(0).getPosition().equals("sell")) && (featureVector.get(1).getPosition().equals("sell"))) {
+            this.openFinDeskOrder.s
