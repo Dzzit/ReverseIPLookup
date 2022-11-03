@@ -17,4 +17,7 @@ public class CheckIfCrossingMACDAndTrendingADXChanceNode extends ChanceNode {
         this.openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
         this.openFinDeskOrder.setPosition("*");
         this.openFinDeskOrder.setOrderType("noOrder");
-        this.openFinDeskOrder.setStrategyNa
+        this.openFinDeskOrder.setStrategyName("no signal from container 2");
+        this.openFinDeskOrder.setAction("doNothingAndWait");
+        this.openFinDeskOrder.setVolume("0.01");
+        logger.info("featureVector.get(0).getPosition()="+feature
