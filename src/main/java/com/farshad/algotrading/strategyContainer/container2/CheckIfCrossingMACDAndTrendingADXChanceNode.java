@@ -32,4 +32,11 @@ public class CheckIfCrossingMACDAndTrendingADXChanceNode extends ChanceNode {
             this.openFinDeskOrder.setOrderType("openSell");
             this.openFinDeskOrder.setAction("sellUsingSecondQuantizedLevel");
             this.openFinDeskOrder.setStrategyName("Container2");
-        
+        }else {
+            this.openFinDeskOrder.setOrderType("noOrder");
+            this.openFinDeskOrder.setAction("doNothingAndWait");
+        }
+        decisionIsMade=true;
+
+    }
+}
