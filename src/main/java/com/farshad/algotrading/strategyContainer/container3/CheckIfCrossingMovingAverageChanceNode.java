@@ -11,4 +11,9 @@ import org.apache.log4j.Logger;
         ,openfindeskStrategies={CrossingTwoMovingAverages.class,ADXBasedTrendDetection.class}
         ,timeFrames={"PERIOD_H1","PERIOD_D1"},disabled=true)
 public class CheckIfCrossingMovingAverageChanceNode extends ChanceNode {
-    final static Logger logger= Logger.getLogger(CheckIf
+    final static Logger logger= Logger.getLogger(CheckIfCrossingMovingAverageChanceNode.class);
+
+    @Override
+    public void executeCurrentChanceNode() {
+        this.openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
+        this.openFinDeskOrder.set
