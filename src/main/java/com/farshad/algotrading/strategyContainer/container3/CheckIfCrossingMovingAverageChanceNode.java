@@ -19,4 +19,7 @@ public class CheckIfCrossingMovingAverageChanceNode extends ChanceNode {
         this.openFinDeskOrder.setPosition("*");
         this.openFinDeskOrder.setOrderType("noOrder");
         this.openFinDeskOrder.setStrategyName("no signal from container 3");
-        this.openFinDeskOrder.setAction("doNot
+        this.openFinDeskOrder.setAction("doNothingAndWait");
+        this.openFinDeskOrder.setVolume("0.01");
+        logger.info("featureVector.get(0).getPosition()="+featureVector.get(0).getPosition());
+        if ((fe
