@@ -24,4 +24,7 @@ public class CheckIfCrossingMovingAverageChanceNode extends ChanceNode {
         logger.info("featureVector.get(0).getPosition()="+featureVector.get(0).getPosition());
         if ((featureVector.get(0).getPosition().equals("buy")) && (featureVector.get(1).getPosition().equals("buy"))) {
             this.openFinDeskOrder.setOrderType("openBuy");
-            this.openFinDeskOrde
+            this.openFinDeskOrder.setAction("buyUsingSecondQuantizedLevel");
+            this.openFinDeskOrder.setStrategyName("Container3");
+
+        }else if ((featureVector.get(0).getPosition().equals("sell")) && (featureVector.get(
