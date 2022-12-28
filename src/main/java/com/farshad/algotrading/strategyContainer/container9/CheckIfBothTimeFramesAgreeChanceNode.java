@@ -14,4 +14,6 @@ package com.farshad.algotrading.strategyContainer.container9;
     final static Logger logger= Logger.getLogger(CheckIfBothTimeFramesAgreeChanceNode.class);
 
     @Override
-    public void e
+    public void executeCurrentChanceNode() {
+        this.openFinDeskOrder.setPrice(featureVector.get(0).getPrice());
+        this.openFinDeskOrder.setStrategyName("no signal from container
