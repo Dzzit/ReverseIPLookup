@@ -8,4 +8,10 @@ package com.farshad.algotrading.strategyContainer.container9;
 
  @OpenFinDeskChanceNode(containerId=9,nodeId=1
         ,openfindeskStrategies={TrendStrengthStrategyBasedOnInternalRetracementSequences.class, TrendStrengthStrategyBasedOnInternalRetracementSequences.class}
-        ,timeFrames={"PERIOD_H1","PERIOD_D1"
+        ,timeFrames={"PERIOD_H1","PERIOD_D1"})
+
+ public class CheckIfBothTimeFramesAgreeChanceNode extends ChanceNode {
+    final static Logger logger= Logger.getLogger(CheckIfBothTimeFramesAgreeChanceNode.class);
+
+    @Override
+    public void e
