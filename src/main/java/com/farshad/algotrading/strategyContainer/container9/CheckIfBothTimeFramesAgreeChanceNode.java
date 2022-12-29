@@ -16,4 +16,7 @@ package com.farshad.algotrading.strategyContainer.container9;
     @Override
     public void executeCurrentChanceNode() {
         this.openFinDeskOrder.setPrice(featureVector.get(0).getPrice());
-        this.openFinDeskOrder.setStrategyName("no signal from container
+        this.openFinDeskOrder.setStrategyName("no signal from container 9");
+
+        this.openFinDeskOrder.setOpenFinDeskOrderNumber(featureVector.get(0).getOpenFinDeskOrderNumber());
+        if ((featureVector.get(0).getPosition().equals(featureVector.get(1).getPosition()))
