@@ -19,4 +19,7 @@ package com.farshad.algotrading.strategyContainer.container9;
         this.openFinDeskOrder.setStrategyName("no signal from container 9");
 
         this.openFinDeskOrder.setOpenFinDeskOrderNumber(featureVector.get(0).getOpenFinDeskOrderNumber());
-        if ((featureVector.get(0).getPosition().equals(featureVector.get(1).getPosition()))
+        if ((featureVector.get(0).getPosition().equals(featureVector.get(1).getPosition()))&&(featureVector.get(0).getPosition().equals("buy"))) {
+            openFinDeskOrder.setOrderType("openBuy");
+            openFinDeskOrder.setPosition("buy");
+            openFi
