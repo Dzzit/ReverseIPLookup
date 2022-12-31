@@ -22,4 +22,7 @@ package com.farshad.algotrading.strategyContainer.container9;
         if ((featureVector.get(0).getPosition().equals(featureVector.get(1).getPosition()))&&(featureVector.get(0).getPosition().equals("buy"))) {
             openFinDeskOrder.setOrderType("openBuy");
             openFinDeskOrder.setPosition("buy");
-            openFi
+            openFinDeskOrder.setVolume("0.01");
+            openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
+            openFinDeskOrder.setPrice(featureVector.get(0).getPrice());
+            this.openFin
