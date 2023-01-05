@@ -29,4 +29,9 @@ package com.farshad.algotrading.strategyContainer.container9;
 
             switch (quantize(featureVector.get(1).getParameter())) {
                 case "LEVEL1":
-                    openFinDeskOrder.setAction("buyUsingFirstQuantize
+                    openFinDeskOrder.setAction("buyUsingFirstQuantizedLevel");
+                     break;
+                case "LEVEL2":
+                      openFinDeskOrder.setAction("buyUsingSecondQuantizedLevel");
+                    break;
+                case "LEVEL3":
