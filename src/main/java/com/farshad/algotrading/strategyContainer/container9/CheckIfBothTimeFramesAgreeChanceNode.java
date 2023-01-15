@@ -40,4 +40,7 @@ package com.farshad.algotrading.strategyContainer.container9;
                     break;
             }
         }else if ((featureVector.get(0).getPosition().equals(featureVector.get(1).getPosition()))&&(featureVector.get(0).getPosition().equals("sell"))) {
-            openFinDeskOrd
+            openFinDeskOrder.setOrderType("openSell");
+            openFinDeskOrder.setPosition("sell");
+            openFinDeskOrder.setVolume("0.01");
+            openFinDeskOrder.setSymbol(featureVector.get(0).getSy
