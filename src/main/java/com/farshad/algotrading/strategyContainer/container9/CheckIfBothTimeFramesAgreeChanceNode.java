@@ -43,4 +43,8 @@ package com.farshad.algotrading.strategyContainer.container9;
             openFinDeskOrder.setOrderType("openSell");
             openFinDeskOrder.setPosition("sell");
             openFinDeskOrder.setVolume("0.01");
-            openFinDeskOrder.setSymbol(featureVector.get(0).getSy
+            openFinDeskOrder.setSymbol(featureVector.get(0).getSymbol());
+            openFinDeskOrder.setPrice(featureVector.get(0).getPrice());
+            this.openFinDeskOrder.setStrategyName("container9");
+
+            switch (quantize(featureVector.
