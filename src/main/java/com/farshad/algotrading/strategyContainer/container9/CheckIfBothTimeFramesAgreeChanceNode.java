@@ -37,4 +37,7 @@ package com.farshad.algotrading.strategyContainer.container9;
                 case "LEVEL3":
                       openFinDeskOrder.setAction("buyUsingThirdQuantizedLevel");
                     openFinDeskOrder.setVolume("0.02");
-               
+                    break;
+            }
+        }else if ((featureVector.get(0).getPosition().equals(featureVector.get(1).getPosition()))&&(featureVector.get(0).getPosition().equals("sell"))) {
+            openFinDeskOrd
