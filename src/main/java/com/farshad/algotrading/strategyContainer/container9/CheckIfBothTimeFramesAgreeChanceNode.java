@@ -47,4 +47,8 @@ package com.farshad.algotrading.strategyContainer.container9;
             openFinDeskOrder.setPrice(featureVector.get(0).getPrice());
             this.openFinDeskOrder.setStrategyName("container9");
 
-            switch (quantize(featureVector.
+            switch (quantize(featureVector.get(1).getParameter())) {
+                case "LEVEL1":
+                    openFinDeskOrder.setAction("sellUsingFirstQuantizedLevel");
+                    break;
+                case 
