@@ -55,4 +55,10 @@ package com.farshad.algotrading.strategyContainer.container9;
                     openFinDeskOrder.setAction("sellUsingSecondQuantizedLevel");
                     break;
                 case "LEVEL3":
-                    openFinDeskOrder.setAc
+                    openFinDeskOrder.setAction("sellUsingThirdQuantizedLevel");
+                    openFinDeskOrder.setVolume("0.02");
+                    break;
+            }
+        }
+
+        //logger.info("d
