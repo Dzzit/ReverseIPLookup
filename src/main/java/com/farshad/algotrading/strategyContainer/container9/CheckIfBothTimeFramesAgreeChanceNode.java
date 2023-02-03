@@ -51,4 +51,8 @@ package com.farshad.algotrading.strategyContainer.container9;
                 case "LEVEL1":
                     openFinDeskOrder.setAction("sellUsingFirstQuantizedLevel");
                     break;
-                case 
+                case "LEVEL2":
+                    openFinDeskOrder.setAction("sellUsingSecondQuantizedLevel");
+                    break;
+                case "LEVEL3":
+                    openFinDeskOrder.setAc
