@@ -61,4 +61,13 @@ package com.farshad.algotrading.strategyContainer.container9;
             }
         }
 
-        //logger.info("d
+        //logger.info("decision="+openFinDeskOrder.getAction());
+
+        //since this is the End Node
+        decisionIsMade=true;
+
+    }
+
+
+    private  String quantize(String parameter) {
+        String quan
