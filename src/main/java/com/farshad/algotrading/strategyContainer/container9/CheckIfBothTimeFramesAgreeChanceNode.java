@@ -70,4 +70,10 @@ package com.farshad.algotrading.strategyContainer.container9;
 
 
     private  String quantize(String parameter) {
-        String quan
+        String quantizedLevel="";
+        if (Double.valueOf(parameter)<0.33){
+            quantizedLevel="Level1";
+        }else if(Double.valueOf(parameter)<0.66){
+            quantizedLevel="Level2";
+        }else {
+      
