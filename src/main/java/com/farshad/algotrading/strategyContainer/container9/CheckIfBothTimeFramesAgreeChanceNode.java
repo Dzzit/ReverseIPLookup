@@ -76,4 +76,10 @@ package com.farshad.algotrading.strategyContainer.container9;
         }else if(Double.valueOf(parameter)<0.66){
             quantizedLevel="Level2";
         }else {
-      
+            quantizedLevel="Level3";
+        }
+        return quantizedLevel;
+    }
+
+}
+*/
