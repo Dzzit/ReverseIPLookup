@@ -9,4 +9,7 @@ import java.io.IOException;
 public class TestCSVReader {
     final static Logger logger= Logger.getLogger(TestCSVReader.class);
 
-    public static
+    public static void main(String[] args) throws IOException, InterruptedException {
+        String directory="src/main/java/files";
+        new File(directory).mkdirs();
+        File idea=new File(directo
