@@ -16,4 +16,9 @@ public class TestCSVReader {
         logger.info("idea.getPath()="+idea.getPath());
         String fileName="/"+idea.getPath();
         CSVReader csvReader=new CSVReader();
-        csvReader.setFileName(fi
+        csvReader.setFileName(fileName);
+        logger.info("csvReader.getLines() for GBPUSD="+csvReader.getLines());
+
+
+        idea=new File(directory,"EURUSD"+"-"+"M1"+".csv");
+        logger
