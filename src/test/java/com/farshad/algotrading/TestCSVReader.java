@@ -12,4 +12,8 @@ public class TestCSVReader {
     public static void main(String[] args) throws IOException, InterruptedException {
         String directory="src/main/java/files";
         new File(directory).mkdirs();
-        File idea=new File(directo
+        File idea=new File(directory,"GBPUSD"+"-"+"M1"+".csv");
+        logger.info("idea.getPath()="+idea.getPath());
+        String fileName="/"+idea.getPath();
+        CSVReader csvReader=new CSVReader();
+        csvReader.setFileName(fi
