@@ -25,4 +25,7 @@ public class TestCSVReader {
          fileName="/"+idea.getPath();
         CSVReader csvReader2=new CSVReader();
         csvReader.setFileName(fileName);
-       
+        logger.info("csvReader.getLines() for EURUSD="+csvReader2.getLines());
+
+    }
+}
