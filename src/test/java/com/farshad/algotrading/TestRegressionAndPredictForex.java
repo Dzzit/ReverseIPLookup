@@ -7,4 +7,9 @@ public class TestRegressionAndPredictForex {
 
     public static void main(String[] args) {
         double EURUSD=1.10813;
-        double GBPUSD=0.02773169
+        double GBPUSD=0.02773169770280957*EURUSD+1.071629011176105;
+        logger.info("prediction for GBPUSD="+GBPUSD);
+
+    }
+
+}
