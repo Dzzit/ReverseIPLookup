@@ -10,4 +10,9 @@ import org.ta4j.core.TimeSeries;
 
 import java.time.ZonedDateTime;
 
-import static org.junit.jupiter.api.Assertions.as
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@DisplayName("testing  Camarilla Pivot Point")
+public class CamarillaPivotPointTest {
+    final static Logger logger= L
