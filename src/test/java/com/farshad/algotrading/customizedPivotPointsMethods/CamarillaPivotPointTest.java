@@ -15,4 +15,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("testing  Camarilla Pivot Point")
 public class CamarillaPivotPointTest {
-    final static Logger logger= L
+    final static Logger logger= Logger.getLogger(CamarillaPivotPointTest.class);
+    TimeSeries timeSeries1;
+
+    @BeforeEach
+    void init() {
+        timeSeries1=new BaseTimeSeries.SeriesBuilder().withName("EU
