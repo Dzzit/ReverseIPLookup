@@ -20,4 +20,7 @@ public class CamarillaPivotPointTest {
 
     @BeforeEach
     void init() {
-        timeSeries1=new BaseTimeSeries.SeriesBuilder().withName("EU
+        timeSeries1=new BaseTimeSeries.SeriesBuilder().withName("EURUSD").build();
+         ZonedDateTime endTime = ZonedDateTime.now();
+        timeSeries1.addBar(endTime, 105.42, 112.99, 104.01, 111.42, 1337);
+        timeSeries1.addBar(endTime.plusDays(1), 111.43, 112.
