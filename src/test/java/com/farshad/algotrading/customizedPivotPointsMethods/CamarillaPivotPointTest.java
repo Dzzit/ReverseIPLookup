@@ -26,4 +26,6 @@ public class CamarillaPivotPointTest {
         timeSeries1.addBar(endTime.plusDays(1), 111.43, 112.83, 107.77, 187.99, 1234);
         timeSeries1.addBar(endTime.plusDays(2), 1.0790, 1.50, 1.90, 1.42, 200);
         timeSeries1.addBar(endTime.plusDays(3), 147.90, 117.50, 107.90, 145.42, 4242);
-        timeSeries1.a
+        timeSeries1.addBar(endTime.plusDays(4), 157.90, 117.50, 107.90, 145.42, 4242);
+        timeSeries1.addBar(endTime.plusDays(5), 167.90, 117.50, 107.90, 195.42, 4242);
+        timeSeries1.addBar(en
