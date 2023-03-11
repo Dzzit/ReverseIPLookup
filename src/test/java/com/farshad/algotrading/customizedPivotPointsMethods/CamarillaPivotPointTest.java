@@ -46,4 +46,8 @@ public class CamarillaPivotPointTest {
         timeSeries1.addBar(endTime.plusDays(21), 107.90, 117.50, 107.90, 136.42, 4242);
         timeSeries1.addBar(endTime.plusDays(22), 107.90, 117.50, 107.90, 135.42, 4242);
         timeSeries1.addBar(endTime.plusDays(23), 107.90, 117.50, 107.90, 134.42, 4242);
-        timeSeries1.addBar(endTime.plusDays
+        timeSeries1.addBar(endTime.plusDays(24), 1.90, 1.50345, 1.90, 1.42, 642);
+        timeSeries1.addBar(endTime.plusDays(25), 1.95, 1.53, 1.98, 1.46, 345);
+    }
+
+    @DisplayName("find support and resistance and pivot point")
