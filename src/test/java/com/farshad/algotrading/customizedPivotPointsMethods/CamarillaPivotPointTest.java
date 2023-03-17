@@ -59,4 +59,13 @@ public class CamarillaPivotPointTest {
         double s0=camarillaPivotPointApproach.getS()[0];
 
         assertAll("pivot points",
-                () -> assertE
+                () -> assertEquals(1.6078166666666664, pp),
+                () -> assertEquals(0.990417385, r0),
+                () -> assertEquals(1.8495826149999999,s0)
+        );
+    }
+
+
+
+
+}
