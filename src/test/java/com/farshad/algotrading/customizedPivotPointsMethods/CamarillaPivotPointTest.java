@@ -51,3 +51,7 @@ public class CamarillaPivotPointTest {
     }
 
     @DisplayName("find support and resistance and pivot point")
+    @Test
+    void findPivotPoints() {
+      CamarillaPivotPointApproach camarillaPivotPointApproach=new CamarillaPivotPointApproach(timeSeries1);
+        double pp=camarillaPivotPointApp
