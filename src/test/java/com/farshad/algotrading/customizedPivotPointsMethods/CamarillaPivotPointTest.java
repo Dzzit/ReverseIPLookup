@@ -54,4 +54,9 @@ public class CamarillaPivotPointTest {
     @Test
     void findPivotPoints() {
       CamarillaPivotPointApproach camarillaPivotPointApproach=new CamarillaPivotPointApproach(timeSeries1);
-        double pp=camarillaPivotPointApp
+        double pp=camarillaPivotPointApproach.getPp();
+        double r0=camarillaPivotPointApproach.getR()[0];
+        double s0=camarillaPivotPointApproach.getS()[0];
+
+        assertAll("pivot points",
+                () -> assertE
