@@ -2,4 +2,8 @@ https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/
 
 algoRunJavaFile.sh:
 #!/bin/bash
-e
+echo "now running algotrader using shellscript---"
+cd /home/ubuntu
+java -jar simple-1.0-SNAPSHOT.jar > farshadAlgotraderLog.txt &
+
+--------------------------------------
