@@ -1,0 +1,5 @@
+https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/
+
+algoRunJavaFile.sh:
+#!/bin/bash
+e
