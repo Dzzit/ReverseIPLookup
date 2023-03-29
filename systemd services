@@ -6,4 +6,10 @@ echo "now running algotrader using shellscript---"
 cd /home/ubuntu
 java -jar simple-1.0-SNAPSHOT.jar > farshadAlgotraderLog.txt &
 
---------------------------------------
+---------------------------------------------
+chmod +x algoRunJavaFile.sh
+---------------------------------------------
+Create a Unit file to define a systemd service:
+inside /etc/systemd/system/algoTradingService.service :
+[Unit]
+#
