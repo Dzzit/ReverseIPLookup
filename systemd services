@@ -29,4 +29,8 @@ WantedBy=multi-user.target
 ---------------------------------------------
 cd /etc/systemd/system
 
-sudo chm
+sudo chmod 644 /etc/systemd/system/algoTradingService.service
+sudo systemctl enable algoTradingService.service
+sudo systemctl start algoTradingService.service
+sudo systemctl restart algoTradingService.service
+
