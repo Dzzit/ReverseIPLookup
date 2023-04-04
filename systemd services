@@ -19,4 +19,14 @@ Description=systemd service to run java file at startup.
 WorkingDirectory=/home/ubuntu/
 ExecStart=/bin/bash algoRunJavaFile.sh start
 #Restart=always
-#Re
+#RestartSec=60
+User=ubuntu
+Type=forking
+Restart=on-failure
+RestartSec=10
+[Install]
+WantedBy=multi-user.target
+---------------------------------------------
+cd /etc/systemd/system
+
+sudo chm
