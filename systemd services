@@ -12,4 +12,11 @@ chmod +x algoRunJavaFile.sh
 Create a Unit file to define a systemd service:
 inside /etc/systemd/system/algoTradingService.service :
 [Unit]
-#
+#After=network.target auditd.service
+Description=systemd service to run java file at startup.
+[Service]
+#Type=simple
+WorkingDirectory=/home/ubuntu/
+ExecStart=/bin/bash algoRunJavaFile.sh start
+#Restart=always
+#Re
